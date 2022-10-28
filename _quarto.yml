@@ -1,19 +1,30 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "constantinyvesplessen.com"
+  title: "Constantin Yves Plessen"
+  site-url: https://www.constantinyvesplessen.com
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-
+      - href: about.qmd
+        text: About
+      - href: publications.qmd
+        text: Publications
+      - href: Conferences.qmd
+        text: Conferences
+  #google-analytics: <Insert your ID here>
+  cookie-consent: true
+  #twitter-card: 
+  # image: thumbnail_blog.png
+  # card-style: summary_large_image
+  # creator: "@CYPlessen"
 format:
   html:
-    theme: cosmo
+    theme: Simplex
     css: styles.css
     toc: true
 
 editor: visual
-
