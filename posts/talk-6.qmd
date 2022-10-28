@@ -1,0 +1,15 @@
+---
+title: "Upcoming talk at DGPPN 2022"
+subtitle: "The robustness of the efficacy of digital interventions for anxiety: an umbrella review and multiverse meta-analysis "
+categories: [conference, multiverse]
+date: November 23, 2022
+---
+
+# Abstract
+
+Background: Over the last decade, several meta-analyses and meta-reviews synthesized the evidence on the efficacy of digital mental health interventions for anxiety disorders—unfortunately with diverging conclusions. This leaves clinicians, researchers, and funding agencies with inconsistent recommendations.
+Methods: To provide a birds-eye-perspective of the entire field we conducted an umbrella review and a multiverse meta-analysis. We investigated whether the meta-analytical method or the inclusion criteria were responsible for these differences, or whether most potential meta-analyses would reach similar conclusions.
+Results: Our umbrella review included six meta-analyses with 84 primary studies. The included meta-analyses differed substantially in their AMSTAR-2 ratings, indicating heterogeneous quality. Our multiverse meta-analysis produced 1193 meta-analyses resulting from all possible analytical decisions. We identified several analytical decisions that consistently led to inflated effect size estimates. Larger effect sizes were found for the comparisons with wait-list control groups than for the comparisons with active control groups (mean Hedges g = 0.58 95% CI [0.40, 0.76] vs g = 0.26 95% CI [0.20, 0.42]). Larger effect sizes were found for digital interventions combining smartphone with internet interventions compared to standalone smartphone or internet applications. Meta-analyses that focused exclusively on guided interventions produced twice the effect sizes than meta-analyses on unguided interventions (g = 0.71, 95% CI [0.51, 0.90] vs g = 0.30, 95% CI [0.13, 0.47]).
+Conclusion: We identified several analytical decisions that consistently led to inflated effect size estimates. However, we also found that most decisions did not disproportionately influence the resulting summary effect size estimates, which suggests that meta-analytical findings on digital interventions for anxiety are robust. 
+
+# [Link to Program](https://events.mcon-mannheim.de/frontend/index.php#)

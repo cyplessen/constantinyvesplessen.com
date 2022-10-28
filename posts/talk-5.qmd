@@ -1,0 +1,18 @@
+---
+title: "Upcoming talk at EACLIPT 2022"
+subtitle: "Using multiverse meta-analyses to investigate the robustness of mental health research on psychological treatments for depression and digital interventions for anxiety"
+categories: [conference, multiverse]
+date: November 12, 2022
+---
+
+# Abstract
+
+**Background:** At several stages in any meta-analysis, researchers must decide between multiple equally defensible choices (e.g., different study inclusion criteria, different ways of dealing with low-quality studies, different choices of methods, etc.). These different analytical decisions frequently result in various meta-analyses with overlapping research questions reaching different conclusions---resulting in ambiguous recommendations for clinicians, researchers, and funding agencies.
+
+**Methods:** In a multiverse meta-analysis, researchers identify all these possible stages for analytical decisions, determine alternative analysis steps at each stage, and implement them simultaneously. As a result, a multiverse meta-analysis reports the outcomes of all possible meta-analyses resulting from all of these possible combinations. Therefore, this method is a promising tool to help answer why some of these meta-analyses diverged, whether the meta-analytical method and exclusion criteria were decisive for these differences, or whether we would reach similar results with most analytical strategies.
+
+**Results:** We present the preliminary results of multiverse meta-analyses to evaluate the influence different analytical decisions might have had on two research questions, namely 1) the efficacy of psychological treatments for depression and 2) the efficacy of digital interventions for anxiety disorders.
+
+**Conclusion:** We could identify several analytical decisions that consistently lead to inflated effect size estimates (e.g., the comparison with wait-list control groups, the inclusion of high risk of bias studies, and sometimes ignoring effect size dependency). However, we also identified many decisions that did not disproportionately influence the resulting summary effect size estimates, suggesting the overall robustness of meta-analytical findings on psychological treatments for depression and digital mental health research for anxiety.
+
+# [Link to Program](http://english.swps.pl/we-the-university/our-news-and-events/conferences-and-seminars/eaclipt-conference-clinical-psychology-now/1002-panelists/33271-yves-plessen)
