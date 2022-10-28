@@ -1,7 +1,0 @@
----
-title: "Publications"
-listing:
-  contents: "publications/*.qmd"
-  type: default
----
-

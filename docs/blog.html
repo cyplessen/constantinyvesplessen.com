@@ -67,9 +67,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-title','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -86,15 +86,24 @@ ul.task-list{list-style: none;}
     }
   })
   </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RBDBPYKMKX"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-RBDBPYKMKX', { 'anonymize_ip': true});
+</script>
 
 <script type="text/javascript" charset="UTF-8">
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
-  "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "notice_banner_type":"interstitial",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -145,7 +154,7 @@ cookieconsent.run({
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="conference">conference <span class="quarto-category-count">(4)</span></div><div class="category" data-category="differential item functioning">differential item functioning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multiverse">multiverse <span class="quarto-category-count">(3)</span></div><div class="category" data-category="psychometrics">psychometrics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="publication">publication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reference data">reference data <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -169,7 +178,7 @@ cookieconsent.run({
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
@@ -186,50 +195,132 @@ cookieconsent.run({
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1666971538439" data-listing-reading-time-sort="1.385">
-<a href="./posts/publicatation-1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="publication,multiverse" data-listing-file-modified-sort="1666972400396" data-listing-reading-time-sort="1.39">
+<div class="body">
+<a href="./posts/publicatation-1.html">
+<h3 class="no-anchor listing-title">
 Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1666968916787" data-listing-reading-time-sort="0.005">
-<a href="./posts/publicatation-2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Publications
-</h5>
-</div>
+</h3>
+<div class="listing-subtitle">
+
 </div>
 </a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('publication'); return false;">
+publication
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1666969631697" data-listing-reading-time-sort="1.385">
-<a href="./posts/talk-1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol
-</h5>
+<div class="listing-category" onclick="window.quartoListingCategory('multiverse'); return false;">
+multiverse
 </div>
+</div>
+<a href="./posts/publicatation-1.html"> </a>
+</div>
+<div class="metadata">
+<a href="./posts/publicatation-1.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="conference,reference data,psychometrics" data-listing-file-modified-sort="1666973116211" data-listing-reading-time-sort="1.74">
+<div class="body">
+<a href="./posts/talk-1.html">
+<h3 class="no-anchor listing-title">
+ISOQOL 2022
+</h3>
+<div class="listing-subtitle">
+Modeling general populations’ reference data for PROMIS item banks (Physical Functioning, Upper Extremities, and Pain interference) in multiple countries using quantile regression.
 </div>
 </a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
+conference
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1666968916787" data-listing-reading-time-sort="0.005">
-<a href="./posts/talk-2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Publications
-</h5>
+<div class="listing-category" onclick="window.quartoListingCategory('reference data'); return false;">
+reference data
 </div>
+<div class="listing-category" onclick="window.quartoListingCategory('psychometrics'); return false;">
+psychometrics
+</div>
+</div>
+<a href="./posts/talk-1.html"> </a>
+</div>
+<div class="metadata">
+<a href="./posts/talk-1.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="conference,differential item functioning,psychometrics" data-listing-file-modified-sort="1666973141879" data-listing-reading-time-sort="1.6">
+<div class="body">
+<a href="./posts/talk-2.html">
+<h3 class="no-anchor listing-title">
+PHO 2021
+</h3>
+<div class="listing-subtitle">
+Differential item functioning of PROMIS physical functioning ceiling items across Argentina, Germany and the US.
 </div>
 </a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
+conference
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('differential item functioning'); return false;">
+differential item functioning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('psychometrics'); return false;">
+psychometrics
+</div>
+</div>
+<a href="./posts/talk-2.html"> </a>
+</div>
+<div class="metadata">
+<a href="./posts/talk-2.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="conference,multiverse" data-listing-file-modified-sort="1666973456115" data-listing-reading-time-sort="1.175">
+<div class="body">
+<a href="./posts/talk-3.html">
+<h3 class="no-anchor listing-title">
+ESMR 2022
+</h3>
+<div class="listing-subtitle">
+What if…? A very short primer on conducting multiverse meta-analyses in R
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
+conference
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('multiverse'); return false;">
+multiverse
+</div>
+</div>
+<a href="./posts/talk-3.html"> </a>
+</div>
+<div class="metadata">
+<a href="./posts/talk-3.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="conference,multiverse" data-listing-date-sort="1656453600000" data-listing-file-modified-sort="1666973800550" data-listing-reading-time-sort="0.735">
+<div class="body">
+<a href="./posts/talk-4.html">
+<h3 class="no-anchor listing-title">
+SIPS 2022
+</h3>
+<div class="listing-subtitle">
+Workshop: Multiverse Analyses - Introduction and Applications
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
+conference
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('multiverse'); return false;">
+multiverse
+</div>
+</div>
+<a href="./posts/talk-4.html"> </a>
+</div>
+<div class="metadata">
+<a href="./posts/talk-4.html"> </a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">

@@ -1,0 +1,13 @@
+---
+title: "ESMR 2022"
+subtitle: "What if…? A very short primer on conducting multiverse meta-analyses in R"
+categories: [conference, multiverse]
+---
+
+# Abstract
+
+Even though conventional meta-analyses provide an overview of the published literature on a given research question, they do not consider different paths that could have been taken in selecting or analyzing the data. Most importantly, multiple meta-analyses with overlapping research questions can reach different conclusions due to differences in inclusion and exclusion criteria, or data analytical decisions. It is therefore crucial to evaluate the influence such choices might have on the result of each meta-analysis. Was the meta-analytical method and exclusion criteria decisive, or is the same result reached via multiple analytical strategies? What if a meta-analysts would have decided to go a different path—would the same outcome occur? Ensuring that the conclusions of a meta-analysis are not disproportionately influenced by data analytical decisions, a multiverse meta-analysis can provide the entire picture and underpin the robustness of the findings—or lack thereof—by conducting multiple, namely all possible and reasonable meta-analyses at once.
+Hereby, multiverse meta-analyses provide a research integration like umbrella reviews yet additionally investigate the influence flexibility in data analysis could have on the resulting summary effect size. Importantly, in contrast to umbrella reviews, a multiverse analysis also quantitatively summarizes the results and includes not yet conducted meta-analyses. During the talk I will give a more detailed insight into this potent method, and run through the multiverse of meta-analyses on the efficacy of psychological treatments for depression as an empirical example.
+
+
+# [Link to Video of Presentation](https://www.youtube.com/watch?v=qYUwIyRNOHU)

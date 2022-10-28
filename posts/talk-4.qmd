@@ -1,0 +1,12 @@
+---
+title: "SIPS 2022"
+subtitle: "Workshop: Multiverse Analyses - Introduction and Applications"
+categories: [conference, multiverse]
+date: June 29, 2022
+---
+
+# Abstract
+
+This session will tackle the multiverse approach to psychological science and data analysis: In each research project, researchers need to make a multitude of decisions, including decisions about which measurements to choose, how to pre-process data, or which analysis to run. Each of these decisions is potentially impactful and may create a unique universe out of a multiverse of possible outcomes. After a general introduction to the concept of a multiverse, we will host several guest speakers highlighting different facets and implementations of multiverse analysis. Two talks will hereby discuss fundamentals of multiverse analysis, focusing on visualization (Matthew Kay) and available software. Four talks will discuss various implementations of multiverse analysis: Jessica Dafflon will discuss multiverse analysis in developmental neuroscience, Constantin Yves Plessen will talk about multiverse meta-analyses and Justin Landy will talk about his project on crowdsourcing hypothesis tests (fourth speaker is tbd).
+
+# [Link to Program](https://docs.google.com/document/d/1Rka3f0ZY9BBZVIlZoVINrpyaJYeitpq1yKXBLukeMng/edit)

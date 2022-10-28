@@ -12,8 +12,11 @@ website:
       - icon: github
         href: https://github.com/cyplessen
     
-  #google-analytics: <Insert your ID here>
-  cookie-consent: true
+  google-analytics: G-RBDBPYKMKX 
+  cookie-consent:
+    type: express
+    style: interstitial
+    palette: light
   #twitter-card: 
   # image: thumbnail_blog.png
   # card-style: summary_large_image

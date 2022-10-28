@@ -1,7 +1,17 @@
 ---
-title: "Publications"
-listing:
-  contents: "publications/*.qmd"
-  type: default
+title: "PHO 2021"
+subtitle: "Differential item functioning of PROMIS physical functioning ceiling items across Argentina, Germany and the US."
+categories: [conference, differential item functioning, psychometrics]
 ---
 
+# Abstract
+
+**Objective:** We investigate the validity of comparisons across general populations from Argentina, Germany, and the US by evaluating differential item functioning (DIF) for the PROMIS physical function (PROMIS-PF 2.0) ceiling items that were implemented to measure high physical ability. DIF is investigated as it could introduce biases to inter-country comparisons by potentially leading to systematically different physical function scores. If DIF is detected, individuals with the same 'true' underlying physical ability would score systematically different due specific cultural contexts or language differences.
+
+**Methods:** General population samples completed the 35 ceiling items of the PROMIS PF 2.0. DIF was assessed with hybrid logistic ordinal regression models and Nagelkerkes' pseudo R2-change of \> 0.02 as the critical cutoff value indicating the presence of DIF. The impact of DIF on item scores and the T-scores was additionally examined by inspecting both the item characteristic curves (ICCs) and test characteristic curves (TCCs).
+
+**Results:** Overall, 3601 persons participated---1001 from Argentina (mean age of 35.6 years, ranging from 18 to 69 years; 51% were female), 1000 from Germany (mean age of 44.9 years, ranging from 18 to 69; 52% were female), and 1600 from the US (mean age of 44.3 years, ranging from 18 to 88; 58% were female). For the comparison between Germany and the USA, 2 out of 35 items were flagged for DIF. For the comparison between Argentina and the US, 4 items were flagged and for the comparison between German and Argentinian items, 5 out of 35 items were flagged. Most DIF items had R2 values just above the critical value of 0.02 and all showed uniform DIF. The ICCs and TCCs showed that the magnitude and impact of DIF on the item and T-scores were negligible.
+
+**Conclusions:** Our study supports the universal applicability of PROMIS across general populations from Argentina, Germany, and the US. Comparisons across persons from the general population are valid, when applying the PROMIS-PF 2.0 ceiling items.
+
+## [Link to Conference Abstracts](https://jpro.springeropen.com/articles/10.1186/s41687-021-00349-3)

@@ -27,9 +27,10 @@
     "listing": "/blog.html",
     "items": [
       "/posts/publicatation-1.html",
-      "/posts/publicatation-2.html",
       "/posts/talk-1.html",
-      "/posts/talk-2.html"
+      "/posts/talk-2.html",
+      "/posts/talk-3.html",
+      "/posts/talk-4.html"
     ]
   },
   {

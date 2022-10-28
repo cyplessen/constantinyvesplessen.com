@@ -2,9 +2,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "Most recent conference"
+    "text": "Currently, a central method I use and try to advance is multiverse meta-analysis. As there are many defensible choices a researcher could make in conducting a meta-analysis, I am interested in the overall influence such arbitrary decisions might have on the overall robustness of findings. I am using this method to investigate the robustness of psychotherapy research for depression and digital mental-health research for depression and anxiety.\nI also aim to bring a common practice from differential psychology to health-related quality of life research: up-to-date and patient specific norm data. I believe it is important that patients are compared to a patient-specific reference group. To provide such data, I use plausible value imputation and quantile regression.\nWe are also working on multiverse differential item functioning analyses, to understand the influence arbitrary data-analytical decisions might have in understanding whether single items might measure different constructs in different populations."
   },
   {
     "objectID": "conferences.html",
@@ -60,14 +60,14 @@
     "href": "blog.html",
     "title": "News",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\npublication\n\n\nmultiverse\n\n\n \n\n\n \n\n\n\n\n\n\n\nModeling general populations’ reference data for PROMIS item banks (Physical Functioning, Upper Extremities, and Pain interference) in multiple countries using quantile regression.\n\n\n\n\nconference\n\n\nreference data\n\n\npsychometrics\n\n\n \n\n\n \n\n\n\n\n\n\n\nDifferential item functioning of PROMIS physical functioning ceiling items across Argentina, Germany and the US.\n\n\n\n\nconference\n\n\ndifferential item functioning\n\n\npsychometrics\n\n\n \n\n\n \n\n\n\n\n\n\n\nWhat if…? A very short primer on conducting multiverse meta-analyses in R\n\n\n\n\nconference\n\n\nmultiverse\n\n\n \n\n\n \n\n\n\n\n\n\n\nWorkshop: Multiverse Analyses - Introduction and Applications\n\n\n\n\nconference\n\n\nmultiverse\n\n\n \n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/publicatation-1.html",
     "href": "posts/publicatation-1.html",
     "title": "Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol",
     "section": "",
-    "text": "Introduction In the past four decades, over 700 randomised controlled trials (RCTs) and 80 meta-analyses have examined the efficacy of psychological treatments for depression. Overwhelming evidence suggests that all types of psychological treatments are effective. Yet, many aspects are still unexplored. Meta-analysts could perform hundreds of potential meta-analyses with the current literature, and a comprehensive bird’s-eye view of all published studies is missing. This protocol outlines how a multiverse meta-analysis can evaluate the entire body of the literature on psychological treatments of depression in a single analysis. Thereby, gaps of evidence and areas of robustness are highlighted. Methods and analysis We will conduct systematic literature searches in bibliographical databases (PubMed, Embase, PsycINFO and Cochrane Register of Controlled Trials) up until 1 January 2021. We will include all RCTs comparing a psychological treatment with a control condition. We will include studies published in English, German, Spanish or Dutch, and exclude trials on maintenance and relapse prevention as well as dissertations. Two independent researchers will check all records. All self-reported and clinician-rated instruments measuring depression are included. We will extract information on recruitment settings, target groups, age groups, comorbidity, intervention formats, psychotherapy types, number of sessions, control conditions and country. Two independent researchers will assess risk of bias using the Cochrane Risk of Bias assessment tool. As part of the multiverse meta-analysis, unweighted, fixed effect and random effects models will be calculated. Ethics and dissemination As we will not collect any primary data, an ethical approval of this protocol is not required. We will publish the results in a peer-review journal and present them at international conferences. We will follow open science practices and provide our code and data.\nLink"
+    "text": "Full Text Link"
   },
   {
     "objectID": "posts/publicatation-2.html",
@@ -79,15 +79,29 @@
   {
     "objectID": "posts/talk-1.html",
     "href": "posts/talk-1.html",
-    "title": "Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol",
+    "title": "ISOQOL 2022",
     "section": "",
-    "text": "Introduction In the past four decades, over 700 randomised controlled trials (RCTs) and 80 meta-analyses have examined the efficacy of psychological treatments for depression. Overwhelming evidence suggests that all types of psychological treatments are effective. Yet, many aspects are still unexplored. Meta-analysts could perform hundreds of potential meta-analyses with the current literature, and a comprehensive bird’s-eye view of all published studies is missing. This protocol outlines how a multiverse meta-analysis can evaluate the entire body of the literature on psychological treatments of depression in a single analysis. Thereby, gaps of evidence and areas of robustness are highlighted. Methods and analysis We will conduct systematic literature searches in bibliographical databases (PubMed, Embase, PsycINFO and Cochrane Register of Controlled Trials) up until 1 January 2021. We will include all RCTs comparing a psychological treatment with a control condition. We will include studies published in English, German, Spanish or Dutch, and exclude trials on maintenance and relapse prevention as well as dissertations. Two independent researchers will check all records. All self-reported and clinician-rated instruments measuring depression are included. We will extract information on recruitment settings, target groups, age groups, comorbidity, intervention formats, psychotherapy types, number of sessions, control conditions and country. Two independent researchers will assess risk of bias using the Cochrane Risk of Bias assessment tool. As part of the multiverse meta-analysis, unweighted, fixed effect and random effects models will be calculated. Ethics and dissemination As we will not collect any primary data, an ethical approval of this protocol is not required. We will publish the results in a peer-review journal and present them at international conferences. We will follow open science practices and provide our code and data.\nLink"
+    "text": "Aims: The use of PROs in research and clinical practice requires availability of appropriate and relevant comparison data. We aim to model age, and sex-specific reference values for the PROMIS Physical Function (PF), Upper Extremity (UE), and Pain Interference (PI) scales in populations age 50 and older in Germany, the UK, and the US.\nMethods: We collected PROMIS PF, UE, and PI data via telephone interviews from the general population in Germany (N = 921), the UK (N = 905), and the US (N = 900). We investigated differential item functioning (DIF) between countries using iterative hybrid ordinal logistic regression. To account for the measurement error of latent estimates and to obtain a continuous distribution of the latent variable, we imputed 25 data sets with plausible values. Each latent estimate was replaced by a random value drawn from the individual latent variable posterior distribution approximated by a normal distribution. We then utilized quantile regressions to model the 1st, 5th, 10th–90th, 95th, and 99th percentiles and their respective standard errors in each dataset based on different combinations of predictors (age, sex, country). According to Rubin’s rules, the estimated percentiles and corresponding standard errors were pooled across the imputed datasets to provide the respective reference values.\nResults: Three items from the PROMIS PF scale showed negligible DIF by country, indicating that all scales are valid for inter-country comparisons. Median regressions revealed significant effects of age (PF: b𝜏=.50= -0.33; PI: b𝜏=50= 0.08), sex (PF: b𝜏=50= -3.22; PI: b𝜏=50= 1.62) and country, indicating that stratification of reference data is warranted. The PF and UE scales showed considerable ceiling effects in all countries aged 50-69. For PI, this applied to all ages.\nConclusions: This paper illustrates a novel approach to model reference values for PROMIS measures based on individual patients’ characteristics. Substantial differences in the PROMIS scores between sex, age, and countries highlight the importance of such patient-specific reference values, enabling clinicians to utilize personalized reference values. Due to the use of plausible value imputation, the obtained population reference values can be compared to data collected with other PROMIS short forms or computer-adaptive tests.\nLink to Program"
   },
   {
     "objectID": "posts/talk-2.html",
     "href": "posts/talk-2.html",
-    "title": "Publications",
+    "title": "PHO 2021",
     "section": "",
-    "text": "No matching items"
+    "text": "Objective: We investigate the validity of comparisons across general populations from Argentina, Germany, and the US by evaluating differential item functioning (DIF) for the PROMIS physical function (PROMIS-PF 2.0) ceiling items that were implemented to measure high physical ability. DIF is investigated as it could introduce biases to inter-country comparisons by potentially leading to systematically different physical function scores. If DIF is detected, individuals with the same ‘true’ underlying physical ability would score systematically different due specific cultural contexts or language differences.\nMethods: General population samples completed the 35 ceiling items of the PROMIS PF 2.0. DIF was assessed with hybrid logistic ordinal regression models and Nagelkerkes’ pseudo R2-change of > 0.02 as the critical cutoff value indicating the presence of DIF. The impact of DIF on item scores and the T-scores was additionally examined by inspecting both the item characteristic curves (ICCs) and test characteristic curves (TCCs).\nResults: Overall, 3601 persons participated—1001 from Argentina (mean age of 35.6 years, ranging from 18 to 69 years; 51% were female), 1000 from Germany (mean age of 44.9 years, ranging from 18 to 69; 52% were female), and 1600 from the US (mean age of 44.3 years, ranging from 18 to 88; 58% were female). For the comparison between Germany and the USA, 2 out of 35 items were flagged for DIF. For the comparison between Argentina and the US, 4 items were flagged and for the comparison between German and Argentinian items, 5 out of 35 items were flagged. Most DIF items had R2 values just above the critical value of 0.02 and all showed uniform DIF. The ICCs and TCCs showed that the magnitude and impact of DIF on the item and T-scores were negligible.\nConclusions: Our study supports the universal applicability of PROMIS across general populations from Argentina, Germany, and the US. Comparisons across persons from the general population are valid, when applying the PROMIS-PF 2.0 ceiling items."
+  },
+  {
+    "objectID": "posts/talk-3.html",
+    "href": "posts/talk-3.html",
+    "title": "ESMR 2022",
+    "section": "",
+    "text": "Link to Video of Presentation"
+  },
+  {
+    "objectID": "posts/talk-4.html",
+    "href": "posts/talk-4.html",
+    "title": "SIPS 2022",
+    "section": "",
+    "text": "Link to Program"
   }
 ]
