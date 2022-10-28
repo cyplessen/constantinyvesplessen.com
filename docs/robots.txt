@@ -1,1 +1,1 @@
-Sitemap: https://www.constantinyvesplessen.com/sitemap.xml
+Sitemap: www.constantinyvesplessen.com/sitemap.xml
