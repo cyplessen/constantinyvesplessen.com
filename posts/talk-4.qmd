@@ -2,7 +2,6 @@
 title: "SIPS 2022"
 subtitle: "Workshop: Multiverse Analyses - Introduction and Applications"
 categories: [conference, multiverse]
-date: June 29, 2022
 ---
 
 # Abstract
