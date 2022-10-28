@@ -4,7 +4,7 @@ project:
 
 website:
   title: Constantin Yves Plessen
-  site-url: "extraordinary-donut-7be97a.netlify.app"
+  site-url: "constantinyvesplessen.com"
   navbar:
     left:
       - about.qmd
