@@ -9,8 +9,8 @@ website:
     left:
       - about.qmd
       - blog.qmd
-      - icon: github
-        href: https://github.com/cyplessen
+      #- icon: github
+      #  href: https://github.com/cyplessen
     
   google-analytics: G-RBDBPYKMKX 
   cookie-consent:
@@ -26,5 +26,3 @@ format:
     theme: Simplex
     css: styles.css
     toc: true
-
-editor: visual
