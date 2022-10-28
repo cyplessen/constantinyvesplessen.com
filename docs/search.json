@@ -60,7 +60,7 @@
     "href": "blog.html",
     "title": "News",
     "section": "",
-    "text": "publication\n\n\nmultiverse\n\n\n \n\n\n \n\n\n\n\n\n\n\nModeling general populations’ reference data for PROMIS item banks (Physical Functioning, Upper Extremities, and Pain interference) in multiple countries using quantile regression.\n\n\n\n\nconference\n\n\nreference data\n\n\npsychometrics\n\n\n \n\n\n \n\n\n\n\n\n\n\nDifferential item functioning of PROMIS physical functioning ceiling items across Argentina, Germany and the US.\n\n\n\n\nconference\n\n\ndifferential item functioning\n\n\npsychometrics\n\n\n \n\n\n \n\n\n\n\n\n\n\nWhat if…? A very short primer on conducting multiverse meta-analyses in R\n\n\n\n\nconference\n\n\nmultiverse\n\n\n \n\n\n \n\n\n\n\n\n\n\nWorkshop: Multiverse Analyses - Introduction and Applications\n\n\n\n\nconference\n\n\nmultiverse\n\n\n \n\n\n \n\n\n\n\nNo matching items"
+    "text": "publication\n\n\nmultiverse\n\n\n \n\n\n \n\n\n\n\n\n\n\nModeling general populations’ reference data for PROMIS item banks (Physical Functioning, Upper Extremities, and Pain interference) in multiple countries using quantile regression.\n\n\n\n\nconference\n\n\nreference data\n\n\npsychometrics\n\n\n \n\n\n \n\n\n\n\n\n\n\nDifferential item functioning of PROMIS physical functioning ceiling items across Argentina, Germany and the US.\n\n\n\n\nconference\n\n\ndifferential item functioning\n\n\npsychometrics\n\n\n \n\n\n \n\n\n\n\n\n\n\nWhat if…? A very short primer on conducting multiverse meta-analyses in R\n\n\n\n\nconference\n\n\nmultiverse\n\n\n \n\n\n \n\n\n\n\n\n\n\nThe robustness of the efficacy of digital interventions for anxiety: an umbrella review and multiverse meta-analysis\n\n\n\n\nconference\n\n\nmultiverse\n\n\n \n\n\n \n\n\n\n\n\n\n\nUsing multiverse meta-analyses to investigate the robustness of mental health research on psychological treatments for depression and digital interventions for anxiety\n\n\n\n\nconference\n\n\nmultiverse\n\n\n \n\n\n \n\n\n\n\n\n\n\nWorkshop: Multiverse Analyses - Introduction and Applications\n\n\n\n\nconference\n\n\nmultiverse\n\n\n \n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/publicatation-1.html",
@@ -101,6 +101,20 @@
     "objectID": "posts/talk-4.html",
     "href": "posts/talk-4.html",
     "title": "SIPS 2022",
+    "section": "",
+    "text": "Link to Program"
+  },
+  {
+    "objectID": "posts/talk-6.html",
+    "href": "posts/talk-6.html",
+    "title": "Upcoming talk at DGPPN 2022",
+    "section": "",
+    "text": "Link to Program"
+  },
+  {
+    "objectID": "posts/talk-5.html",
+    "href": "posts/talk-5.html",
+    "title": "Upcoming talk at EACLIPT 2022",
     "section": "",
     "text": "Link to Program"
   }
