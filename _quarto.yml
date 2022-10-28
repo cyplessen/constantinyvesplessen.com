@@ -4,7 +4,7 @@ project:
 
 website:
   title: Constantin Yves Plessen
-  site-url: "constantinyvesplessen.com"
+  site-url: "constantinyvesplessen.com/docs"
   navbar:
     left:
       - about.qmd
