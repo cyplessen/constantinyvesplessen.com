@@ -4,9 +4,9 @@ title: About Me
 
 # Current Work
 
-Currently, a central method I use and try to advance is multiverse meta-analysis. As there are many defensible choices a researcher could make in conducting a meta-analysis, I am interested in the overall influence such arbitrary decisions might have on the overall robustness of findings. I am using this method to investigate the robustness of psychotherapy research for depression and digital mental-health research for depression and anxiety.
+Currently, a central method I use and aim to advance is multiverse meta-analysis. As there are many defensible choices a researcher could make in conducting a meta-analysis, I am interested in the overall influence such arbitrary decisions might have on entire research fields. In particular, I am using this method to investigate the robustness of psychotherapy research and digital mental-health research for depression and anxiety.
 
-I also aim to bring a common practice from differential psychology to health-related quality of life research: up-to-date and patient specific norm data. I believe it is important that patients are compared to a patient-specific reference group. To provide such data, I use plausible value imputation and quantile regression. 
+I also aim to bring a common practice from differential psychology to health-related quality of life research: timely and patient-specific norm data. I believe it is important that patients are compared to an up-to-date and patient-specific reference group. To provide such data, I use plausible value imputation and quantile regression and program shiny apps to help visualize a patients health-related quality of life relative to others from the same country, with a similar age, and sex.
 
-We are also working on multiverse differential item functioning analyses, to understand the influence arbitrary data-analytical decisions might have in understanding whether single items might measure different constructs in different populations.
+We are also working on multiverse differential item functioning analyses, to understand the influence arbitrary data-analytic decisions might have when we investigate measurement invariance.
 
