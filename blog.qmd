@@ -1,0 +1,14 @@
+---
+title: News
+listing: 
+  contents: "posts"
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [title, categories]
+  #feed: true
+page-layout: full
+title-block-banner: false
+---

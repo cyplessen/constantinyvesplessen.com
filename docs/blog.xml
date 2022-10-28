@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Constantin Yves Plessen</title>
+<link>https://www.constantinyvesplessen.com/blog.html</link>
+<atom:link href="https://www.constantinyvesplessen.com/blog.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.0.36</generator>
+<lastBuildDate>Fri, 28 Oct 2022 15:39:09 GMT</lastBuildDate>
+<item>
+  <title>Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol</title>
+  <link>https://www.constantinyvesplessen.com/posts/publicatation-1.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>Introduction In the past four decades, over 700 randomised controlled trials (RCTs) and 80 meta-analyses have examined the efficacy of psychological treatments for depression. Overwhelming evidence suggests that all types of psychological treatments are effective. Yet, many aspects are still unexplored. Meta-analysts could perform hundreds of potential meta-analyses with the current literature, and a comprehensive bird’s-eye view of all published studies is missing. This protocol outlines how a multiverse meta-analysis can evaluate the entire body of the literature on psychological treatments of depression in a single analysis. Thereby, gaps of evidence and areas of robustness are highlighted. Methods and analysis We will conduct systematic literature searches in bibliographical databases (PubMed, Embase, PsycINFO and Cochrane Register of Controlled Trials) up until 1 January 2021. We will include all RCTs comparing a psychological treatment with a control condition. We will include studies published in English, German, Spanish or Dutch, and exclude trials on maintenance and relapse prevention as well as dissertations. Two independent researchers will check all records. All self-reported and clinician-rated instruments measuring depression are included. We will extract information on recruitment settings, target groups, age groups, comorbidity, intervention formats, psychotherapy types, number of sessions, control conditions and country. Two independent researchers will assess risk of bias using the Cochrane Risk of Bias assessment tool. As part of the multiverse meta-analysis, unweighted, fixed effect and random effects models will be calculated. Ethics and dissemination As we will not collect any primary data, an ethical approval of this protocol is not required. We will publish the results in a peer-review journal and present them at international conferences. We will follow open science practices and provide our code and data.</p>
+<p><a href="https://bmjopen.bmj.com/content/bmjopen/12/1/e050197.full.pdf">Link</a></p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://www.constantinyvesplessen.com/posts/publicatation-1.html</guid>
+  <pubDate>Fri, 28 Oct 2022 15:39:09 GMT</pubDate>
+</item>
+<item>
+  <title>Publications</title>
+  <link>https://www.constantinyvesplessen.com/posts/publicatation-2.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <guid>https://www.constantinyvesplessen.com/posts/publicatation-2.html</guid>
+  <pubDate>Fri, 28 Oct 2022 15:39:09 GMT</pubDate>
+</item>
+<item>
+  <title>Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol</title>
+  <link>https://www.constantinyvesplessen.com/posts/talk-1.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>Introduction In the past four decades, over 700 randomised controlled trials (RCTs) and 80 meta-analyses have examined the efficacy of psychological treatments for depression. Overwhelming evidence suggests that all types of psychological treatments are effective. Yet, many aspects are still unexplored. Meta-analysts could perform hundreds of potential meta-analyses with the current literature, and a comprehensive bird’s-eye view of all published studies is missing. This protocol outlines how a multiverse meta-analysis can evaluate the entire body of the literature on psychological treatments of depression in a single analysis. Thereby, gaps of evidence and areas of robustness are highlighted. Methods and analysis We will conduct systematic literature searches in bibliographical databases (PubMed, Embase, PsycINFO and Cochrane Register of Controlled Trials) up until 1 January 2021. We will include all RCTs comparing a psychological treatment with a control condition. We will include studies published in English, German, Spanish or Dutch, and exclude trials on maintenance and relapse prevention as well as dissertations. Two independent researchers will check all records. All self-reported and clinician-rated instruments measuring depression are included. We will extract information on recruitment settings, target groups, age groups, comorbidity, intervention formats, psychotherapy types, number of sessions, control conditions and country. Two independent researchers will assess risk of bias using the Cochrane Risk of Bias assessment tool. As part of the multiverse meta-analysis, unweighted, fixed effect and random effects models will be calculated. Ethics and dissemination As we will not collect any primary data, an ethical approval of this protocol is not required. We will publish the results in a peer-review journal and present them at international conferences. We will follow open science practices and provide our code and data.</p>
+<p><a href="https://bmjopen.bmj.com/content/bmjopen/12/1/e050197.full.pdf">Link</a></p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://www.constantinyvesplessen.com/posts/talk-1.html</guid>
+  <pubDate>Fri, 28 Oct 2022 15:39:09 GMT</pubDate>
+</item>
+<item>
+  <title>Publications</title>
+  <link>https://www.constantinyvesplessen.com/posts/talk-2.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <guid>https://www.constantinyvesplessen.com/posts/talk-2.html</guid>
+  <pubDate>Fri, 28 Oct 2022 15:39:09 GMT</pubDate>
+</item>
+</channel>
+</rss>

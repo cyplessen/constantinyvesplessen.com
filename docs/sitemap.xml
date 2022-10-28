@@ -2,10 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.constantinyvesplessen.com/about.html</loc>
-    <lastmod>2022-10-28T14:46:13.351Z</lastmod>
+    <lastmod>2022-10-28T15:31:29.597Z</lastmod>
   </url>
   <url>
     <loc>https://www.constantinyvesplessen.com/index.html</loc>
-    <lastmod>2022-10-28T14:46:13.852Z</lastmod>
+    <lastmod>2022-10-28T15:34:32.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.constantinyvesplessen.com/publicatations.html</loc>
+    <lastmod>2022-10-28T15:10:45.561Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.constantinyvesplessen.com/publications/publicatation-1.html</loc>
+    <lastmod>2022-10-28T14:59:42.645Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.constantinyvesplessen.com/publications/publicatation-2.html</loc>
+    <lastmod>2022-10-28T14:59:44.819Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.constantinyvesplessen.com/talks/talk-1.html</loc>
+    <lastmod>2022-10-28T15:10:40.694Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.constantinyvesplessen.com/talks/talk-2.html</loc>
+    <lastmod>2022-10-28T15:07:23.637Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.constantinyvesplessen.com/blog.html</loc>
+    <lastmod>2022-10-28T15:40:51.167Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.constantinyvesplessen.com/posts/publicatation-1.html</loc>
+    <lastmod>2022-10-28T15:31:28.027Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.constantinyvesplessen.com/posts/publicatation-2.html</loc>
+    <lastmod>2022-10-28T15:31:28.354Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.constantinyvesplessen.com/posts/talk-1.html</loc>
+    <lastmod>2022-10-28T15:31:28.717Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.constantinyvesplessen.com/posts/talk-2.html</loc>
+    <lastmod>2022-10-28T15:31:29.026Z</lastmod>
   </url>
 </urlset>

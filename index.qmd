@@ -1,5 +1,5 @@
 ---
-title: "Constantin Yves Plessen"
+title: Constantin Yves Plessen
 image: plessen_portrait.jpg
 about: 
   template: trestles
@@ -18,16 +18,4 @@ about:
 
 # About
 
-I am a psychologist with a broad range of research interests. In my PhD, I investigate the effectiveness of psychotherapy and digital mental health interventions for depression and anxiety. In my job as a psychometrician, I investigate ways to improve the usability of patient reported outcome measures for clinicans and researchers a like.
-
-<br>
-
----
-
-# Current Work
-
-Currently, a central method I use and try to advance is multiverse meta-analysis. As there are many defensible choices a researcher could make in conducting a meta-analysis, I am interested in the overall influence such arbitrary decisions might have on the overall robustness of findings. I am using this method to investigate the robustness of psychotherapy research for depression and digital mental-health research for depression and anxiety.
-
-I also aim to bring a common practice from differential psychology to health-related quality of life research: up-to-date and patient specific norm data. I believe it is important that patients are compared to a patient-specific reference group.
-
-
+I am a psychologist with a broad range of research interests. In my PhD, I investigate the effectiveness of psychotherapy and digital mental health interventions for depression and anxiety. In my job as a psychometrician, I investigate ways to improve the usability of patient reported outcome measures for clinicians and researchers a like.

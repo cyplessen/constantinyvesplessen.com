@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Constantin Yves Plessen - Publications</title>
+<title>Constantin Yves Plessen - News</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,9 +67,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -123,13 +123,15 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+    <a class="nav-link" href="./about.html">About Me</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./listing-publications">Publications</a>
+    <a class="nav-link active" href="./blog.html" aria-current="page">News</a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./listing-talks">Talks</a>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/cyplessen"><i class="bi bi-github" role="img">
+</i> 
+ </a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -138,18 +140,18 @@ cookieconsent.run({
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publications</h1>
+<h1 class="title">News</h1>
 </div>
 
 
@@ -167,43 +169,67 @@ cookieconsent.run({
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1666969141428" data-listing-reading-time-sort="1.205">
-<div class="body">
-<a href="./publications/publicatation-1.html">
-<h3 class="no-anchor listing-title">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1666971538439" data-listing-reading-time-sort="1.385">
+<a href="./posts/publicatation-1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol
-</h3>
-<div class="listing-subtitle">
-
+</h5>
 </div>
-<div class="listing-description">
-Introduction In the past four decades, over 700 randomised controlled trials (RCTs) and 80 meta-analyses have examined the efficacy of psychological treatments for depression. Overwhelming evidence suggests that all types of psychological treatments are effective. Yet, many aspects are still unexplored. Meta-analysts could perform hundreds of potential meta-analyses with the current literature, and a comprehensive bird’s-eye view of all published studies is missing. This protocol outlines how a multiverse meta-analysis can evaluate the entire body of the literature on psychological treatments of depression in a single analysis. Thereby, gaps of evidence and areas of robustness are highlighted. Methods and analysis We will conduct systematic literature searches in bibliographical databases (PubMed, Embase, PsycINFO and Cochrane Register of Controlled Trials) up until 1 January 2021. We will include all RCTs comparing a psychological treatment with a control condition. We will include studies published in English, German, Spanish or Dutch, and exclude trials on maintenance and relapse prevention as well as dissertations. Two independent researchers will check all records. All self-reported and clinician-rated instruments measuring depression are included. We will extract information on recruitment settings, target groups, age groups, comorbidity, intervention formats, psychotherapy types, number of sessions, control conditions and country. Two independent researchers will assess risk of bias using the Cochrane Risk of Bias assessment tool. As part of the multiverse meta-analysis, unweighted, fixed effect and random effects models will be calculated. Ethics and dissemination As we will not collect any primary data, an ethical approval of this protocol is not required. We will publish the results in a peer-review journal and present them at international conferences. We will follow open science practices and provide our code and data.
 </div>
 </a>
 </div>
-<div class="metadata">
-<a href="./publications/publicatation-1.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1666968916787" data-listing-reading-time-sort="0.005">
-<div class="body">
-<a href="./publications/publicatation-2.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1666968916787" data-listing-reading-time-sort="0.005">
+<a href="./posts/publicatation-2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Publications
-</h3>
-<div class="listing-subtitle">
-
+</h5>
 </div>
-<div class="listing-description">
-
 </div>
 </a>
 </div>
-<div class="metadata">
-<a href="./publications/publicatation-2.html"> </a>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1666969631697" data-listing-reading-time-sort="1.385">
+<a href="./posts/talk-1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol
+</h5>
 </div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1666968916787" data-listing-reading-time-sort="0.005">
+<a href="./posts/talk-2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Publications
+</h5>
+</div>
+</div>
+</a>
 </div>
 </div>
 <div class="listing-no-matching d-none">
