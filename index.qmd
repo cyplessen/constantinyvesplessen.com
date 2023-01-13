@@ -1,19 +1,31 @@
 ---
-title: Constantin Yves Plessen
+title: "Constantin Yves Plessen" 
 image: plessen_portrait.jpg
 about: 
   template: trestles
   image-shape: rounded
   image-width: 15em
   links:
-    - text: LinkedIn
-      href: https://www.linkedin.com/in/constantin-plessen-404723203/
-    - text: Twitter
+    - text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.com/citations?user=_MGIK9oAAAAJ&hl=en&oi=ao
+      aria-label: Google Scholar
+    - icon: twitter
       href: https://twitter.com/CYPlessen
-    - text: GitHub
-      href: https://github.com/cyplessen
-    - text: Email
+    - href: https://github.com/cyplessen
+      icon: github
+    - icon: mailbox
       href: mailto:yves.plessen@gmail.com
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/my-orcid?orcid=0000-0002-4907-3505
+      aria-label: ORCID ID
+    - text: "{{< ai researchgate >}}"
+      href: https://www.researchgate.net/profile/Constantin-Yves-Plessen?ev=hdr_xprf
+      aria-label: ResearchGate
+    - text: "{{< ai publons >}}"
+      href: https://www.webofscience.com/wos/author/record/HDN-5676-2022   
+      aria-label: Publons
+    - href: https://www.linkedin.com/in/constantin-plessen-404723203/
+      icon: linkedin
 ---
 
 # About
