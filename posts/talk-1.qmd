@@ -4,7 +4,7 @@ subtitle: "Modeling general populations' reference data for PROMIS item banks (P
 categories: [conference, reference data, psychometrics]
 ---
 
-# Abstract
+# Conference Abstract
 
 **Aims**: The use of PROs in research and clinical practice requires availability of appropriate and relevant comparison data. We aim to model age, and sex-specific reference values for the PROMIS Physical Function (PF), Upper Extremity (UE), and Pain Interference (PI) scales in populations age 50 and older in Germany, the UK, and the US.
 
