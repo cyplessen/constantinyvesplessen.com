@@ -5,7 +5,7 @@ editor: visual
 
 I am a psychologist, researcher, and advocate for rigorous, open, and robust science. My career has been driven by the belief that evidence-based medicine and patient-centered care must be at the forefront of modern healthcare. My work focuses on bridging the gap between research synthesis and practical application to ensure scientific insights drive meaningful, real-world outcomes.
 
-<br> 
+<br>
 
 ## Researcher at Charité Center for Patient-Centered Outcomes Research
 
@@ -37,7 +37,6 @@ Collaborating on initiatives like [WerteRadar](https://werteradar.org/) and part
 
 What motivates me is the pursuit of clarity and rigor in science. Whether addressing researcher degrees of freedom in psychometrics, ensuring cross-cultural fairness in PRO measures, or scrutinizing the robustness of meta-analyses, my goal is to challenge norms and elevate standards. This approach stems from a deep commitment to evidence-based practices that serve humanity and promote equity.
 
-
 This **About Me** section might be a bit excessive, but I believe it is important to give appropriate contexts for research, to better understand the motivation behind research projects and scientific papers, and understand prior beliefs and conflicts of interest.
 
-<br> 
+<br>
