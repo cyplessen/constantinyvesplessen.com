@@ -7,18 +7,22 @@ website:
   site-url: "constantinyvesplessen.com"
   navbar:
     left:
-      - about.qmd
+      - about_long.qmd
       - blog.qmd
+      - publications.qmd
       - icon: github
         href: https://github.com/cyplessen
         aria-label: GitHub
       - icon: twitter
         href: https://twitter.com/CYPlessen
         aria-label: twitter
+      - text: "{{< iconify logos:bluesky >}}" 
+        href: https://bsky.app/profile/cyplessen.bsky.social
+        aria-label: bluesky
       - icon: mailbox
         href: mailto:yves.plessen@gmail.com
         aria-label: email
-      - icon: orcid
+      - text: "{{< iconify academicons:orcid-square >}}"
         href: https://orcid.org/my-orcid?orcid=0000-0002-4907-3505
         aria-label: orcid
         

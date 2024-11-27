@@ -9,7 +9,11 @@ about:
     - text: "{{< ai google-scholar >}}"
       href: https://scholar.google.com/citations?user=_MGIK9oAAAAJ&hl=en&oi=ao
       aria-label: Google Scholar
+    - text: "{{< iconify logos:bluesky >}}" 
+      href: https://bsky.app/profile/cyplessen.bsky.social
+      aria-label: bluesky
     - icon: twitter
+      text: discontinued
       href: https://twitter.com/CYPlessen
     - href: https://github.com/cyplessen
       icon: github

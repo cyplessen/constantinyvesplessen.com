@@ -1,0 +1,43 @@
+---
+title: "About Me"
+editor: visual
+---
+
+I am a psychologist, researcher, and advocate for rigorous, open, and robust science. My career has been driven by the belief that evidence-based medicine and patient-centered care must be at the forefront of modern healthcare. My work focuses on bridging the gap between research synthesis and practical application to ensure scientific insights drive meaningful, real-world outcomes.
+
+<br> 
+
+## Researcher at Charité Center for Patient-Centered Outcomes Research
+
+Our healthcare system often falls short of being both evidence-based and patient-centered, which drives my motivation to advocate for change. At the [Charité Center for Patient-Centered Outcomes Research](https://cpcor.charite.de/en/), my work centered on the development and refinement of patient-reported outcomes, tools that capture health-related quality of life to ensure treatments are aligned with patients' needs and well-being. These tools are crucial for transforming medicine from an eminence-based practice, guided by expert opinion, to an evidence-based approach that truly prioritizes patients.
+
+Through partnerships like the [Oxford-Berlin Partnership](https://www.ndorms.ox.ac.uk/research/the-oxford-berlin-partnership-for-enhancing-measurement-in-clinical-trials), I contributed to advancing patient reported outcome methodologies, such as validating the psychometric assumptions of orthopedic measures and addressing limitations like ceiling and floor effects. My work explored how researcher decisions influence outcomes, fostering more transparent and robust practices in patient-centered research.
+
+Projects like the development of a [Shiny web application](https://journals.lww.com/clinorthop/fulltext/2024/02000/how_are_age,_gender,_and_country_differences.9.aspx), which provides tailored reference values for interpreting PROMIS® Physical Function and Pain Interference scores, highlight my commitment to practical, actionable tools for clinicians. This aligns with my broader mission to ensure healthcare systems are as inclusive, equitable, and effective as possible.
+
+<br>
+
+## PhD Researcher at VU Amsterdam
+
+During my time at the VU Amsterdam, my research was driven by a fascination with the robustness of evidence in psychological interventions for mental health. Meta-analyses are often viewed as the gold standard in evidence-based practices, yet their outcomes can vary widely depending on analytical choices. To explore this, I conducted over 10,000 meta-analyses on psychotherapy and digital interventions for depression and anxiety, uncovering how researcher degrees of freedom can influence results. This work underscored the importance of transparent methodologies to mitigate biases and strengthen scientific reliability.
+
+Collaborating with the [Metapsy Project](https://www.metapsy.org/), I contributed to transforming vast datasets into actionable insights for mental health research. The project's innovative approach to meta-analytic research domains aimed to reduce research waste and promote transparency, values that remain central to my work.
+
+<br>
+
+## Teaching and Collaboration
+
+In addition to research, I have taught courses on evidence-based medicine, meta-analyses, and communication skills. These experiences have honed my ability to translate complex findings into actionable insights, whether for students, clinicians, or interdisciplinary teams.
+
+Collaborating on initiatives like [WerteRadar](https://werteradar.org/) and participating in the [SPOKES Think Tank](https://www.bihealth.org/en/translation/innovation-enabler/quest-center/projects/project/spokes-think-tank) have deepened my engagement with the broader implications of science—such as fostering healthier academic cultures and empowering patients to make informed decisions about data sharing.
+
+<br>
+
+## Motivation
+
+What motivates me is the pursuit of clarity and rigor in science. Whether addressing researcher degrees of freedom in psychometrics, ensuring cross-cultural fairness in PRO measures, or scrutinizing the robustness of meta-analyses, my goal is to challenge norms and elevate standards. This approach stems from a deep commitment to evidence-based practices that serve humanity and promote equity.
+
+
+This **About Me** section might be a bit excessive, but I believe it is important to give appropriate contexts for research, to better understand the motivation behind research projects and scientific papers, and understand prior beliefs and conflicts of interest.
+
+<br> 
