@@ -1,29 +1,5 @@
 [
   {
-    "listing": "/publicatations.html",
-    "items": [
-      "/publications/publicatation-1.html",
-      "/publications/publicatation-2.html"
-    ]
-  },
-  {
-    "listing": "/publications/publicatation-2.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/publications/publicatation-1.html",
-      "/publications/publicatation-2.html",
-      "/talks/talk-1.html",
-      "/talks/talk-2.html"
-    ]
-  },
-  {
-    "listing": "/talks/talk-2.html",
-    "items": []
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/posts/talk-5.html",
@@ -34,13 +10,5 @@
       "/posts/talk-2.html",
       "/posts/talk-3.html"
     ]
-  },
-  {
-    "listing": "/posts/publicatation-2.html",
-    "items": []
-  },
-  {
-    "listing": "/posts/talk-2.html",
-    "items": []
   }
 ]
