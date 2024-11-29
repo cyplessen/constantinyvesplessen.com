@@ -3,10 +3,7 @@ title: "Publications"
 editor: visual
 ---
 
-
-
-### **2024**
----
+## \### **2024**
 
 -   Cuijpers, P., Harrer, M., Miguel, C., Ciharova, M., Basic, D., Cristea, I. A., de Ponti, N., Driessen, E., Hamblen, J., Larsen, S. E., Matbouriahi, M., Papola, D., Pauley, D., **Plessen, C. Y.**, Pfund, R. A., Setkowski, K., Schnurr, P. P., van Ballegooijen, W., Wang, Y., Riper, H., van Straten, A., Sijbrandij, M., Furukawa, T. A., & Karyotaki, E. (2024). Cognitive behavior therapy for mental disorders in adults: A unified series of meta-analyses across 375 randomized trials. *Under Review: JAMA Psychiatry*.
 
@@ -31,6 +28,7 @@ editor: visual
 <br>
 
 ### **2023**
+
 ---
 -   Cuijpers, P., Miguel, C., Harrer, M., **Plessen, C. Y.**, et al. (2023). Psychological treatment of depression: A systematic overview of a ‘meta-analytic research domain.’ *Journal of Affective Disorders, 335*, 141–151. <https://doi.org/10.1016/j.jad.2023.05.011>.
 
@@ -47,7 +45,6 @@ editor: visual
 <br>
 
 ### **2022 and Before**
-
 ---
 
 -   **Plessen, C. Y.**, Karyotaki, E., & Cuijpers, P. (2022). Exploring the efficacy of psychological treatments for depression: A multiverse meta-analysis protocol. *BMJ Open, 12*(1), e050197. <https://doi.org/10.1136/bmjopen-2021-050197>.
