@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: Constantin Yves Plessen
+  title: Constantin Yves Plessen, PhD.
   site-url: "constantinyvesplessen.com"
   navbar:
     left:
@@ -13,19 +13,22 @@ website:
       - icon: github
         href: https://github.com/cyplessen
         aria-label: GitHub
-      - icon: twitter
-        href: https://twitter.com/CYPlessen
-        aria-label: twitter
-      - text: "{{< iconify logos:bluesky >}}" 
-        href: https://bsky.app/profile/cyplessen.bsky.social
-        aria-label: bluesky
-      - icon: mailbox
-        href: mailto:yves.plessen@gmail.com
-        aria-label: email
-      - text: "{{< iconify academicons:orcid-square >}}"
-        href: https://orcid.org/my-orcid?orcid=0000-0002-4907-3505
-        aria-label: orcid
-        
+      #- icon: twitter
+      #  href: https://twitter.com/CYPlessen
+      #  aria-label: twitter
+      #- text: "{{< iconify logos:bluesky >}}" 
+      #  href: https://bsky.app/profile/cyplessen.bsky.social
+      #  aria-label: bluesky
+      #- icon: mailbox
+      #  href: mailto:yves.plessen@gmail.com
+      #  aria-label: email
+      #- text: "{{< iconify academicons:orcid-square >}}"
+      #  href: https://orcid.org/my-orcid?orcid=0000-0002-4907-3505
+      #  aria-label: orcid
+  page-footer:
+    center: 
+      - text: "© 2025 Constantin Yves Plessen"
+
   google-analytics: G-RBDBPYKMKX 
   cookie-consent:
     type: express
@@ -37,6 +40,7 @@ website:
   # creator: "@CYPlessen"
 format:
   html:
-    theme: Simplex
+    theme: [lux, custom.scss]
     css: styles.css
     toc: true
+    page-layout: full
