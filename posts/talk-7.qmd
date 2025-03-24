@@ -1,6 +1,6 @@
 ---
-title: "No Updates for Now️"
-format: html
+title: "PhDone - No Updates for Now️"
+categories: [phdone]
+date: June 30, 2024
 ---
-
 Discontinued for now, currently [traveling 🏖️ and exploring opportunities for my next role](https://www.linkedin.com/posts/constantin-yves-plessen-404723203_constantin-yves-plessen-activity-7269654825846403072-IqSz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADPl_IQBYY7T0uvfMLYXcXbURxzRp4iAKh0) after [defending my PhD thesis 🥳](https://vu.nl/en/events/2024/phd-defence-c-y-plessen).
