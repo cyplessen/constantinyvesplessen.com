@@ -8,8 +8,8 @@ website:
   navbar:
     left:
       - about_long.qmd
-      - blog.qmd
       - publications.qmd
+      - blog.qmd
       - icon: github
         href: https://github.com/cyplessen
         aria-label: GitHub
