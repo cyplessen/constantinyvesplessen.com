@@ -7,7 +7,7 @@ website:
   site-url: "constantinyvesplessen.com"
   navbar:
     left:
-      - about_long.qmd
+      - about_updated.qmd
       - publications.qmd
       - blog.qmd
       - icon: github

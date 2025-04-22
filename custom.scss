@@ -1,10 +1,15 @@
 /*-- scss:defaults --*/
+// Using a serif font for body text similar to what's in the image
+$font-family-base: Georgia, 'Times New Roman', serif;
+$body-color: #333;
+
+// Using a bold sans-serif font for headings like in the image
+$headings-font-family: 'Helvetica Neue', Arial, sans-serif;
+$headings-font-weight: 800;  // Very bold for headlines
+
+// Other variables can remain similar
 $primary: #33658A;
 $secondary: #86BBD8;
-$body-color: #333;
-$font-family-sans-serif: 'Nunito Sans', sans-serif;
-$font-family-monospace: 'Roboto Mono', monospace;
-$headings-font-family: 'Montserrat', sans-serif;
 $navbar-bg: white;
 $navbar-fg: $primary;
 $navbar-active-bg: transparent;
@@ -14,29 +19,134 @@ $link-color: $primary;
 $link-hover-color: darken($primary, 15%);
 
 /*-- scss:rules --*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Nunito+Sans:wght@300;400;700&family=Roboto+Mono&display=swap');
+// Import appropriate fonts
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600;900&display=swap');
 
+// Override with more specific font choices
+body {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 900;  // Extra bold for headlines
+  letter-spacing: -0.02em;  // Slightly tighter letter spacing for headlines
+  text-transform: none;  // Ensure headings aren't displayed in all caps
+}
+
+// Blog post styling to match the image
+.quarto-post, .content {
+  p {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+  }
+  
+  blockquote {
+    font-style: italic;
+    border-left: 3px solid #ddd;
+    padding-left: 1rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  // Styling for article headlines that matches the heavy bold style in the image
+  .listing-title {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 2.2rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #222;
+  }
+  
+  // Subtitle styling like in the image
+  .description {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 0.5rem;
+  }
+}
+
+// Keep your existing navbar styling
+/* Clean navbar approach with stable layout */
 .navbar {
   box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  
+  /* Brand styling - make it fixed width */
+  .navbar-brand {
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: visible;
+    font-size: 1.25rem;
+    flex-shrink: 0;
+    min-width: 320px; /* Set a fixed minimum width */
+    
+    @media (max-width: 576px) {
+      font-size: 1.1rem;
+      min-width: 280px;
+    }
+  }
+  
+  /* Container to keep layout stable */
+  .container-fluid {
+    justify-content: space-between;
+  }
+  
+  /* Nav styling */
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
   .nav-link {
     text-transform: uppercase;
     font-size: 0.85rem;
     letter-spacing: 0.05em;
     font-weight: 500;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
+    
+    @media (max-width: 992px) {
+      font-size: 0.8rem;
+      margin: 0 0.3rem;
+      padding: 0.5rem 0.3rem;
+    }
+    
     &:hover {
       border-bottom: 2px solid $primary;
     }
+    
     &.active {
       border-bottom: 2px solid $primary;
     }
   }
 }
 
+/* Adjust padding to ensure consistent spacing */
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    padding-left: 1rem;
+  }
+}
+
+// Keeping other styling from your original SCSS
 .page-title {
-  font-weight: 700;
+  font-weight: 900; // Increased to match the image styling
   margin-bottom: 2rem;
-  color: $primary;
+  color: #222; // Darker color to match the image
 }
 
 .hero-banner {
@@ -143,4 +253,139 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   color: #666;
+}
+
+/* Social media icon styling */
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.about-link-item {
+  /* Force square shape regardless of screen size */
+  width: 50px;
+  height: 50px;
+  flex: 0 0 auto !important; /* Prevent growing or shrinking */
+  
+  /* Container styling */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Prevent full-width behavior on small screens */
+  max-width: 50px !important;
+  min-width: 50px !important;
+}
+
+/* Ensure the links don't stack at any screen size */
+@media (max-width: 576px) {
+  .about-link-item {
+    width: 40px;
+    height: 40px;
+    max-width: 40px !important;
+    min-width: 40px !important;
+  }
+}
+/* Social media icon styling */
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.about-link-item {
+  /* Force square shape regardless of screen size */
+  width: 50px;
+  height: 50px;
+  flex: 0 0 auto !important; /* Prevent growing or shrinking */
+  
+  /* Container styling */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Prevent full-width behavior on small screens */
+  max-width: 50px !important;
+  min-width: 50px !important;
+}
+
+/* Ensure the links don't stack at any screen size */
+@media (max-width: 576px) {
+  .about-link-item {
+    width: 40px;
+    height: 40px;
+    max-width: 40px !important;
+    min-width: 40px !important;
+  }
+}
+/* Override Quarto about page social media links behavior */
+.about-entity .about-links {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+.about-entity .about-links .about-link-item {
+  width: 50px !important;
+  height: 50px !important;
+  min-width: 50px !important;
+  max-width: 50px !important;
+  flex: 0 0 50px !important;
+  margin: 0.25rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Additional selectors to ensure we catch all possible cases */
+#quarto-about .about-links .about-link,
+.quarto-about .about-links .about-link,
+.quarto-about-jolla .about-links .about-link,
+.about .about-links .about-link,
+.about-entity .about-links .about-link {
+  width: auto !important;
+  max-width: none !important;
+}
+
+/* Target every possible breakpoint to override responsive behavior */
+@media (max-width: 991.98px) {
+  .about-entity .about-links .about-link-item {
+    width: 50px !important;
+    height: 50px !important;
+    min-width: 50px !important;
+    max-width: 50px !important;
+    flex: 0 0 50px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about-entity .about-links .about-link-item {
+    width: 45px !important;
+    height: 45px !important;
+    min-width: 45px !important;
+    max-width: 45px !important;
+    flex: 0 0 45px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .about-entity .about-links .about-link-item {
+    width: 40px !important;
+    height: 40px !important;
+    min-width: 40px !important;
+    max-width: 40px !important;
+    flex: 0 0 40px !important;
+  }
 }

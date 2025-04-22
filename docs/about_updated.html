@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>News – Constantin Yves Plessen, PhD.</title>
+<title>About Me – Constantin Yves Plessen, PhD.</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -70,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-subtitle','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RBDBPYKMKX"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -127,35 +96,6 @@ cookieconsent.run({
 </script> 
   
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -178,7 +118,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about_updated.html"> 
+    <a class="nav-link active" href="./about_updated.html" aria-current="page"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
@@ -186,7 +126,7 @@ window.Quarto = {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item compact">
@@ -206,14 +146,23 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="conference">conference <span class="quarto-category-count">(6)</span></div><div class="category" data-category="differential item functioning">differential item functioning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multiverse">multiverse <span class="quarto-category-count">(5)</span></div><div class="category" data-category="phdone">phdone <span class="quarto-category-count">(1)</span></div><div class="category" data-category="psychometrics">psychometrics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="publication">publication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reference data">reference data <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#researcher-at-charité-center-for-patient-centered-outcomes-research" id="toc-researcher-at-charité-center-for-patient-centered-outcomes-research" class="nav-link active" data-scroll-target="#researcher-at-charité-center-for-patient-centered-outcomes-research">Researcher at Charité Center for Patient-Centered Outcomes Research</a></li>
+  <li><a href="#phd-researcher-at-vu-amsterdam" id="toc-phd-researcher-at-vu-amsterdam" class="nav-link" data-scroll-target="#phd-researcher-at-vu-amsterdam">PhD Researcher at VU Amsterdam</a></li>
+  <li><a href="#teaching-and-collaboration" id="toc-teaching-and-collaboration" class="nav-link" data-scroll-target="#teaching-and-collaboration">Teaching and Collaboration</a></li>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation">Motivation</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">News</h1>
+<h1 class="title">About Me</h1>
 </div>
 
 
@@ -230,211 +179,40 @@ window.Quarto = {
 </header>
 
 
+<p>I study the curious gap between what we claim to know and what we actually know. As a methodologist and advocate for scientific rigor, I’ve spent my career examining how evidence is constructed, interpreted, and applied—often finding that our most cherished research practices contain hidden fragilities. What fascinates me isn’t just the production of knowledge but the messier question of how that knowledge translates into real improvements in human welfare.</p>
+<p>My work spans two complementary domains. As a psychometrician, I investigate how we can best measure important domains such as physical functioning, pain interference, and depression from the patient perspective. For instance, I explored how we can effectively use questionnaires on the same topic across different cultures, examining measurement invariance and <a href="https://doi.org/10.1007/s11136-024-03866-y">differential item functioning in PROMIS® measures</a> across English, German, and Spanish versions. My research has addressed fundamental challenges in patient-reported outcomes, including <a href="https://doi.org/10.1302/2046-3758.1210.BJR-2022-0457.R1">overcoming floor and ceiling effects in knee arthroplasty measurement</a> and developing <a href="https://doi.org/10.1097/CORR.0000000000002798">reference values</a> that make scores meaningful for clinical interpretation.</p>
+<p>Simultaneously, in research synthesis, I’ve pioneered the application of multiverse meta-analyses to psychological interventions, running thousands of analytical variations on <a href="https://doi.org/10.1136/bmjment-2022-300626">psychotherapy</a> and <a href="https://doi.org/10.1016/j.jad.2024.10.018">digital interventions</a> for depression and anxiety. This approach reveals how seemingly innocent analytical choices can dramatically alter conclusions about treatment efficacy, challenging us to develop more robust methods for evidence synthesis.</p>
+<p>Through <a href="https://constantinyvesplessen.com/publications.html">my publications</a>, I’ve worked to develop both theoretical frameworks and practical tools that serve a single purpose: ensuring that when we claim to help people through psychological or medical interventions, we’re actually doing so. This methodological pluralism reflects my conviction that advancing scientific rigor requires multiple approaches to measurement and evidence synthesis.</p>
+<p><br></p>
+<section id="researcher-at-charité-center-for-patient-centered-outcomes-research" class="level2">
+<h2 class="anchored" data-anchor-id="researcher-at-charité-center-for-patient-centered-outcomes-research">Researcher at Charité Center for Patient-Centered Outcomes Research</h2>
+<p>Our healthcare system often falls short of being both evidence-based and patient-centered, which drives my motivation to advocate for change. At the <a href="https://cpcor.charite.de/en/">Charité Center for Patient-Centered Outcomes Research</a>, my work centered on the development and refinement of patient-reported outcomes, tools that capture health-related quality of life to ensure treatments are aligned with patients’ needs and well-being. These tools are crucial for transforming medicine from an eminence-based practice, guided by expert opinion, to an evidence-based approach that truly prioritizes patients.</p>
+<p>Through partnerships like the <a href="https://www.ndorms.ox.ac.uk/research/the-oxford-berlin-partnership-for-enhancing-measurement-in-clinical-trials">Oxford-Berlin Partnership</a>, I contributed to advancing patient-reported outcome methodologies, such as validating the psychometric assumptions of orthopedic measures and addressing limitations like ceiling and floor effects. My more abstract and theoretical work explored how researcher decisions influence outcomes, fostering more transparent and robust practices in patient-centered research.</p>
+<p>I also enjoyed developing practical data science tools, like a <a href="https://journals.lww.com/clinorthop/fulltext/2024/02000/how_are_age,_gender,_and_country_differences.9.aspx">Shiny web application</a> that provides tailored reference values, helping clinicians and patients interpret their PROMIS® Physical Function and Pain Interference scores in a more meaningful way.</p>
+<p><br></p>
+</section>
+<section id="phd-researcher-at-vu-amsterdam" class="level2">
+<h2 class="anchored" data-anchor-id="phd-researcher-at-vu-amsterdam">PhD Researcher at VU Amsterdam</h2>
+<p>During my time at VU Amsterdam, my research was driven by a fascination with the robustness of evidence in psychological interventions for mental health. Meta-analyses are often viewed as the gold standard in evidence-based practices, yet their outcomes can vary widely depending on analytical choices. To explore this, I conducted over 10,000 meta-analyses on psychotherapy and digital interventions for depression and anxiety, uncovering how researcher degrees of freedom can influence results. This work underscored the importance of transparent methodologies to mitigate biases and strengthen scientific reliability.</p>
+<p>Collaborating with the <a href="https://www.metapsy.org/">Metapsy Project</a>, I contributed to transforming vast datasets into actionable insights for mental health research. The project’s innovative approach to meta-analytic research domains aimed to reduce research waste and promote transparency, values that remain central to my work.</p>
+<p><br></p>
+</section>
+<section id="teaching-and-collaboration" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-and-collaboration">Teaching and Collaboration</h2>
+<p>In addition to research, I have taught courses on evidence-based medicine, meta-analyses, and communication skills. These experiences have honed my ability to translate complex findings into actionable insights, whether for students, clinicians, or interdisciplinary teams.</p>
+<p>Collaborating on initiatives like <a href="https://werteradar.org/">WerteRadar</a> and participating in the <a href="https://www.bihealth.org/en/translation/innovation-enabler/quest-center/projects/project/spokes-think-tank">SPOKES Think Tank</a> have deepened my engagement with the broader implications of science—such as fostering healthier academic cultures and empowering patients to make informed decisions about data sharing.</p>
+<p><br></p>
+</section>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>What truly drives me is a peculiar form of intellectual curiosity. I want to understand not just what works, but how we know it works, and whether our confidence is justified. Whether addressing researcher degrees of freedom in psychometrics, ensuring cross-cultural fairness in PRO measures, or scrutinizing the robustness of meta-analyses, my goal is to challenge norms and elevate standards. This pursuit of clarity in science isn’t abstract—it’s ultimately about ensuring that when we claim to help people through psychological or medical interventions, we’re actually doing so.</p>
+<p>This <strong>About Me</strong> section might seem extensive, but I believe context matters. Research doesn’t emerge from nowhere—it springs from the particular concerns, values, and intellectual traditions that researchers inhabit. By making these explicit, we allow others to better understand and evaluate our work, recognizing both its strengths and its inevitable limitations.</p>
+<p><br></p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="conference,multiverse" data-listing-date-sort="1668207600000" data-listing-file-modified-sort="1666989693938" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-5.html" class="no-external">Upcoming talk at EACLIPT 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-5.html" class="no-external">Using multiverse meta-analyses to investigate the robustness of mental health research on psychological treatments for depression and digital interventions for anxiety</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
-conference
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('multiverse'); return false;">
-multiverse
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-5.html" class="no-external">
-<div class="listing-date">
-Nov 12, 2022
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="conference,multiverse" data-listing-date-sort="1669158000000" data-listing-file-modified-sort="1666989843683" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="259">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-6.html" class="no-external">Upcoming talk at DGPPN 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-6.html" class="no-external">The robustness of the efficacy of digital interventions for anxiety: an umbrella review and multiverse meta-analysis </a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
-conference
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('multiverse'); return false;">
-multiverse
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-6.html" class="no-external">
-<div class="listing-date">
-Nov 23, 2022
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="phdone" data-listing-date-sort="1719698400000" data-listing-file-modified-sort="1742811207022" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-7.html" class="no-external">PhDone - No Updates for Now️</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-7.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('phdone'); return false;">
-phdone
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-7.html" class="no-external">
-<div class="listing-date">
-Jun 30, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="publication,multiverse" data-listing-file-modified-sort="1666972400396" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/publicatation-1.html" class="no-external">Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/publicatation-1.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('publication'); return false;">
-publication
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('multiverse'); return false;">
-multiverse
-</div>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/publicatation-1.html" class="no-external"></a></p><a href="./posts/publicatation-1.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="conference,multiverse" data-listing-file-modified-sort="1666990783075" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-4.html" class="no-external">SIPS 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-4.html" class="no-external">Workshop: Multiverse Analyses - Introduction and Applications</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
-conference
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('multiverse'); return false;">
-multiverse
-</div>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/talk-4.html" class="no-external"></a></p><a href="./posts/talk-4.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="conference,reference data,psychometrics" data-listing-file-modified-sort="1673873796730" data-listing-reading-time-sort="2" data-listing-word-count-sort="348">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-1.html" class="no-external">ISOQOL 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-1.html" class="no-external">Modeling general populations’ reference data for PROMIS item banks (Physical Functioning, Upper Extremities, and Pain interference) in multiple countries using quantile regression.</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
-conference
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('reference data'); return false;">
-reference data
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('psychometrics'); return false;">
-psychometrics
-</div>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/talk-1.html" class="no-external"></a></p><a href="./posts/talk-1.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="conference,differential item functioning,psychometrics" data-listing-file-modified-sort="1666973141879" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-2.html" class="no-external">PHO 2021</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-2.html" class="no-external">Differential item functioning of PROMIS physical functioning ceiling items across Argentina, Germany and the US.</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
-conference
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('differential item functioning'); return false;">
-differential item functioning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('psychometrics'); return false;">
-psychometrics
-</div>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/talk-2.html" class="no-external"></a></p><a href="./posts/talk-2.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="conference,multiverse" data-listing-file-modified-sort="1666973456115" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-3.html" class="no-external">ESMR 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-3.html" class="no-external">What if…? A very short primer on conducting multiverse meta-analyses in R</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
-conference
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('multiverse'); return false;">
-multiverse
-</div>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/talk-3.html" class="no-external"></a></p><a href="./posts/talk-3.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

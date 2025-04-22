@@ -67,7 +67,7 @@
     "href": "index.html",
     "title": "Constantin Yves Plessen",
     "section": "",
-    "text": "About\nI am an advocate for rigorous science and robust methods, dedicated to advancing evidence-based approaches across diverse fields. My work bridges the gap between research synthesis and practical application, ensuring that scientific insights drive meaningful, real-world outcomes. With expertise in meta-analyses, psychometrics, and interdisciplinary collaboration, I strive to improve decision-making through innovative, reliable, and impactful methodologies."
+    "text": "About\nI study the curious gap between what we claim to know and what we actually know. As a methodologist and advocate for scientific rigor, I’ve spent my career examining how evidence is constructed, interpreted, and applied—often finding that our most cherished research practices contain hidden fragilities. What fascinates me isn’t just the production of knowledge but the messier question of how that knowledge translates into real improvements in human welfare. Whether scrutinizing thousands of meta-analyses to reveal how researcher choices shape conclusions, developing more sensitive measures of patient experiences, or creating practical tools for clinical decision-making, my work is driven by a simple conviction: that intellectual clarity serves human good. This pursuit isn’t merely academic—it’s about ensuring that when we claim our interventions help people, they actually do."
   },
   {
     "objectID": "about_long.html",
@@ -131,5 +131,40 @@
     "title": "PhDone - No Updates for Now️",
     "section": "",
     "text": "Discontinued for now, currently traveling 🏖️ and exploring opportunities for my next role after defending my PhD thesis 🥳."
+  },
+  {
+    "objectID": "about_updated.html",
+    "href": "about_updated.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I study the curious gap between what we claim to know and what we actually know. As a methodologist and advocate for scientific rigor, I’ve spent my career examining how evidence is constructed, interpreted, and applied—often finding that our most cherished research practices contain hidden fragilities. What fascinates me isn’t just the production of knowledge but the messier question of how that knowledge translates into real improvements in human welfare.\nMy work spans two complementary domains. As a psychometrician, I investigate how we can best measure important domains such as physical functioning, pain interference, and depression from the patient perspective. For instance, I explored how we can effectively use questionnaires on the same topic across different cultures, examining measurement invariance and differential item functioning in PROMIS® measures across English, German, and Spanish versions. My research has addressed fundamental challenges in patient-reported outcomes, including overcoming floor and ceiling effects in knee arthroplasty measurement and developing reference values that make scores meaningful for clinical interpretation.\nSimultaneously, in research synthesis, I’ve pioneered the application of multiverse meta-analyses to psychological interventions, running thousands of analytical variations on psychotherapy and digital interventions for depression and anxiety. This approach reveals how seemingly innocent analytical choices can dramatically alter conclusions about treatment efficacy, challenging us to develop more robust methods for evidence synthesis.\nThrough my publications, I’ve worked to develop both theoretical frameworks and practical tools that serve a single purpose: ensuring that when we claim to help people through psychological or medical interventions, we’re actually doing so. This methodological pluralism reflects my conviction that advancing scientific rigor requires multiple approaches to measurement and evidence synthesis."
+  },
+  {
+    "objectID": "about_updated.html#researcher-at-charité-center-for-patient-centered-outcomes-research",
+    "href": "about_updated.html#researcher-at-charité-center-for-patient-centered-outcomes-research",
+    "title": "About Me",
+    "section": "Researcher at Charité Center for Patient-Centered Outcomes Research",
+    "text": "Researcher at Charité Center for Patient-Centered Outcomes Research\nOur healthcare system often falls short of being both evidence-based and patient-centered, which drives my motivation to advocate for change. At the Charité Center for Patient-Centered Outcomes Research, my work centered on the development and refinement of patient-reported outcomes, tools that capture health-related quality of life to ensure treatments are aligned with patients’ needs and well-being. These tools are crucial for transforming medicine from an eminence-based practice, guided by expert opinion, to an evidence-based approach that truly prioritizes patients.\nThrough partnerships like the Oxford-Berlin Partnership, I contributed to advancing patient-reported outcome methodologies, such as validating the psychometric assumptions of orthopedic measures and addressing limitations like ceiling and floor effects. My more abstract and theoretical work explored how researcher decisions influence outcomes, fostering more transparent and robust practices in patient-centered research.\nI also enjoyed developing practical data science tools, like a Shiny web application that provides tailored reference values, helping clinicians and patients interpret their PROMIS® Physical Function and Pain Interference scores in a more meaningful way."
+  },
+  {
+    "objectID": "about_updated.html#phd-researcher-at-vu-amsterdam",
+    "href": "about_updated.html#phd-researcher-at-vu-amsterdam",
+    "title": "About Me",
+    "section": "PhD Researcher at VU Amsterdam",
+    "text": "PhD Researcher at VU Amsterdam\nDuring my time at VU Amsterdam, my research was driven by a fascination with the robustness of evidence in psychological interventions for mental health. Meta-analyses are often viewed as the gold standard in evidence-based practices, yet their outcomes can vary widely depending on analytical choices. To explore this, I conducted over 10,000 meta-analyses on psychotherapy and digital interventions for depression and anxiety, uncovering how researcher degrees of freedom can influence results. This work underscored the importance of transparent methodologies to mitigate biases and strengthen scientific reliability.\nCollaborating with the Metapsy Project, I contributed to transforming vast datasets into actionable insights for mental health research. The project’s innovative approach to meta-analytic research domains aimed to reduce research waste and promote transparency, values that remain central to my work."
+  },
+  {
+    "objectID": "about_updated.html#teaching-and-collaboration",
+    "href": "about_updated.html#teaching-and-collaboration",
+    "title": "About Me",
+    "section": "Teaching and Collaboration",
+    "text": "Teaching and Collaboration\nIn addition to research, I have taught courses on evidence-based medicine, meta-analyses, and communication skills. These experiences have honed my ability to translate complex findings into actionable insights, whether for students, clinicians, or interdisciplinary teams.\nCollaborating on initiatives like WerteRadar and participating in the SPOKES Think Tank have deepened my engagement with the broader implications of science—such as fostering healthier academic cultures and empowering patients to make informed decisions about data sharing."
+  },
+  {
+    "objectID": "about_updated.html#motivation",
+    "href": "about_updated.html#motivation",
+    "title": "About Me",
+    "section": "Motivation",
+    "text": "Motivation\nWhat truly drives me is a peculiar form of intellectual curiosity. I want to understand not just what works, but how we know it works, and whether our confidence is justified. Whether addressing researcher degrees of freedom in psychometrics, ensuring cross-cultural fairness in PRO measures, or scrutinizing the robustness of meta-analyses, my goal is to challenge norms and elevate standards. This pursuit of clarity in science isn’t abstract—it’s ultimately about ensuring that when we claim to help people through psychological or medical interventions, we’re actually doing so.\nThis About Me section might seem extensive, but I believe context matters. Research doesn’t emerge from nowhere—it springs from the particular concerns, values, and intellectual traditions that researchers inhabit. By making these explicit, we allow others to better understand and evaluate our work, recognizing both its strengths and its inevitable limitations."
   }
 ]
