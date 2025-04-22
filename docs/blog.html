@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-subtitle','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -205,11 +205,11 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="conference">conference <span class="quarto-category-count">(6)</span></div><div class="category" data-category="differential item functioning">differential item functioning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multiverse">multiverse <span class="quarto-category-count">(5)</span></div><div class="category" data-category="phdone">phdone <span class="quarto-category-count">(1)</span></div><div class="category" data-category="psychometrics">psychometrics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="publication">publication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reference data">reference data <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -218,7 +218,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -234,216 +234,159 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-categories="phdone" data-listing-date-sort="1719698400000" data-listing-file-modified-sort="1745333723106" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./posts/talk-7.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+PhDone - No Updates for Now️
+</h5>
+<div class="card-text listing-description">
+Discontinued for now, currently traveling 🏖️ and exploring opportunities for my next role after defending my PhD thesis 🥳.
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="phdone" data-listing-date-sort="1719698400000" data-listing-file-modified-sort="1745333723106" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-7.html" class="no-external">PhDone - No Updates for Now️</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-7.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('phdone'); return false;">
-phdone
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-7.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Jun 30, 2024
 </div>
+</div>
+</div>
+</div>
 </a>
 </div>
+<div class="g-col-1" data-index="1" data-categories="conference,multiverse" data-listing-date-sort="1669158000000" data-listing-file-modified-sort="1666989843683" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="259">
+<a href="./posts/talk-6.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Upcoming talk at DGPPN 2022
+</h5>
+<div class="card-text listing-description">
+Background: Over the last decade, several meta-analyses and meta-reviews synthesized the evidence on the efficacy of digital mental health interventions for anxiety…
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="conference,multiverse" data-listing-date-sort="1669158000000" data-listing-file-modified-sort="1666989843683" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="259">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-6.html" class="no-external">Upcoming talk at DGPPN 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-6.html" class="no-external">The robustness of the efficacy of digital interventions for anxiety: an umbrella review and multiverse meta-analysis </a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
-conference
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('multiverse'); return false;">
-multiverse
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-6.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Nov 23, 2022
 </div>
+</div>
+</div>
+</div>
 </a>
 </div>
+<div class="g-col-1" data-index="2" data-categories="conference,multiverse" data-listing-date-sort="1668207600000" data-listing-file-modified-sort="1666989693938" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
+<a href="./posts/talk-5.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Upcoming talk at EACLIPT 2022
+</h5>
+<div class="card-text listing-description">
+<strong>Background:</strong> At several stages in any meta-analysis, researchers must decide between multiple equally defensible choices (e.g., different study inclusion criteria, different…
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="conference,multiverse" data-listing-date-sort="1668207600000" data-listing-file-modified-sort="1666989693938" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-5.html" class="no-external">Upcoming talk at EACLIPT 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-5.html" class="no-external">Using multiverse meta-analyses to investigate the robustness of mental health research on psychological treatments for depression and digital interventions for anxiety</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
-conference
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('multiverse'); return false;">
-multiverse
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-5.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Nov 12, 2022
 </div>
+</div>
+</div>
+</div>
 </a>
 </div>
+<div class="g-col-1" data-index="3" data-categories="conference,multiverse" data-listing-date-sort="1655935200000" data-listing-file-modified-sort="1745332857309" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+<a href="./posts/talk-4.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+SIPS 2022
+</h5>
+<div class="card-text listing-description">
+This session will tackle the multiverse approach to psychological science and data analysis: In each research project, researchers need to make a multitude of decisions…
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="conference,multiverse" data-listing-date-sort="1655935200000" data-listing-file-modified-sort="1745332857309" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-4.html" class="no-external">SIPS 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-4.html" class="no-external">Workshop: Multiverse Analyses - Introduction and Applications</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
-conference
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('multiverse'); return false;">
-multiverse
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-4.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Jun 23, 2022
 </div>
+</div>
+</div>
+</div>
 </a>
 </div>
+<div class="g-col-1" data-index="4" data-categories="conference,multiverse" data-listing-date-sort="1650664800000" data-listing-file-modified-sort="1745332846799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
+<a href="./posts/talk-3.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+ESMR 2022
+</h5>
+<div class="card-text listing-description">
+Even though conventional meta-analyses provide an overview of the published literature on a given research question, they do not consider different paths that could have…
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="conference,multiverse" data-listing-date-sort="1650664800000" data-listing-file-modified-sort="1745332846799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-3.html" class="no-external">ESMR 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-3.html" class="no-external">What if…? A very short primer on conducting multiverse meta-analyses in R</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
-conference
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('multiverse'); return false;">
-multiverse
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-3.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Apr 23, 2022
 </div>
+</div>
+</div>
+</div>
 </a>
 </div>
+<div class="g-col-1" data-index="5" data-categories="conference,reference data,psychometrics" data-listing-date-sort="1640991600000" data-listing-file-modified-sort="1745332800275" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="348">
+<a href="./posts/talk-1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+ISOQOL 2022
+</h5>
+<div class="card-text listing-description">
+<strong>Aims</strong>: The use of PROs in research and clinical practice requires availability of appropriate and relevant comparison data. We aim to model age, and sex-specific reference…
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="conference,reference data,psychometrics" data-listing-date-sort="1640991600000" data-listing-file-modified-sort="1745332800275" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="348">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-1.html" class="no-external">ISOQOL 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-1.html" class="no-external">Modeling general populations’ reference data for PROMIS item banks (Physical Functioning, Upper Extremities, and Pain interference) in multiple countries using quantile regression.</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
-conference
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('reference data'); return false;">
-reference data
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('psychometrics'); return false;">
-psychometrics
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-1.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Jan 1, 2022
 </div>
+</div>
+</div>
+</div>
 </a>
 </div>
+<div class="g-col-1" data-index="6" data-categories="publication,multiverse" data-listing-date-sort="1640732400000" data-listing-file-modified-sort="1745332973090" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
+<a href="./posts/publicatation-1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol
+</h5>
+<div class="card-text listing-description">
+<strong>Introduction</strong> In the past four decades, over 700 randomised controlled trials (RCTs) and 80 meta-analyses have examined the efficacy of psychological treatments for…
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="publication,multiverse" data-listing-date-sort="1640732400000" data-listing-file-modified-sort="1745332973090" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/publicatation-1.html" class="no-external">Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/publicatation-1.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('publication'); return false;">
-publication
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('multiverse'); return false;">
-multiverse
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/publicatation-1.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Dec 29, 2021
 </div>
+</div>
+</div>
+</div>
 </a>
 </div>
+<div class="g-col-1" data-index="7" data-categories="conference,differential item functioning,psychometrics" data-listing-date-sort="1637622000000" data-listing-file-modified-sort="1745332834628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
+<a href="./posts/talk-2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+PHO 2021
+</h5>
+<div class="card-text listing-description">
+<strong>Objective:</strong> We investigate the validity of comparisons across general populations from Argentina, Germany, and the US by evaluating differential item functioning (DIF) for…
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="conference,differential item functioning,psychometrics" data-listing-date-sort="1637622000000" data-listing-file-modified-sort="1745332834628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-2.html" class="no-external">PHO 2021</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-2.html" class="no-external">Differential item functioning of PROMIS physical functioning ceiling items across Argentina, Germany and the US.</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
-conference
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('differential item functioning'); return false;">
-differential item functioning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('psychometrics'); return false;">
-psychometrics
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-2.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Nov 23, 2021
 </div>
-</a>
 </div>
+</div>
+</div>
+</a>
 </div>
 </div>
 <div class="listing-no-matching d-none">

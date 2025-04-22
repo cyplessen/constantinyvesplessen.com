@@ -2,13 +2,13 @@
 title: News
 listing: 
   contents: "posts"
-  sort: "date dsc"
-  type: default
-  categories: true
+  sort: "date desc"
+  type: grid
+  grid-columns: 1
+  categories: false
   sort-ui: false
-  filter-ui: true
-  fields: [date, title, subtitle, categories]
-  #feed: true
-page-layout: full
-title-block-banner: false
+  filter-ui: false
+  fields: [title, description, date]
+  page-size: 10
+  date-format: "MMM D, YYYY"
 ---

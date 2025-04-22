@@ -1,0 +1,699 @@
+/*-- scss:defaults --*/
+// Using a serif font for body text similar to what's in the image
+$font-family-base: Georgia, 'Times New Roman', serif;
+$body-color: #333;
+
+// Using a bold sans-serif font for headings like in the image
+$headings-font-family: 'Helvetica Neue', Arial, sans-serif;
+$headings-font-weight: 800;  // Very bold for headlines
+
+// Other variables can remain similar
+$primary: #33658A;
+$secondary: #86BBD8;
+$navbar-bg: white;
+$navbar-fg: $primary;
+$navbar-active-bg: transparent;
+$navbar-active-color: darken($primary, 15%);
+$border-radius: 0;
+$link-color: $primary;
+$link-hover-color: darken($primary, 15%);
+
+/*-- scss:rules --*/
+// Import appropriate fonts
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600;900&display=swap');
+
+// Override with more specific font choices
+body {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 900;  // Extra bold for headlines
+  letter-spacing: -0.02em;  // Slightly tighter letter spacing for headlines
+  text-transform: none;  // Ensure headings aren't displayed in all caps
+}
+
+// Blog post styling to match the image
+.quarto-post, .content {
+  p {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+  }
+  
+  blockquote {
+    font-style: italic;
+    border-left: 3px solid #ddd;
+    padding-left: 1rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  // Styling for article headlines that matches the heavy bold style in the image
+  .listing-title {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 2.2rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #222;
+  }
+  
+  // Subtitle styling like in the image
+  .description {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 0.5rem;
+  }
+}
+
+// Keep your existing navbar styling
+/* Clean navbar approach with stable layout */
+.navbar {
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  
+  /* Brand styling - make it fixed width */
+  .navbar-brand {
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: visible;
+    font-size: 1.25rem;
+    flex-shrink: 0;
+    min-width: 320px; /* Set a fixed minimum width */
+    
+    @media (max-width: 576px) {
+      font-size: 1.1rem;
+      min-width: 280px;
+    }
+  }
+  
+  /* Container to keep layout stable */
+  .container-fluid {
+    justify-content: space-between;
+  }
+  
+  /* Nav styling */
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-link {
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    margin: 0 0.5rem;
+    
+    @media (max-width: 992px) {
+      font-size: 0.8rem;
+      margin: 0 0.3rem;
+      padding: 0.5rem 0.3rem;
+    }
+    
+    &:hover {
+      border-bottom: 2px solid $primary;
+    }
+    
+    &.active {
+      border-bottom: 2px solid $primary;
+    }
+  }
+}
+
+/* Adjust padding to ensure consistent spacing */
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    padding-left: 1rem;
+  }
+}
+
+// Keeping other styling from your original SCSS
+.page-title {
+  font-weight: 900; // Increased to match the image styling
+  margin-bottom: 2rem;
+  color: #222; // Darker color to match the image
+}
+
+.hero-banner {
+  background-color: #f8f9fa;
+  padding: 6rem 0;
+  text-align: center;
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  .lead {
+    font-size: 1.4rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+.feature-card {
+  background: white;
+  border: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+  margin-bottom: 2rem;
+  &:hover {
+    transform: translateY(-5px);
+  }
+  .card-title {
+    color: $primary;
+    font-weight: 700;
+  }
+}
+
+.publication, .talk {
+  margin-bottom: 2.5rem;
+  h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  .metadata {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  .abstract {
+    margin-top: 0.5rem;
+  }
+  .links {
+    margin-top: 0.5rem;
+    a {
+      margin-right: 1rem;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+.project {
+  margin-bottom: 3rem;
+  
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    margin-bottom: 1rem;
+  }
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  margin: 2rem 0;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+  
+  .profile-image {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  .bio {
+    h2 {
+      margin-top: 0;
+    }
+  }
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Social media icon styling */
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.about-link-item {
+  /* Force square shape regardless of screen size */
+  width: 50px;
+  height: 50px;
+  flex: 0 0 auto !important; /* Prevent growing or shrinking */
+  
+  /* Container styling */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Prevent full-width behavior on small screens */
+  max-width: 50px !important;
+  min-width: 50px !important;
+}
+
+/* Ensure the links don't stack at any screen size */
+@media (max-width: 576px) {
+  .about-link-item {
+    width: 40px;
+    height: 40px;
+    max-width: 40px !important;
+    min-width: 40px !important;
+  }
+}
+/* Social media icon styling */
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.about-link-item {
+  /* Force square shape regardless of screen size */
+  width: 50px;
+  height: 50px;
+  flex: 0 0 auto !important; /* Prevent growing or shrinking */
+  
+  /* Container styling */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Prevent full-width behavior on small screens */
+  max-width: 50px !important;
+  min-width: 50px !important;
+}
+
+/* Ensure the links don't stack at any screen size */
+@media (max-width: 576px) {
+  .about-link-item {
+    width: 40px;
+    height: 40px;
+    max-width: 40px !important;
+    min-width: 40px !important;
+  }
+}
+/* Override Quarto about page social media links behavior */
+.about-entity .about-links {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+.about-entity .about-links .about-link-item {
+  width: 50px !important;
+  height: 50px !important;
+  min-width: 50px !important;
+  max-width: 50px !important;
+  flex: 0 0 50px !important;
+  margin: 0.25rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Additional selectors to ensure we catch all possible cases */
+#quarto-about .about-links .about-link,
+.quarto-about .about-links .about-link,
+.quarto-about-jolla .about-links .about-link,
+.about .about-links .about-link,
+.about-entity .about-links .about-link {
+  width: auto !important;
+  max-width: none !important;
+}
+
+/* Target every possible breakpoint to override responsive behavior */
+@media (max-width: 991.98px) {
+  .about-entity .about-links .about-link-item {
+    width: 50px !important;
+    height: 50px !important;
+    min-width: 50px !important;
+    max-width: 50px !important;
+    flex: 0 0 50px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about-entity .about-links .about-link-item {
+    width: 45px !important;
+    height: 45px !important;
+    min-width: 45px !important;
+    max-width: 45px !important;
+    flex: 0 0 45px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .about-entity .about-links .about-link-item {
+    width: 40px !important;
+    height: 40px !important;
+    min-width: 40px !important;
+    max-width: 40px !important;
+    flex: 0 0 40px !important;
+  }
+}
+
+/* Make sure the full name with PhD is visible on mobile */
+.navbar {
+  .navbar-brand {
+    /* For very small mobile screens */
+    @media (max-width: 400px) {
+      font-size: 0.9rem !important;
+      line-height: 1.2 !important;
+      white-space: normal !important; /* Allow text to wrap if needed */
+      max-width: 75% !important; /* Give more space to the name */
+    }
+    
+    /* For slightly larger mobile screens */
+    @media (min-width: 401px) and (max-width: 576px) {
+      font-size: 1rem !important;
+      white-space: nowrap !important;
+    }
+  }
+  
+  /* Reduce padding on mobile */
+  @media (max-width: 576px) {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    
+    .container-fluid {
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
+    }
+  }
+  
+  /* Further reduce hamburger menu size on very small screens */
+  @media (max-width: 400px) {
+    .navbar-toggler {
+      padding: 0.25rem 0.5rem !important;
+    }
+  }
+}
+
+/* Modern blog listing styling */
+
+/* Overall page styling */
+.page-layout-full .content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Listing container */
+.quarto-listing {
+  margin-top: 2rem;
+}
+
+/* Category styling */
+.quarto-listing-category {
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1rem;
+}
+
+.quarto-category-cell {
+  font-size: 0.85rem;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Individual post styling */
+.quarto-listing-default {
+  .listing-post {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .listing-date {
+    font-size: 0.85rem;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.25rem;
+  }
+  
+  .listing-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .listing-title a {
+    color: #333;
+    text-decoration: none;
+    
+    &:hover {
+      color: #555;
+    }
+  }
+  
+  .listing-image-wrapper {
+    margin-left: 1.5rem;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  
+  .listing-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .listing-description {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .listing-categories {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .listing-category {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.2rem 0.5rem;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    color: #777;
+  }
+}
+
+/* Search and filter */
+.quarto-listing-filter {
+  margin-bottom: 2rem;
+  
+  .quarto-listing-filter-input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+}
+
+/* Featured image styling for posts */
+.quarto-post .quarto-post-image, 
+.post-image {
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+/* Brute force approach */
+div, article, section, .card, .listing-grid, .g-col-1, .quarto-grid-item {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Add custom styling */
+.quarto-grid-item {
+  margin-bottom: 30px !important;
+  padding-bottom: 30px !important;
+  border-bottom: 1px solid #eee !important;
+}
+
+.quarto-grid-item:last-child {
+  border-bottom: none !important;
+}
+
+/* Card elements within grid */
+.card {
+  background-color: transparent !important;
+}
+
+.card-body, .card-footer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  background-color: transparent !important;
+}
+
+/* More specific targeting */
+html body .quarto-grid.listing-grid .g-col-1 .card {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Smaller title font size */
+.quarto-grid-item .card-title, 
+.listing-title,
+.card-body h5 {
+  font-size: 1.3rem !important; 
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+}
+
+/* Make sure subtitle is properly sized in relation to title */
+.card-text.subtitle,
+.listing-subtitle {
+  font-size: 0.95rem !important;
+  margin-top: 0.3rem !important;
+  color: #444 !important;
+}
+
+/* Ensure reading time and date are sized appropriately */
+.listing-reading-time,
+.listing-date {
+  font-size: 0.85rem !important;
+  color: #666 !important;
+}
+
+/* Adjust date positioning to be closer to post content */
+.quarto-grid-item {
+  position: relative;
+}
+
+.listing-date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Add proper spacing between posts */
+.quarto-grid-item {
+  padding-top: 0 !important;
+  padding-bottom: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+/* Make the reading time and post title closer together */
+.listing-reading-time {
+  margin-bottom: 0.5rem !important;
+}
+
+/* Adjust overall grid layout */
+.quarto-grid.listing-grid {
+  row-gap: 0 !important;
+}
+
+/* Add visual separation between posts */
+.quarto-grid-item:not(:last-child) {
+  border-bottom: 1px solid #eee !important;
+}
+
+/* Style the posts to match the reference design */
+.quarto-grid-item {
+  padding: 1.5rem 0 !important;
+  margin: 0 !important;
+  border-bottom: 1px solid #eee !important;
+}
+
+/* Title styling */
+.card-title, .listing-title {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.3rem !important;
+  color: #333 !important;
+}
+
+/* Move date directly under title and style it */
+.listing-date {
+  display: block !important;
+  font-size: 0.85rem !important;
+  color: #777 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.7rem !important;
+  position: static !important; /* Override any absolute positioning */
+  text-align: left !important;
+  font-weight: normal !important;
+}
+
+/* Style the subtitle/description */
+.card-text.subtitle, .listing-subtitle {
+  font-size: 1rem !important;
+  color: #333 !important;
+  margin-top: 0.5rem !important;
+  line-height: 1.5 !important;
+}
+
+/* Update reading time to appear like a metadata item */
+.listing-reading-time {
+  font-size: 0.85rem !important;
+  color: #777 !important;
+  display: inline-block !important;
+  margin-right: 0.5rem !important;
+}
+
+/* Remove card styling */
+.card {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.card-body, .card-footer {
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+}
