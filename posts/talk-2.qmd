@@ -2,6 +2,7 @@
 title: "PHO 2021"
 subtitle: "Differential item functioning of PROMIS physical functioning ceiling items across Argentina, Germany and the US."
 categories: [conference, differential item functioning, psychometrics]
+date: November 23, 2021
 ---
 
 # Abstract

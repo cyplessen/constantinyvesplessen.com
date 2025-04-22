@@ -2,6 +2,7 @@
 title: "ISOQOL 2022"
 subtitle: "Modeling general populations' reference data for PROMIS item banks (Physical Functioning, Upper Extremities, and Pain interference) in multiple countries using quantile regression."
 categories: [conference, reference data, psychometrics]
+date: January 1, 2022
 ---
 
 # Conference Abstract

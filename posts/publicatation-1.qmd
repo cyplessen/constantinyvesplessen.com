@@ -1,6 +1,8 @@
 ---
 title: "Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol"
 categories: [publication, multiverse]
+
+date: December 29, 2021
 ---
 
 # Abstract

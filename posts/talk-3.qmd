@@ -2,6 +2,7 @@
 title: "ESMR 2022"
 subtitle: "What if…? A very short primer on conducting multiverse meta-analyses in R"
 categories: [conference, multiverse]
+date: April 23, 2022
 ---
 
 # Abstract
