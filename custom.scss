@@ -389,3 +389,40 @@ footer {
     flex: 0 0 40px !important;
   }
 }
+
+/* Make sure the full name with PhD is visible on mobile */
+.navbar {
+  .navbar-brand {
+    /* For very small mobile screens */
+    @media (max-width: 400px) {
+      font-size: 0.9rem !important;
+      line-height: 1.2 !important;
+      white-space: normal !important; /* Allow text to wrap if needed */
+      max-width: 75% !important; /* Give more space to the name */
+    }
+    
+    /* For slightly larger mobile screens */
+    @media (min-width: 401px) and (max-width: 576px) {
+      font-size: 1rem !important;
+      white-space: nowrap !important;
+    }
+  }
+  
+  /* Reduce padding on mobile */
+  @media (max-width: 576px) {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    
+    .container-fluid {
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
+    }
+  }
+  
+  /* Further reduce hamburger menu size on very small screens */
+  @media (max-width: 400px) {
+    .navbar-toggler {
+      padding: 0.25rem 0.5rem !important;
+    }
+  }
+}
