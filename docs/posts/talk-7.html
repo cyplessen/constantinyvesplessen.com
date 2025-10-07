@@ -119,21 +119,20 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about_updated.html"> 
-<span class="menu-text">About Me</span></a>
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog.html"> 
-<span class="menu-text">News</span></a>
+    <a class="nav-link" href="../code.html"> 
+<span class="menu-text">Code</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/cyplessen"> <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -191,6 +190,32 @@ cookieconsent.run({
 
 
 </main> <!-- /main -->
+<script>
+// Plain Language Summary Toggle Functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const buttons = document.querySelectorAll('.plain-summary-btn');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', function(e) {
+      e.preventDefault();
+      const summaryId = this.getAttribute('data-summary');
+      const summaryContent = document.getElementById(summaryId);
+
+      if (summaryContent) {
+        // Toggle the display
+        summaryContent.classList.toggle('show');
+
+        // Smooth scroll to summary if opening
+        if (summaryContent.classList.contains('show')) {
+          setTimeout(() => {
+            summaryContent.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }, 100);
+        }
+      }
+    });
+  });
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

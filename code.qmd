@@ -1,0 +1,76 @@
+---
+title: "Code & Software"
+---
+
+Open-source tools for meta-analysis, psychometrics, and patient-reported outcomes research.
+
+---
+
+## R Packages
+
+### metaMultiverse
+
+A comprehensive toolkit for conducting multiverse meta-analyses. Rather than making arbitrary choices about analytical decisions, systematically explore how different reasonable choices affect your conclusions.
+
+**Features:**
+
+- 11+ meta-analytic methods (Fixed-effects, REML, PET-PEESE, p-uniform*, RVE, and more)
+- E/U/N decision framework for principled multiverses
+- Beautiful specification curves and Vibration of Effects (VoE) plots
+- 446 passing tests with comprehensive documentation
+
+**Installation:**
+```r
+# Install from GitHub
+devtools::install_github("cyplessen/metaMultiverse")
+```
+
+**Resources:** [{{< fa brands github >}} GitHub](https://github.com/cyplessen/metaMultiverse) · [{{< fa book >}} Getting Started Vignette](https://github.com/cyplessen/metaMultiverse#-quick-start)
+
+**Related Publication:** Plessen et al. (2024). Digital mental health interventions for the treatment of depression: A multiverse meta-analysis. *Journal of Affective Disorders, 369*, 1031-1044. [{{< fa link >}}](https://doi.org/10.1016/j.jad.2024.10.018)
+
+---
+
+### lordifMultiverse
+
+An R package for detecting differential item functioning (DIF) using logistic regression in a multiverse analysis approach. Test various thresholds and criteria for DIF in a flexible and comprehensive manner.
+
+**Features:**
+
+- Logistic regression-based DIF detection
+- Test multiple criteria and thresholds simultaneously
+- Graceful warning handling during DIF detection
+- Visualization of flagged items across methods
+
+**Installation:**
+```r
+# Install from GitHub
+devtools::install_github("cyplessen/lordifMultiverse")
+```
+
+**Resources:** [{{< fa brands github >}} GitHub](https://github.com/cyplessen/lordifMultiverse) · [{{< fa book >}} Documentation](https://github.com/cyplessen/lordifMultiverse#usage)
+
+---
+
+## Shiny Applications
+
+### Patient-Specific PROMIS Reference Values
+
+A web application for obtaining patient-specific reference values for PROMIS Physical Functioning, Upper Extremity, and Pain Interference item banks in general populations from the USA, UK, and Germany. Enter patient information (age, sex, country) to obtain personalized plots and reference values.
+
+**Features:**
+
+- Visual "people plots" showing percentile rankings
+- Patient-specific reference tables
+- Compare patient scores to demographically-matched reference groups
+- Based on data from USA, UK, and Germany
+
+**Launch:** [{{< fa play-circle >}} Open App](http://www.common-metrics.org/PROMIS_PF_and_PI_Reference_scores.php) · [{{< fa brands github >}} Source Code](https://github.com/cyplessen/Patient-Specific-PROMIS-Reference-Values)
+
+**Related Publication:** Plessen et al. (2023). How are age, gender, and country differences associated with PROMIS physical function, upper extremity, and pain interference scores? *Clinical Orthopaedics and Related Research, 482*(2), 244-256. [{{< fa link >}}](https://doi.org/10.1097/CORR.0000000000002798)
+
+---
+
+### metaMultiverse Interactive Explorer
+
+*Coming soon* - Interactive Shiny app for exploring multiverse meta-analysis results.

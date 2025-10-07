@@ -1,36 +1,41 @@
 ---
-title: "Constantin Yves Plessen" 
-image: plessen_portrait.jpg
-about: 
-  template: trestles
-  image-shape: rounded
-  image-width: 15em
-  links:
-    - text: "{{< ai google-scholar >}}"
-      href: https://scholar.google.com/citations?user=_MGIK9oAAAAJ&hl=en&oi=ao
-      aria-label: Google Scholar
-    - text: "{{< iconify logos:bluesky >}}" 
-      href: https://bsky.app/profile/cyplessen.bsky.social
-      aria-label: bluesky
-    - icon: twitter
-      href: https://twitter.com/CYPlessen
-    - href: https://github.com/cyplessen
-      icon: github
-    - icon: mailbox
-      href: mailto:yves.plessen@gmail.com
-    - text: "{{< ai orcid >}}"
-      href: https://orcid.org/my-orcid?orcid=0000-0002-4907-3505
-      aria-label: ORCID ID
-    - text: "{{< ai researchgate >}}"
-      href: https://www.researchgate.net/profile/Constantin-Yves-Plessen?ev=hdr_xprf
-      aria-label: ResearchGate
-    - text: "{{< ai publons >}}"
-      href: https://www.webofscience.com/wos/author/record/HDN-5676-2022   
-      aria-label: Publons
-    - href: https://www.linkedin.com/in/constantin-plessen-404723203/
-      icon: linkedin
+title: ""
+toc: false
+page-layout: full
 ---
 
-# About
+<div style="display: grid; grid-template-columns: 1.2fr 2fr; gap: 4rem; align-items: center; max-width: 1200px; margin: 4rem auto; padding: 0 2rem;">
 
-I study the curious gap between what we claim to know and what we actually know. As a methodologist and advocate for scientific rigor, I've spent my career examining how evidence is constructed, interpreted, and applied—often finding that our most cherished research practices contain hidden fragilities. What fascinates me isn't just the production of knowledge but the messier question of how that knowledge translates into real improvements in human welfare. Whether scrutinizing thousands of meta-analyses to reveal how researcher choices shape conclusions, developing more sensitive measures of patient experiences, or creating practical tools for clinical decision-making, my work is driven by a simple conviction: that intellectual clarity serves human good. This pursuit isn't merely academic—it's about ensuring that when we claim our interventions help people, they actually do.
+<!-- Left column: Image -->
+<div>
+  <img src="plessen_portrait.jpg" alt="Constantin Yves Plessen" style="width: 100%; border-radius: 8px; box-shadow: 0 8px 24px rgba(255, 107, 107, 0.15), 0 2px 8px rgba(0, 0, 0, 0.08); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.02) rotate(0.5deg)'; this.style.boxShadow='0 12px 32px rgba(255, 107, 107, 0.25), 0 4px 12px rgba(0, 0, 0, 0.12)';" onmouseout="this.style.transform='scale(1) rotate(0deg)'; this.style.boxShadow='0 8px 24px rgba(255, 107, 107, 0.15), 0 2px 8px rgba(0, 0, 0, 0.08)';">
+</div>
+
+<!-- Right column: Content -->
+<div>
+
+# I'm a psychologist studying how we construct, interpret, and apply evidence in psychological and medical research.
+
+I am a researcher at [Charité Center for Patient-Centered Outcomes Research](https://cpcor.charite.de/en/) & completed my PhD at [VU Amsterdam](https://research.vu.nl/en/persons/constantin-yves-plessen).
+
+</div>
+
+</div>
+
+---
+
+## Research Areas
+
+My work spans two complementary domains in the evidence generation pipeline:
+
+**Psychometrics & Measurement Development**
+I investigate how we can best measure important domains such as physical functioning, pain interference, and depression from the patient perspective. This includes examining [measurement invariance across cultures](https://doi.org/10.1007/s11136-024-03866-y), developing [reference values for clinical interpretation](https://doi.org/10.1097/CORR.0000000000002798), and [overcoming floor and ceiling effects](https://doi.org/10.1302/2046-3758.1210.BJR-2022-0457.R1) in outcome measurement.
+
+**Research Synthesis & Meta-Science**
+I've pioneered multiverse meta-analyses, running thousands of analytical variations on [psychotherapy](https://doi.org/10.1136/bmjment-2022-300626) and [digital interventions](https://doi.org/10.1016/j.jad.2024.10.018) for depression. This approach reveals how analytical choices shape conclusions about treatment efficacy, advancing transparency and robustness in evidence synthesis.
+
+---
+
+## Contact
+
+[{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=_MGIK9oAAAAJ) · [{{< ai orcid >}} ORCID](https://orcid.org/0000-0002-4907-3505) · [{{< fa brands github >}} GitHub](https://github.com/cyplessen) · [{{< fa envelope >}} Email](mailto:yves.plessen@gmail.com)

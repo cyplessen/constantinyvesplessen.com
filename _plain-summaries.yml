@@ -1,0 +1,143 @@
+# Plain Language Summaries for Publications
+# Format: YAML data structure for easy integration
+
+summaries:
+  plessen-2025-dif-promis:
+    en: |
+      **What did we do?**
+      We tested whether health questionnaires work the same way in English, German, and Spanish. We looked at questions about physical activities that healthy people can usually do easily.
+
+      **Why does it matter?**
+      Doctors and researchers need to know if questionnaires measure the same thing across different languages. If they don't, we can't fairly compare health between countries or language groups.
+
+      **What did we find?**
+      Most questions worked similarly across all three languages. However, 9 out of 35 questions worked slightly differently - especially questions about running and jumping. This means we need to be careful when comparing these specific questions across languages.
+    de: |
+      **Was haben wir gemacht?**
+      Wir haben getestet, ob Gesundheitsfragebögen in Englisch, Deutsch und Spanisch gleich funktionieren. Wir haben Fragen zu körperlichen Aktivitäten untersucht, die gesunde Menschen normalerweise leicht machen können.
+
+      **Warum ist das wichtig?**
+      Ärzte und Forscher müssen wissen, ob Fragebögen in verschiedenen Sprachen dasselbe messen. Wenn nicht, können wir die Gesundheit zwischen Ländern oder Sprachgruppen nicht fair vergleichen.
+
+      **Was haben wir herausgefunden?**
+      Die meisten Fragen funktionierten in allen drei Sprachen ähnlich. Aber 9 von 35 Fragen funktionierten etwas anders - besonders Fragen über Rennen und Springen. Das bedeutet, wir müssen vorsichtig sein, wenn wir diese speziellen Fragen zwischen Sprachen vergleichen.
+
+  plessen-2024-digital-interventions:
+    en: |
+      **What did we do?**
+      We combined results from 125 studies (with over 32,000 people) to see if apps and websites can help people with depression. We tested thousands of different ways to analyze the data to see if the results hold up.
+
+      **Why does it matter?**
+      Depression affects millions of people worldwide. Digital tools like apps could help many more people than traditional therapy alone, but we need to know if they really work.
+
+      **What did we find?**
+      Digital interventions help reduce depression symptoms with a moderate effect. The results were consistent across thousands of different analyses. They work best when: someone guides you through the program, you're an adult, you have diagnosed depression, and the program compares to no treatment. The effects last at least 24 weeks.
+    de: |
+      **Was haben wir gemacht?**
+      Wir haben Ergebnisse von 125 Studien (mit über 32.000 Menschen) kombiniert, um zu sehen, ob Apps und Websites Menschen mit Depressionen helfen können. Wir haben tausende verschiedene Wege getestet, die Daten zu analysieren, um zu sehen, ob die Ergebnisse stabil sind.
+
+      **Warum ist das wichtig?**
+      Depressionen betreffen Millionen von Menschen weltweit. Digitale Werkzeuge wie Apps könnten viel mehr Menschen helfen als traditionelle Therapie allein - aber wir müssen wissen, ob sie wirklich funktionieren.
+
+      **Was haben wir herausgefunden?**
+      Digitale Interventionen helfen, Depressionssymptome mit einem mittleren Effekt zu reduzieren. Die Ergebnisse waren über tausende verschiedene Analysen hinweg konsistent. Sie funktionieren am besten wenn: jemand Sie durch das Programm begleitet, Sie erwachsen sind, Sie eine diagnostizierte Depression haben, und das Programm mit keiner Behandlung verglichen wird. Die Effekte halten mindestens 24 Wochen an.
+
+  plessen-2023-psychotherapy-multiverse:
+    en: |
+      **What did we do?**
+      We analyzed 92 studies comparing psychotherapy to no treatment for depression. Instead of making one analysis, we ran 4,281 different analyses using different reasonable choices researchers could make.
+
+      **Why does it matter?**
+      Research results can change depending on how researchers analyze their data. We wanted to see if psychotherapy for depression works no matter how you analyze the data, or if results depend on researcher choices.
+
+      **What did we find?**
+      Good news: Psychotherapy works for depression across all 4,281 analyses. However, the size of the effect varied quite a bit (from small to large) depending on analysis choices. Studies with weaker methods, waitlist control groups, and no correction for publication bias showed bigger effects. This means we need to be transparent about our choices when doing research.
+    de: |
+      **Was haben wir gemacht?**
+      Wir haben 92 Studien analysiert, die Psychotherapie mit keiner Behandlung für Depression verglichen. Anstatt eine Analyse zu machen, haben wir 4.281 verschiedene Analysen mit unterschiedlichen vernünftigen Entscheidungen durchgeführt, die Forscher treffen könnten.
+
+      **Warum ist das wichtig?**
+      Forschungsergebnisse können sich ändern, je nachdem wie Forscher ihre Daten analysieren. Wir wollten sehen, ob Psychotherapie für Depression funktioniert, egal wie man die Daten analysiert, oder ob Ergebnisse von Forscherentscheidungen abhängen.
+
+      **Was haben wir herausgefunden?**
+      Gute Nachricht: Psychotherapie funktioniert für Depression über alle 4.281 Analysen hinweg. Aber die Größe des Effekts variierte ziemlich stark (von klein bis groß), abhängig von Analyseentscheidungen. Studien mit schwächeren Methoden, Wartelisten-Kontrollgruppen und ohne Korrektur für Publikationsbias zeigten größere Effekte. Das bedeutet, wir müssen transparent über unsere Entscheidungen sein, wenn wir forschen.
+
+  plessen-2023-promis-reference-values:
+    en: |
+      **What did we do?**
+      We created reference values for health questionnaires about physical function and pain. We studied how age, gender, and country (USA, UK, Germany) affect people's scores, using data from over 15,000 people.
+
+      **Why does it matter?**
+      When a patient gets a score on a health questionnaire, doctors need to know: "Is this normal for someone their age and gender?" Reference values help doctors interpret scores and make better treatment decisions.
+
+      **What did we find?**
+      Physical function decreases with age, especially for upper body activities. Women report slightly more difficulty with physical tasks than men. Country differences were small. We built a website tool where doctors can enter a patient's age, gender, and country to see how their score compares to similar people. This helps make scores meaningful and actionable.
+    de: |
+      **Was haben wir gemacht?**
+      Wir haben Referenzwerte für Gesundheitsfragebögen über körperliche Funktion und Schmerzen erstellt. Wir haben untersucht, wie Alter, Geschlecht und Land (USA, UK, Deutschland) die Punktzahlen von Menschen beeinflussen, mit Daten von über 15.000 Menschen.
+
+      **Warum ist das wichtig?**
+      Wenn ein Patient eine Punktzahl auf einem Gesundheitsfragebogen bekommt, müssen Ärzte wissen: "Ist das normal für jemanden in diesem Alter und Geschlecht?" Referenzwerte helfen Ärzten, Punktzahlen zu interpretieren und bessere Behandlungsentscheidungen zu treffen.
+
+      **Was haben wir herausgefunden?**
+      Die körperliche Funktion nimmt mit dem Alter ab, besonders für Oberkörperaktivitäten. Frauen berichten etwas mehr Schwierigkeiten mit körperlichen Aufgaben als Männer. Länderunterschiede waren klein. Wir haben ein Website-Tool gebaut, wo Ärzte Alter, Geschlecht und Land eines Patienten eingeben können, um zu sehen, wie ihre Punktzahl im Vergleich zu ähnlichen Menschen ist. Dies hilft, Punktzahlen bedeutungsvoll und umsetzbar zu machen.
+
+  plessen-2022-multiverse-protocol:
+    en: |
+      **What did we do?**
+      We published our plan (called a protocol) for how we would study psychotherapy for depression using multiverse analysis. We described our methods before seeing the results, to be transparent.
+
+      **Why does it matter?**
+      When researchers decide how to analyze data after seeing results, they might (consciously or not) choose methods that make results look better. By publishing our plan first, we commit to our methods and make our research more trustworthy.
+
+      **What did we find?**
+      This is a protocol paper - it describes what we planned to do. The actual results were published in 2023 (see that paper above). Publishing protocols like this is good research practice and helps prevent bias in science.
+    de: |
+      **Was haben wir gemacht?**
+      Wir haben unseren Plan (genannt Protokoll) veröffentlicht, wie wir Psychotherapie für Depression mit Multiversum-Analyse studieren würden. Wir haben unsere Methoden beschrieben, bevor wir die Ergebnisse gesehen haben, um transparent zu sein.
+
+      **Warum ist das wichtig?**
+      Wenn Forscher entscheiden, wie sie Daten analysieren, nachdem sie Ergebnisse gesehen haben, könnten sie (bewusst oder unbewusst) Methoden wählen, die Ergebnisse besser aussehen lassen. Indem wir unseren Plan zuerst veröffentlichen, verpflichten wir uns zu unseren Methoden und machen unsere Forschung vertrauenswürdiger.
+
+      **Was haben wir herausgefunden?**
+      Dies ist ein Protokoll-Papier - es beschreibt, was wir geplant haben zu tun. Die tatsächlichen Ergebnisse wurden 2023 veröffentlicht (siehe das Papier oben). Protokolle wie dieses zu veröffentlichen ist gute Forschungspraxis und hilft, Verzerrungen in der Wissenschaft zu verhindern.
+
+  plessen-2020-humor-personality:
+    en: |
+      **What did we do?**
+      We combined results from many studies (a meta-analysis) to see how different humor styles relate to personality traits. We looked at four humor styles: affiliative (bringing people together), self-enhancing (staying positive), aggressive (putting others down), and self-defeating (making fun of yourself).
+
+      **Why does it matter?**
+      Humor is an important part of social life and mental health. Understanding how humor relates to personality helps us understand individual differences and potentially identify people who might benefit from interventions.
+
+      **What did we find?**
+      Positive humor styles (affiliative, self-enhancing) were linked to extraversion and openness. Negative humor styles (aggressive, self-defeating) were linked to neuroticism. Self-defeating humor was negatively related to conscientiousness. These patterns help us understand how humor fits into broader personality structures.
+    de: |
+      **Was haben wir gemacht?**
+      Wir haben Ergebnisse aus vielen Studien (eine Meta-Analyse) kombiniert, um zu sehen, wie verschiedene Humor-Stile mit Persönlichkeitsmerkmalen zusammenhängen. Wir haben vier Humor-Stile betrachtet: affiliativ (Menschen zusammenbringen), selbst-verstärkend (positiv bleiben), aggressiv (andere herabsetzen) und selbst-erniedrigend (sich selbst lustig machen).
+
+      **Warum ist das wichtig?**
+      Humor ist ein wichtiger Teil des sozialen Lebens und der psychischen Gesundheit. Zu verstehen, wie Humor mit Persönlichkeit zusammenhängt, hilft uns, individuelle Unterschiede zu verstehen und möglicherweise Menschen zu identifizieren, die von Interventionen profitieren könnten.
+
+      **Was haben wir herausgefunden?**
+      Positive Humor-Stile (affiliativ, selbst-verstärkend) waren mit Extraversion und Offenheit verbunden. Negative Humor-Stile (aggressiv, selbst-erniedrigend) waren mit Neurotizismus verbunden. Selbst-erniedrigender Humor war negativ mit Gewissenhaftigkeit verbunden. Diese Muster helfen uns zu verstehen, wie Humor in breitere Persönlichkeitsstrukturen passt.
+
+  plessen-2016-austrian-psychotherapy:
+    en: |
+      **What did we do?**
+      We analyzed the supply and demand for outpatient psychotherapy in Austria. We looked at how many therapists are available, how many people need therapy, and whether supply meets demand across different regions of Austria.
+
+      **Why does it matter?**
+      Many people with mental health problems need psychotherapy, but if there aren't enough therapists or they're in the wrong places, people can't get help. Understanding gaps in care helps policymakers allocate resources better.
+
+      **What did we find?**
+      There were significant gaps between supply and demand for psychotherapy in Austria. Some regions had much better access than others. The findings highlighted the need for better planning of psychotherapy services to ensure everyone who needs help can access it.
+    de: |
+      **Was haben wir gemacht?**
+      Wir haben Angebot und Nachfrage für ambulante Psychotherapie in Österreich analysiert. Wir haben untersucht, wie viele Therapeuten verfügbar sind, wie viele Menschen Therapie brauchen, und ob Angebot und Nachfrage in verschiedenen Regionen Österreichs übereinstimmen.
+
+      **Warum ist das wichtig?**
+      Viele Menschen mit psychischen Gesundheitsproblemen brauchen Psychotherapie, aber wenn es nicht genug Therapeuten gibt oder sie an den falschen Orten sind, können Menschen keine Hilfe bekommen. Versorgungslücken zu verstehen hilft politischen Entscheidungsträgern, Ressourcen besser zu verteilen.
+
+      **Was haben wir herausgefunden?**
+      Es gab signifikante Lücken zwischen Angebot und Nachfrage für Psychotherapie in Österreich. Manche Regionen hatten viel besseren Zugang als andere. Die Ergebnisse zeigten die Notwendigkeit besserer Planung von Psychotherapie-Diensten, um sicherzustellen, dass jeder, der Hilfe braucht, diese auch bekommen kann.

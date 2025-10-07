@@ -7,12 +7,14 @@ website:
   site-url: "constantinyvesplessen.com"
   navbar:
     left:
-      - about_updated.qmd
-      - publications.qmd
-      - blog.qmd
-      - icon: github
-        href: https://github.com/cyplessen
-        aria-label: GitHub
+      - text: Home
+        href: index.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Code
+        href: code.qmd
+      - text: Blog
+        href: blog.qmd
       #- icon: twitter
       #  href: https://twitter.com/CYPlessen
       #  aria-label: twitter
@@ -42,5 +44,6 @@ format:
   html:
     theme: [lux, custom.scss]
     css: styles.css
+    include-after-body: plain-summaries-include.html
     toc: true
     page-layout: full

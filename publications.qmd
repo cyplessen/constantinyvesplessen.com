@@ -5,44 +5,268 @@ editor: visual
 
 ## First Author Publications
 
-Plessen, C. Y., Fischer, F., Hartmann, C., Liegl, G., Rose, M., Garrido, C. J., Terrill, A. L., Kravitz, R. L., Zumbrunn, T., Latimer, S., Amtmann, D., & Morgan, E. M. (in press). Differential item functioning between English, German, and Spanish PROMIS® physical function ceiling items. *Quality of Life Research*. [doi:10.1007/s11136-024-03866-y](https://doi.org/10.1007/s11136-024-03866-y)
+Plessen, C. Y. (2024). *Research Synthesis of Psychological Interventions for Mental Health* (Doctoral dissertation). Vrije Universiteit Amsterdam. [📄](https://research.vu.nl/files/318077080/phd-plessen-final%20-%20663a29fa8339c.pdf)
 
-Plessen, C. Y., Panagiotopoulou, O. M., Tong, L., Ciharova, M., & Cuijpers, P. (2024). Digital mental health interventions for the treatment of depression: A multiverse meta-analysis. *Journal of Affective Disorders, 369*, 1031-1044. [doi:10.1016/j.jad.2024.10.018](https://doi.org/10.1016/j.jad.2024.10.018)
+Plessen, C. Y., Fischer, F., Hartmann, C., Liegl, G., Rose, M., Garrido, C. J., Terrill, A. L., Kravitz, R. L., Zumbrunn, T., Latimer, S., Amtmann, D., & Morgan, E. M. (2025). Differential item functioning between English, German, and Spanish PROMIS® physical function ceiling items. *Quality of Life Research, 34*, 1377-1391. [{{< fa link >}}](https://doi.org/10.1007/s11136-024-03866-y)
+[📄](pdfs/plessen-2025-dif-promis-physical-function.pdf) [{{< fa brands github >}}](https://github.com/cyplessen/multiverseDIF-OSF) [{{< fa database >}}](https://osf.io/c75qv/) <button class="plain-summary-btn" data-summary="summary-dif-2025">📖</button>
 
-Plessen, C. Y., Karyotaki, E., Miguel, C., Ciharova, M., & Cuijpers, P. (2023). Exploring the efficacy of psychotherapies for depression: a multiverse meta-analysis. *BMJ Mental Health, 26*(1), e300626. [doi:10.1136/bmjment-2022-300626](https://doi.org/10.1136/bmjment-2022-300626)
+::: {#summary-dif-2025 .plain-summary-content}
+<div class="summary-lang-section">
+<h4><span class="lang-flag">🇬🇧</span>Plain English</h4>
 
-Plessen, C. Y., Hartmann, C., Heng, M., Liegl, G., Fischer, F., & Rose, M. (2023). How are age, gender, and country differences associated with PROMIS physical function, upper extremity, and pain interference scores? *Clinical Orthopaedics and Related Research, 482*(2), 244-256. [doi:10.1097/CORR.0000000000002798](https://doi.org/10.1097/CORR.0000000000002798)
+**What did we do?**
+We tested whether health questionnaires work the same way in English, German, and Spanish. We looked at questions about physical activities that healthy people can usually do easily.
 
-Plessen, C. Y., Karyotaki, E., & Cuijpers, P. (2022). Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol. *BMJ Open, 12*(1), e050197. [doi:10.1136/bmjopen-2021-050197](https://doi.org/10.1136/bmjopen-2021-050197)
+**Why does it matter?**
+Doctors and researchers need to know if questionnaires measure the same thing across different languages. If they don't, we can't fairly compare health between countries or language groups.
 
-Plessen, C. Y., Franken, F., Kathofer, M., Kotlyar, E., Maierwieser, R. J., Mayer, A., Rattner, K., Schmid, R. R., Sobisch, M., Ster, C., Wolfmayer, C., & Tran, U. S. (2020). Humor-styles and personality traits: An updated meta-analysis. *Personality and Individual Differences, 154*, 109676. [doi:10.1016/j.paid.2019.109676](https://doi.org/10.1016/j.paid.2019.109676)
+**What did we find?**
+Most questions worked similarly across all three languages. However, 9 out of 35 questions worked slightly differently - especially questions about running and jumping. This means we need to be careful when comparing these specific questions across languages.
+</div>
+
+<div class="summary-lang-section">
+<h4><span class="lang-flag">🇩🇪</span>Einfache Sprache</h4>
+
+**Was haben wir gemacht?**
+Wir haben getestet, ob Gesundheitsfragebögen in Englisch, Deutsch und Spanisch gleich funktionieren. Wir haben Fragen zu körperlichen Aktivitäten untersucht, die gesunde Menschen normalerweise leicht machen können.
+
+**Warum ist das wichtig?**
+Ärzte und Forscher müssen wissen, ob Fragebögen in verschiedenen Sprachen dasselbe messen. Wenn nicht, können wir die Gesundheit zwischen Ländern oder Sprachgruppen nicht fair vergleichen.
+
+**Was haben wir herausgefunden?**
+Die meisten Fragen funktionierten in allen drei Sprachen ähnlich. Aber 9 von 35 Fragen funktionierten etwas anders - besonders Fragen über Rennen und Springen. Das bedeutet, wir müssen vorsichtig sein, wenn wir diese speziellen Fragen zwischen Sprachen vergleichen.
+</div>
+:::
+
+Plessen, C. Y., Panagiotopoulou, O. M., Tong, L., Ciharova, M., & Cuijpers, P. (2024). Digital mental health interventions for the treatment of depression: A multiverse meta-analysis. *Journal of Affective Disorders, 369*, 1031-1044. [{{< fa link >}}](https://doi.org/10.1016/j.jad.2024.10.018)
+[📄](pdfs/plessen-2024-digital-interventions-depression.pdf) [{{< fa brands github >}}](https://github.com/cyplessen/multiverse-meta-analysis-depression) <button class="plain-summary-btn" data-summary="summary-digital-2024">📖</button>
+
+::: {#summary-digital-2024 .plain-summary-content}
+<div class="summary-lang-section">
+<h4><span class="lang-flag">🇬🇧</span>Plain English</h4>
+
+**What did we do?**
+We combined results from 125 studies (with over 32,000 people) to see if apps and websites can help people with depression. We tested thousands of different ways to analyze the data to see if the results hold up.
+
+**Why does it matter?**
+Depression affects millions of people worldwide. Digital tools like apps could help many more people than traditional therapy alone, but we need to know if they really work.
+
+**What did we find?**
+Digital interventions help reduce depression symptoms with a moderate effect. The results were consistent across thousands of different analyses. They work best when: someone guides you through the program, you're an adult, you have diagnosed depression, and the program compares to no treatment. The effects last at least 24 weeks.
+</div>
+
+<div class="summary-lang-section">
+<h4><span class="lang-flag">🇩🇪</span>Einfache Sprache</h4>
+
+**Was haben wir gemacht?**
+Wir haben Ergebnisse von 125 Studien (mit über 32.000 Menschen) kombiniert, um zu sehen, ob Apps und Websites Menschen mit Depressionen helfen können. Wir haben tausende verschiedene Wege getestet, die Daten zu analysieren, um zu sehen, ob die Ergebnisse stabil sind.
+
+**Warum ist das wichtig?**
+Depressionen betreffen Millionen von Menschen weltweit. Digitale Werkzeuge wie Apps könnten viel mehr Menschen helfen als traditionelle Therapie allein - aber wir müssen wissen, ob sie wirklich funktionieren.
+
+**Was haben wir herausgefunden?**
+Digitale Interventionen helfen, Depressionssymptome mit einem mittleren Effekt zu reduzieren. Die Ergebnisse waren über tausende verschiedene Analysen hinweg konsistent. Sie funktionieren am besten wenn: jemand Sie durch das Programm begleitet, Sie erwachsen sind, Sie eine diagnostizierte Depression haben, und das Programm mit keiner Behandlung verglichen wird. Die Effekte halten mindestens 24 Wochen an.
+</div>
+:::
+
+Plessen, C. Y., Karyotaki, E., Miguel, C., Ciharova, M., & Cuijpers, P. (2023). Exploring the efficacy of psychotherapies for depression: a multiverse meta-analysis. *BMJ Mental Health, 26*(1), e300626. [{{< fa link >}}](https://doi.org/10.1136/bmjment-2022-300626)
+[📄](pdfs/plessen-2023-psychotherapy-multiverse.pdf) [{{< fa brands github >}}](https://github.com/cyplessen/multiverse-psychotherapy-depression) [{{< fa database >}}](https://osf.io/mtx8a/) <button class="plain-summary-btn" data-summary="summary-psych-2023">📖</button>
+
+::: {#summary-psych-2023 .plain-summary-content}
+<div class="summary-lang-section">
+<h4><span class="lang-flag">🇬🇧</span>Plain English</h4>
+
+**What did we do?**
+We analyzed 92 studies comparing psychotherapy to no treatment for depression. Instead of making one analysis, we ran 4,281 different analyses using different reasonable choices researchers could make.
+
+**Why does it matter?**
+Research results can change depending on how researchers analyze their data. We wanted to see if psychotherapy for depression works no matter how you analyze the data, or if results depend on researcher choices.
+
+**What did we find?**
+Good news: Psychotherapy works for depression across all 4,281 analyses. However, the size of the effect varied quite a bit (from small to large) depending on analysis choices. Studies with weaker methods, waitlist control groups, and no correction for publication bias showed bigger effects. This means we need to be transparent about our choices when doing research.
+</div>
+
+<div class="summary-lang-section">
+<h4><span class="lang-flag">🇩🇪</span>Einfache Sprache</h4>
+
+**Was haben wir gemacht?**
+Wir haben 92 Studien analysiert, die Psychotherapie mit keiner Behandlung für Depression verglichen. Anstatt eine Analyse zu machen, haben wir 4.281 verschiedene Analysen mit unterschiedlichen vernünftigen Entscheidungen durchgeführt, die Forscher treffen könnten.
+
+**Warum ist das wichtig?**
+Forschungsergebnisse können sich ändern, je nachdem wie Forscher ihre Daten analysieren. Wir wollten sehen, ob Psychotherapie für Depression funktioniert, egal wie man die Daten analysiert, oder ob Ergebnisse von Forscherentscheidungen abhängen.
+
+**Was haben wir herausgefunden?**
+Gute Nachricht: Psychotherapie funktioniert für Depression über alle 4.281 Analysen hinweg. Aber die Größe des Effekts variierte ziemlich stark (von klein bis groß), abhängig von Analyseentscheidungen. Studien mit schwächeren Methoden, Wartelisten-Kontrollgruppen und ohne Korrektur für Publikationsbias zeigten größere Effekte. Das bedeutet, wir müssen transparent über unsere Entscheidungen sein, wenn wir forschen.
+</div>
+:::
+
+Plessen, C. Y., Hartmann, C., Heng, M., Liegl, G., Fischer, F., & Rose, M. (2023). How are age, gender, and country differences associated with PROMIS physical function, upper extremity, and pain interference scores? *Clinical Orthopaedics and Related Research, 482*(2), 244-256. [{{< fa link >}}](https://doi.org/10.1097/CORR.0000000000002798)
+[📄](pdfs/plessen-2023-promis-reference-values.pdf) [{{< fa brands github >}}](https://github.com/cyplessen/PROMISreferenceValues) [{{< fa laptop-code >}}](https://github.com/cyplessen/Patient-Specific-PROMIS-Reference-Values) <button class="plain-summary-btn" data-summary="summary-promis-2023">📖</button>
+
+::: {#summary-promis-2023 .plain-summary-content}
+<div class="summary-lang-section">
+<h4><span class="lang-flag">🇬🇧</span>Plain English</h4>
+
+**What did we do?**
+We created reference values for health questionnaires about physical function and pain. We studied how age, gender, and country (USA, UK, Germany) affect people's scores, using data from over 15,000 people.
+
+**Why does it matter?**
+When a patient gets a score on a health questionnaire, doctors need to know: "Is this normal for someone their age and gender?" Reference values help doctors interpret scores and make better treatment decisions.
+
+**What did we find?**
+Physical function decreases with age, especially for upper body activities. Women report slightly more difficulty with physical tasks than men. Country differences were small. We built a website tool where doctors can enter a patient's age, gender, and country to see how their score compares to similar people. This helps make scores meaningful and actionable.
+</div>
+
+<div class="summary-lang-section">
+<h4><span class="lang-flag">🇩🇪</span>Einfache Sprache</h4>
+
+**Was haben wir gemacht?**
+Wir haben Referenzwerte für Gesundheitsfragebögen über körperliche Funktion und Schmerzen erstellt. Wir haben untersucht, wie Alter, Geschlecht und Land (USA, UK, Deutschland) die Punktzahlen von Menschen beeinflussen, mit Daten von über 15.000 Menschen.
+
+**Warum ist das wichtig?**
+Wenn ein Patient eine Punktzahl auf einem Gesundheitsfragebogen bekommt, müssen Ärzte wissen: "Ist das normal für jemanden in diesem Alter und Geschlecht?" Referenzwerte helfen Ärzten, Punktzahlen zu interpretieren und bessere Behandlungsentscheidungen zu treffen.
+
+**Was haben wir herausgefunden?**
+Die körperliche Funktion nimmt mit dem Alter ab, besonders für Oberkörperaktivitäten. Frauen berichten etwas mehr Schwierigkeiten mit körperlichen Aufgaben als Männer. Länderunterschiede waren klein. Wir haben ein Website-Tool gebaut, wo Ärzte Alter, Geschlecht und Land eines Patienten eingeben können, um zu sehen, wie ihre Punktzahl im Vergleich zu ähnlichen Menschen ist. Dies hilft, Punktzahlen bedeutungsvoll und umsetzbar zu machen.
+</div>
+:::
+
+Plessen, C. Y., Karyotaki, E., & Cuijpers, P. (2022). Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol. *BMJ Open, 12*(1), e050197. [{{< fa link >}}](https://doi.org/10.1136/bmjopen-2021-050197)
+[📄](pdfs/plessen-2022-multiverse-protocol.pdf) [{{< fa database >}}](https://osf.io/mtx8a/) <button class="plain-summary-btn" data-summary="summary-protocol-2022">📖</button>
+
+::: {#summary-protocol-2022 .plain-summary-content}
+<div class="summary-lang-section">
+<h4><span class="lang-flag">🇬🇧</span>Plain English</h4>
+
+**What did we do?**
+We published our plan (called a protocol) for how we would study psychotherapy for depression using multiverse analysis. We described our methods before seeing the results, to be transparent.
+
+**Why does it matter?**
+When researchers decide how to analyze data after seeing results, they might (consciously or not) choose methods that make results look better. By publishing our plan first, we commit to our methods and make our research more trustworthy.
+
+**What did we find?**
+This is a protocol paper - it describes what we planned to do. The actual results were published in 2023 (see that paper above). Publishing protocols like this is good research practice and helps prevent bias in science.
+</div>
+
+<div class="summary-lang-section">
+<h4><span class="lang-flag">🇩🇪</span>Einfache Sprache</h4>
+
+**Was haben wir gemacht?**
+Wir haben unseren Plan (genannt Protokoll) veröffentlicht, wie wir Psychotherapie für Depression mit Multiversum-Analyse studieren würden. Wir haben unsere Methoden beschrieben, bevor wir die Ergebnisse gesehen haben, um transparent zu sein.
+
+**Warum ist das wichtig?**
+Wenn Forscher entscheiden, wie sie Daten analysieren, nachdem sie Ergebnisse gesehen haben, könnten sie (bewusst oder unbewusst) Methoden wählen, die Ergebnisse besser aussehen lassen. Indem wir unseren Plan zuerst veröffentlichen, verpflichten wir uns zu unseren Methoden und machen unsere Forschung vertrauenswürdiger.
+
+**Was haben wir herausgefunden?**
+Dies ist ein Protokoll-Papier - es beschreibt, was wir geplant haben zu tun. Die tatsächlichen Ergebnisse wurden 2023 veröffentlicht (siehe das Papier oben). Protokolle wie dieses zu veröffentlichen ist gute Forschungspraxis und hilft, Verzerrungen in der Wissenschaft zu verhindern.
+</div>
+:::
+
+Plessen, C. Y., Franken, F., Kathofer, M., Kotlyar, E., Maierwieser, R. J., Mayer, A., Rattner, K., Schmid, R. R., Sobisch, M., Ster, C., Wolfmayer, C., & Tran, U. S. (2020). Humor-styles and personality traits: An updated meta-analysis. *Personality and Individual Differences, 154*, 109676. [{{< fa link >}}](https://doi.org/10.1016/j.paid.2019.109676)
+[📄](pdfs/plessen-2020-humor-personality.pdf) [{{< fa database >}}](https://osf.io/6mhe4/) <button class="plain-summary-btn" data-summary="summary-humor-2020">📖</button>
+
+::: {#summary-humor-2020 .plain-summary-content}
+<div class="summary-lang-section">
+<h4><span class="lang-flag">🇬🇧</span>Plain English</h4>
+
+**What did we do?**
+We combined results from many studies (a meta-analysis) to see how different humor styles relate to personality traits. We looked at four humor styles: affiliative (bringing people together), self-enhancing (staying positive), aggressive (putting others down), and self-defeating (making fun of yourself).
+
+**Why does it matter?**
+Humor is an important part of social life and mental health. Understanding how humor relates to personality helps us understand individual differences and potentially identify people who might benefit from interventions.
+
+**What did we find?**
+Positive humor styles (affiliative, self-enhancing) were linked to extraversion and openness. Negative humor styles (aggressive, self-defeating) were linked to neuroticism. Self-defeating humor was negatively related to conscientiousness. These patterns help us understand how humor fits into broader personality structures.
+</div>
+
+<div class="summary-lang-section">
+<h4><span class="lang-flag">🇩🇪</span>Einfache Sprache</h4>
+
+**Was haben wir gemacht?**
+Wir haben Ergebnisse aus vielen Studien (eine Meta-Analyse) kombiniert, um zu sehen, wie verschiedene Humor-Stile mit Persönlichkeitsmerkmalen zusammenhängen. Wir haben vier Humor-Stile betrachtet: affiliativ (Menschen zusammenbringen), selbst-verstärkend (positiv bleiben), aggressiv (andere herabsetzen) und selbst-erniedrigend (sich selbst lustig machen).
+
+**Warum ist das wichtig?**
+Humor ist ein wichtiger Teil des sozialen Lebens und der psychischen Gesundheit. Zu verstehen, wie Humor mit Persönlichkeit zusammenhängt, hilft uns, individuelle Unterschiede zu verstehen und möglicherweise Menschen zu identifizieren, die von Interventionen profitieren könnten.
+
+**Was haben wir herausgefunden?**
+Positive Humor-Stile (affiliativ, selbst-verstärkend) waren mit Extraversion und Offenheit verbunden. Negative Humor-Stile (aggressiv, selbst-erniedrigend) waren mit Neurotizismus verbunden. Selbst-erniedrigender Humor war negativ mit Gewissenhaftigkeit verbunden. Diese Muster helfen uns zu verstehen, wie Humor in breitere Persönlichkeitsstrukturen passt.
+</div>
+:::
 
 Plessen, C. Y., Boeckle, M., Liegl, G., Leitner, A., Schneider, A., Preining, B., & Pieh, C. (2016). Bedarfsanalyse für ambulante Psychotherapie in Österreich [Supply and demand analysis for psychotherapy in Austria]. *Psychologische Medizin, 3*, 4-9.
+[📄](pdfs/plessen-2016-austrian-psychotherapy.pdf) <button class="plain-summary-btn" data-summary="summary-austria-2016">📖</button>
+
+::: {#summary-austria-2016 .plain-summary-content}
+<div class="summary-lang-section">
+<h4><span class="lang-flag">🇬🇧</span>Plain English</h4>
+
+**What did we do?**
+We analyzed the supply and demand for outpatient psychotherapy in Austria. We looked at how many therapists are available, how many people need therapy, and whether supply meets demand across different regions of Austria.
+
+**Why does it matter?**
+Many people with mental health problems need psychotherapy, but if there aren't enough therapists or they're in the wrong places, people can't get help. Understanding gaps in care helps policymakers allocate resources better.
+
+**What did we find?**
+There were significant gaps between supply and demand for psychotherapy in Austria. Some regions had much better access than others. The findings highlighted the need for better planning of psychotherapy services to ensure everyone who needs help can access it.
+</div>
+
+<div class="summary-lang-section">
+<h4><span class="lang-flag">🇩🇪</span>Einfache Sprache</h4>
+
+**Was haben wir gemacht?**
+Wir haben Angebot und Nachfrage für ambulante Psychotherapie in Österreich analysiert. Wir haben untersucht, wie viele Therapeuten verfügbar sind, wie viele Menschen Therapie brauchen, und ob Angebot und Nachfrage in verschiedenen Regionen Österreichs übereinstimmen.
+
+**Warum ist das wichtig?**
+Viele Menschen mit psychischen Gesundheitsproblemen brauchen Psychotherapie, aber wenn es nicht genug Therapeuten gibt oder sie an den falschen Orten sind, können Menschen keine Hilfe bekommen. Versorgungslücken zu verstehen hilft politischen Entscheidungsträgern, Ressourcen besser zu verteilen.
+
+**Was haben wir herausgefunden?**
+Es gab signifikante Lücken zwischen Angebot und Nachfrage für Psychotherapie in Österreich. Manche Regionen hatten viel besseren Zugang als andere. Die Ergebnisse zeigten die Notwendigkeit besserer Planung von Psychotherapie-Diensten, um sicherzustellen, dass jeder, der Hilfe braucht, diese auch bekommen kann.
+</div>
+:::
 
 ## Co-Authored Publications
 
-Miguel, C., Harrer, M., Karyotaki, E., Plessen, C. Y., Ciharova, M., Furukawa, T. A., Cristea, I. A., & Cuijpers, P. (2025). Self-reports vs clinician ratings of efficacies of psychotherapies for depression: a meta-analysis of randomized trials. *Epidemiology and Psychiatric Sciences, 34*, e15. [doi:10.1017/S2045796025000095](https://doi.org/10.1017/S2045796025000095)
+Harrer, M., Miguel, C., van Ballegooijen, W., Ciharova, M., **Plessen, C. Y.**, Kuper, P., Sprenger, A. A., Buntrock, C., Papola, D., Cristea, I. A., de Ponti, N., Bašić, Đ., Pauley, D., Driessen, E., Quero, S., Grimaldos, J., Fernández Buendía, S., Botella, C., Hamblen, J. L., ... Cuijpers, P. (2025). Effectiveness of psychotherapy: Synthesis of a "Meta-Analytic Research Domain" across world regions and 12 mental health problems. *Psychological Bulletin, 151*(5), 600. [{{< fa link >}}](https://doi.org/10.1037/bul0000443)
+[📄](pdfs/Harrer%20et%20al.%20-%202025%20-%20Effectiveness%20of%20psychotherapy%20Synthesis%20of%20a%20%22meta-analytic%20research%20domain%22%20across%20world%20regions.pdf) [{{< fa database >}}](https://osf.io/ha745/) [{{< fa brands github >}}](https://github.com/MathiasHarrer/supersizing-meta-analysis) [{{< fa database >}}](https://osf.io/37nux/)
 
-Harrer, M., Miguel, C., van Ballegooijen, W., Ciharova, M., Plessen, C. Y., Kuper, P., Sprenger, A. A., Buntrock, C., Papola, D., Cristea, I. A., de Ponti, N., Bašić, Đ., Pauley, D., Driessen, E., Quero, S., Grimaldos, J., Fernández Buendía, S., Botella, C., Hamblen, J. L., ... Cuijpers, P. (in press). Effectiveness of psychotherapy: Synthesis of a "Meta-Analytic Research Domain" across world regions and 12 mental health problems. *Psychological Bulletin*.
+Cuijpers, P., Harrer, M., Miguel, C., Ciharova, M., Papola, D., Basic, D., Botella, C., Cowpertwait, L., Cristea, I. A., de Ponti, N., Driessen, E., Ebert, D. D., Furukawa, T. A., Hamblen, J. L., Harrer, M., Miguel, C., **Plessen, C. Y.**, Quero, S., Schnurr, P. P., & van Ballegooijen, W. (2025). Cognitive behavior therapy for mental disorders in adults: A unified series of meta-analyses. *JAMA Psychiatry, 82*(6), 563-571. [{{< fa link >}}](https://doi.org/10.1001/jamapsychiatry.2025.0250)
+[📄](pdfs/Cuijpers et al. - 2025 - Cognitive Behavior Therapy for Mental Disorders in Adults A Unified Series of Meta-Analyses.pdf) [{{< fa database >}}](https://www.metapsy.org/) Metapsy Project
 
-Cuijpers, P., Harrer, M., Miguel, C., Ciharova, M., Papola, D., Furukawa, T. A., & Metapsy Consortium. (in press). Cognitive behavior therapy for mental disorders in adults: A uniform series of meta-analyses. *JAMA Psychiatry*.
+**Plessen, C. Y.**, Fischer, F., Hartmann, C., Liegl, G., Schalet, B., Kaat, A., Terrill, A. L., Garrido, C. J., Kravitz, R. L., Zumbrunn, T., Amtmann, D., Morgan, E. M., & Rose, M. (2025). Multiverse analysis of differential item function of PROMIS Physical Function items. *Advances in Patient-Reported Outcomes, 1*(1). [{{< fa link >}}](https://doi.org/10.1186/s44247-025-00131-w)
 
-Scholz, C., Schmigalle, P., Plessen, C. Y., Liegl, G., Vajkoczy, P., Prasser, F., Rose, M., & Obbarius, A. (2024). The effect of self-management techniques on relevant outcomes in chronic back pain: A systematic review and meta-analysis. *European Journal of Pain, 28*(4), 532-550. [doi:10.1002/ejp.2221](https://doi.org/10.1002/ejp.2221)
+Miguel, C., Harrer, M., Karyotaki, E., **Plessen, C. Y.**, Ciharova, M., Furukawa, T. A., Cristea, I. A., & Cuijpers, P. (2025). Self-reports vs clinician ratings of efficacies of psychotherapies for depression: a meta-analysis of randomized trials. *Epidemiology and Psychiatric Sciences, 34*, e15. [{{< fa link >}}](https://doi.org/10.1017/S2045796025000095)
 
-Cuijpers, P., Miguel, C., Ciharova, M., Harrer, M., Basic, D., Cristea, I. A., de Ponti, N., Driessen, E., Hamblen, J., Larsen, S. E., Matbouriahi, M., Papola, D., Pauley, D., Plessen, C. Y., Pfund, R. A., Setkowski, K., Schnurr, P. P., van Ballegooijen, W., Wang, Y., ... Karyotaki, E. (2023). Absolute and relative outcomes of psychotherapies for eight mental disorders: a systematic review and meta-analysis. *World Psychiatry, 23*(2), 267-275. [doi:10.1002/wps.21203](https://doi.org/10.1002/wps.21203)
+Scholz, C., Schmigalle, P., **Plessen, C. Y.**, Liegl, G., Vajkoczy, P., Prasser, F., Rose, M., & Obbarius, A. (2024). The effect of self-management techniques on relevant outcomes in chronic back pain: A systematic review and meta-analysis. *European Journal of Pain, 28*(4), 532-550. [{{< fa link >}}](https://doi.org/10.1002/ejp.2221)
+[📄](pdfs/Scholz et al. - 2023 - The effect of self‐management techniques on releva.pdf)
 
-Cuijpers, P., Miguel, C., Harrer, M., Plessen, C. Y., Ciharova, M., Papola, D., Ebert, D., & Karyotaki, E. (2023). Psychological treatment of depression: A systematic overview of a 'Meta-Analytic Research Domain'. *Journal of Affective Disorders, 335*, 141-151. [doi:10.1016/j.jad.2023.05.011](https://doi.org/10.1016/j.jad.2023.05.011)
+Cuijpers, P., Miguel, C., Ciharova, M., Harrer, M., Basic, D., Cristea, I. A., de Ponti, N., Driessen, E., Hamblen, J., Larsen, S. E., Matbouriahi, M., Papola, D., Pauley, D., **Plessen, C. Y.**, Pfund, R. A., Setkowski, K., Schnurr, P. P., van Ballegooijen, W., Wang, Y., ... Karyotaki, E. (2023). Absolute and relative outcomes of psychotherapies for eight mental disorders: a systematic review and meta-analysis. *World Psychiatry, 23*(2), 267-275. [{{< fa link >}}](https://doi.org/10.1002/wps.21203)
 
-Harrison, C. J., Plessen, C. Y., Liegl, G., Rodrigues, J. N., Sabah, S. A., Beard, D. J., & Fischer, F. (2023). Item response theory may account for unequal item weighting and individual-level measurement error in trials that use PROMs: a psychometric sensitivity analysis of the TOPKAT trial. *Journal of Clinical Epidemiology, 158*, 62-69. [doi:10.1016/j.jclinepi.2023.03.013](https://doi.org/10.1016/j.jclinepi.2023.03.013)
+Cuijpers, P., Miguel, C., Harrer, M., **Plessen, C. Y.**, Ciharova, M., Papola, D., Ebert, D., & Karyotaki, E. (2023). Psychological treatment of depression: A systematic overview of a 'Meta-Analytic Research Domain'. *Journal of Affective Disorders, 335*, 141-151. [{{< fa link >}}](https://doi.org/10.1016/j.jad.2023.05.011)
+[📄](pdfs/Cuijpers et al. - 2023 - Psychological treatment of depression A systemati.pdf)
 
-Harrison, C. J., Plessen, C. Y., Liegl, G., Rodrigues, J. N., Sabah, S. A., Beard, D. J., & Fischer, F. (2023). Overcoming floor and ceiling effects in knee arthroplasty outcome measurement: mapping the Oxford Knee Score and High Activity Arthroplasty Score onto a common scale. *Bone & Joint Research, 12*(10), 624-635. [doi:10.1302/2046-3758.1210.BJR-2022-0457.R1](https://doi.org/10.1302/2046-3758.1210.BJR-2022-0457.R1)
+Harrison, C. J., **Plessen, C. Y.**, Liegl, G., Rodrigues, J. N., Sabah, S. A., Beard, D. J., & Fischer, F. (2023). Item response theory may account for unequal item weighting and individual-level measurement error in trials that use PROMs: a psychometric sensitivity analysis of the TOPKAT trial. *Journal of Clinical Epidemiology, 158*, 62-69. [{{< fa link >}}](https://doi.org/10.1016/j.jclinepi.2023.03.013)
+[{{< fa brands github >}}](https://github.com/MrConradHarrison/IRT-modelling-for-the-OHS-and-OKS)
 
-Harrison, C. J., Plessen, C. Y., Liegl, G., Rodrigues, J. N., Sabah, S. A., Beard, D. J., & Fischer, F. (2023). Item response theory assumptions were adequately met by the Oxford hip and knee scores. *Journal of Clinical Epidemiology, 158*, 166-176. [doi:10.1016/j.jclinepi.2023.04.008](https://doi.org/10.1016/j.jclinepi.2023.04.008)
+Harrison, C. J., **Plessen, C. Y.**, Liegl, G., Rodrigues, J. N., Sabah, S. A., Beard, D. J., & Fischer, F. (2023). Overcoming floor and ceiling effects in knee arthroplasty outcome measurement: mapping the Oxford Knee Score and High Activity Arthroplasty Score onto a common scale. *Bone & Joint Research, 12*(10), 624-635. [{{< fa link >}}](https://doi.org/10.1302/2046-3758.1210.BJR-2022-0457.R1)
+[📄](pdfs/Harrison et al. - 2023 - Overcoming floor and ceiling effects in knee arthroplasty outcome measurement mapping the Oxford Kn.pdf)
 
-Cuijpers, P., Miguel, C., Ciharova, M., Quero, S., Plessen, C. Y., Ebert, D., Harrer, M., van Straten, A., & Karyotaki, E. (2023). Psychological treatment of depression with other comorbid mental disorders: systematic review and meta-analysis. *Cognitive Behaviour Therapy*. [doi:10.1080/16506073.2023.2166578](https://doi.org/10.1080/16506073.2023.2166578)
+Harrison, C. J., **Plessen, C. Y.**, Liegl, G., Rodrigues, J. N., Sabah, S. A., Beard, D. J., & Fischer, F. (2023). Item response theory assumptions were adequately met by the Oxford hip and knee scores. *Journal of Clinical Epidemiology, 158*, 166-176. [{{< fa link >}}](https://doi.org/10.1016/j.jclinepi.2023.04.008)
+[📄](pdfs/Harrison et al. - 2023 - Item response theory assumptions were adequately m.pdf)
 
-Cuijpers, P., Miguel, C., Harrer, M., Plessen, C. Y., Ciharova, M., Ebert, D., & Karyotaki, E. (2023). Cognitive behavior therapy vs. control conditions, other psychotherapies, pharmacotherapies and combined treatment for depression: a comprehensive meta‐analysis including 409 trials with 52,702 patients. *World Psychiatry, 22*(1), 105-115. [doi:10.1002/wps.21069](https://doi.org/10.1002/wps.21069)
+Cuijpers, P., Miguel, C., Ciharova, M., Quero, S., **Plessen, C. Y.**, Ebert, D., Harrer, M., van Straten, A., & Karyotaki, E. (2023). Psychological treatment of depression with other comorbid mental disorders: systematic review and meta-analysis. *Cognitive Behaviour Therapy*. [{{< fa link >}}](https://doi.org/10.1080/16506073.2023.2166578)
+[📄](pdfs/Cuijpers et al. - 2023 - Psychological treatment of depression with other c.pdf)
 
-Kossmeier, K., Vilsmeier, J., Dittrich, R., Fritz, T., Kolmanz, C., Plessen, C. Y., Slowik, A., Tran, U. S., & Voracek, M. (2019). Long-term trends (1980-2017) in the N-pact factor: Comparative meta-research of journals in personality psychology and individual differences research. *Zeitschrift für Psychologie, 227*, 293-302. [doi:10.1027/2151-2604/a000384](https://doi.org/10.1027/2151-2604/a000384)
+Cuijpers, P., Miguel, C., Harrer, M., **Plessen, C. Y.**, Ciharova, M., Ebert, D., & Karyotaki, E. (2023). Cognitive behavior therapy vs. control conditions, other psychotherapies, pharmacotherapies and combined treatment for depression: a comprehensive meta‐analysis including 409 trials with 52,702 patients. *World Psychiatry, 22*(1), 105-115. [{{< fa link >}}](https://doi.org/10.1002/wps.21069)
+[📄](pdfs/Cuijpers et al. - 2023 - Cognitive behavior therapy vs. control conditions,.pdf) [{{< fa database >}}](https://osf.io/a6p3w/) OSF Data
 
-Liegl, G., Plessen, C. Y., Leitner, A., Boeckle, M., & Pieh, C. (2015). Guided self-help interventions for irritable bowel syndrome: a systematic review and meta-analysis. *European Journal of Gastroenterology & Hepatology, 27*, 1209-1221. [doi:10.1097/MEG.0000000000000428](https://doi.org/10.1097/MEG.0000000000000428)
+Kossmeier, K., Vilsmeier, J., Dittrich, R., Fritz, T., Kolmanz, C., **Plessen, C. Y.**, Slowik, A., Tran, U. S., & Voracek, M. (2019). Long-term trends (1980-2017) in the N-pact factor: Comparative meta-research of journals in personality psychology and individual differences research. *Zeitschrift für Psychologie, 227*, 293-302. [{{< fa link >}}](https://doi.org/10.1027/2151-2604/a000384)
+[📄](pdfs/Kossmeier et al. - 2019 - Long-Term Trends (1980–2017) in the N -Pact.pdf)
+
+Liegl, G., **Plessen, C. Y.**, Leitner, A., Boeckle, M., & Pieh, C. (2015). Guided self-help interventions for irritable bowel syndrome: a systematic review and meta-analysis. *European Journal of Gastroenterology & Hepatology, 27*, 1209-1221. [{{< fa link >}}](https://doi.org/10.1097/MEG.0000000000000428)
+[📄](pdfs/liegl2015.pdf)
+
+## Conference Abstracts & Preprints
+
+Riazy, L., **Plessen, C. Y.**, & Rose, M. (2024). European general population reference data for the PROMIS depression metric and major depression scales. *Quality of Life Research, 33*, S27-S28. [Conference abstract]
+
+**Plessen, C. Y.**, Gyimesi, M. L., Kern, B. M. J., Fritz, T., Lorca, M. V. C., Voracek, M., & Tran, U. S. (2020). Associations between academic dishonesty and personality: A pre-registered multilevel meta-analysis. *PsyArXiv*. [Preprint] [{{< fa link >}}](https://doi.org/10.31234/osf.io/mbwq9)
