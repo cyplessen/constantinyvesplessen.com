@@ -32,7 +32,7 @@ My work spans two complementary domains in the evidence generation pipeline:
 I investigate how we can best measure important domains such as physical functioning, pain interference, and depression from the patient perspective. This includes examining [measurement invariance across cultures](https://doi.org/10.1007/s11136-024-03866-y), developing [reference values for clinical interpretation](https://doi.org/10.1097/CORR.0000000000002798), and [overcoming floor and ceiling effects](https://doi.org/10.1302/2046-3758.1210.BJR-2022-0457.R1) in outcome measurement.
 
 **Research Synthesis & Meta-Science**
-I've pioneered multiverse meta-analyses, running thousands of analytical variations on [psychotherapy](https://doi.org/10.1136/bmjment-2022-300626) and [digital interventions](https://doi.org/10.1016/j.jad.2024.10.018) for depression. This approach reveals how analytical choices shape conclusions about treatment efficacy, advancing transparency and robustness in evidence synthesis.
+In so-called multiverse meta-analyses, I run thousands of analytical variations on [psychotherapy](https://doi.org/10.1136/bmjment-2022-300626) and [digital interventions](https://doi.org/10.1016/j.jad.2024.10.018) for depression. This approach examines how analytical choices shape conclusions about treatment efficacy.
 
 ---
 

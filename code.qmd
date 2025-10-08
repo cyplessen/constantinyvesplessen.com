@@ -10,14 +10,14 @@ Open-source tools for meta-analysis, psychometrics, and patient-reported outcome
 
 ### metaMultiverse
 
-A comprehensive toolkit for conducting multiverse meta-analyses. Rather than making arbitrary choices about analytical decisions, systematically explore how different reasonable choices affect your conclusions.
+An R package for conducting multiverse meta-analyses.
 
 **Features:**
 
 - 11+ meta-analytic methods (Fixed-effects, REML, PET-PEESE, p-uniform*, RVE, and more)
-- E/U/N decision framework for principled multiverses
-- Beautiful specification curves and Vibration of Effects (VoE) plots
-- 446 passing tests with comprehensive documentation
+- E/U/N decision framework for defining analytical specifications
+- Specification curves and Vibration of Effects (VoE) plots
+- Full test coverage and documentation
 
 **Installation:**
 ```r
@@ -33,13 +33,13 @@ devtools::install_github("cyplessen/metaMultiverse")
 
 ### lordifMultiverse
 
-An R package for detecting differential item functioning (DIF) using logistic regression in a multiverse analysis approach. Test various thresholds and criteria for DIF in a flexible and comprehensive manner.
+An R package for detecting differential item functioning (DIF) using logistic regression in a multiverse analysis approach.
 
 **Features:**
 
 - Logistic regression-based DIF detection
 - Test multiple criteria and thresholds simultaneously
-- Graceful warning handling during DIF detection
+- Warning handling during DIF detection
 - Visualization of flagged items across methods
 
 **Installation:**

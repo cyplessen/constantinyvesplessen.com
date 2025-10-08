@@ -27,12 +27,22 @@ $link-hover-color: $accent-coral;
 body {
   font-size: 1.1rem;
   line-height: 1.7;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.01em;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
+
+  @media (max-width: 768px) {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
 }
 
 // Page layout - More spacious
@@ -40,6 +50,14 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 750px;
   margin: 0 auto;
   padding: 0 30px;
+
+  @media (max-width: 768px) {
+    padding: 0 20px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0 15px;
+  }
 }
 
 .page-title {
@@ -48,6 +66,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 3rem;
   margin-bottom: 3rem;
   color: $primary;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
 }
 
 // Homepage hero - Bold and minimal
@@ -109,11 +139,27 @@ h1, h2, h3, h4, h5, h6 {
       font-weight: 500;
     }
   }
+
+  // Mobile navbar adjustments
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1rem;
+    }
+
+    .nav-link {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+    }
+  }
 }
 
 // Blog listing - Minimal and clean
 .quarto-listing {
   margin-top: 3rem;
+
+  @media (max-width: 768px) {
+    margin-top: 2rem;
+  }
 }
 
 .quarto-grid-item {
@@ -126,6 +172,11 @@ h1, h2, h3, h4, h5, h6 {
 
   &:last-child {
     border-bottom: none !important;
+  }
+
+  @media (max-width: 768px) {
+    margin-bottom: 2rem !important;
+    padding-bottom: 1.5rem !important;
   }
 }
 
