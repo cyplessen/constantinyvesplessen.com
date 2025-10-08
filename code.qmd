@@ -73,4 +73,16 @@ A web application for obtaining patient-specific reference values for PROMIS Phy
 
 ### metaMultiverse Interactive Explorer
 
-*Coming soon* - Interactive Shiny app for exploring multiverse meta-analysis results.
+An interactive web application for conducting multiverse meta-analyses. Upload your data, define analytical decisions, and explore how different specifications affect your conclusions through interactive visualizations.
+
+**Features:**
+
+- Step-by-step guided workflow
+- Interactive specification curve plots
+- Vibration of Effects (VoE) visualizations
+- Export results and plots
+- Built-in example datasets
+
+**Launch:** [{{< fa play-circle >}} Open App](https://dsd1ph-constantin0yves0plessen.shinyapps.io/metamultiverse/) · [{{< fa brands github >}} Source Code](https://github.com/cyplessen/metaMultiverse)
+
+**Related Publication:** Plessen et al. (2024). Digital mental health interventions for the treatment of depression: A multiverse meta-analysis. *Journal of Affective Disorders, 369*, 1031-1044. [{{< fa link >}}](https://doi.org/10.1016/j.jad.2024.10.018)
