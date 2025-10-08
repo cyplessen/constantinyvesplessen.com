@@ -106,6 +106,17 @@ main p strong,
   color: #2c3e50;
 }
 
+/* Fix code blocks with dark backgrounds - ensure text is readable */
+pre code {
+  color: #f8f8f2 !important;
+}
+
+/* Make sure headings in code blocks are visible */
+pre h1, pre h2, pre h3, pre h4, pre h5, pre h6,
+code h1, code h2, code h3, code h4, code h5, code h6 {
+  color: #f8f8f2 !important;
+}
+
 /* Publication entries - generous spacing */
 main p {
   margin-bottom: 1.5rem;
