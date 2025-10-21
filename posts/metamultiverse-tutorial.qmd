@@ -262,12 +262,14 @@ results_example_1 <- run_multiverse_analysis(multiverse_full_example_1)
 #| echo: true
 
 # Create a formatted summary of the multiverse analysis results
+n_failed <- results_example_1$n_attempted - results_example_1$n_successful
+
 analysis_summary <- data.frame(
   Metric = c("Total specifications", "Successful", "Failed", "Success rate"),
   Value = c(
-    results_example_1$n_attempted,
-    results_example_1$n_successful,
-    results_example_1$n_failed,
+    as.character(results_example_1$n_attempted),
+    as.character(results_example_1$n_successful),
+    as.character(n_failed),
     paste0(round(100 * results_example_1$n_successful / results_example_1$n_attempted, 1), "%")
   )
 )
