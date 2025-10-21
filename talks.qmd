@@ -1,0 +1,95 @@
+---
+title: "Talks & Presentations"
+---
+
+Selected conference presentations, workshops, and invited talks.
+
+---
+
+## 2022
+
+### DGPPN 2022
+**The robustness of the efficacy of digital interventions for anxiety: an umbrella review and multiverse meta-analysis**
+*November 23, 2022*
+
+Background: Over the last decade, several meta-analyses and meta-reviews synthesized the evidence on the efficacy of digital mental health interventions for anxiety disorders—unfortunately with diverging conclusions. This leaves clinicians, researchers, and funding agencies with inconsistent recommendations.
+
+Methods: To provide a birds-eye-perspective of the entire field we conducted an umbrella review and a multiverse meta-analysis. We investigated whether the meta-analytical method or the inclusion criteria were responsible for these differences, or whether most potential meta-analyses would reach similar conclusions.
+
+Results: Our umbrella review included six meta-analyses with 84 primary studies. The included meta-analyses differed substantially in their AMSTAR-2 ratings, indicating heterogeneous quality. Our multiverse meta-analysis produced 1193 meta-analyses resulting from all possible analytical decisions. We identified several analytical decisions that consistently led to inflated effect size estimates. Larger effect sizes were found for the comparisons with wait-list control groups than for the comparisons with active control groups (mean Hedges g = 0.58 95% CI [0.40, 0.76] vs g = 0.26 95% CI [0.20, 0.42]). Larger effect sizes were found for digital interventions combining smartphone with internet interventions compared to standalone smartphone or internet applications. Meta-analyses that focused exclusively on guided interventions produced twice the effect sizes than meta-analyses on unguided interventions (g = 0.71, 95% CI [0.51, 0.90] vs g = 0.30, 95% CI [0.13, 0.47]).
+
+Conclusion: We identified several analytical decisions that consistently led to inflated effect size estimates. However, we also found that most decisions did not disproportionately influence the resulting summary effect size estimates, which suggests that meta-analytical findings on digital interventions for anxiety are robust.
+
+[{{< fa link >}} Conference Program](https://events.mcon-mannheim.de/frontend/index.php#)
+
+---
+
+### EACLIPT 2022
+**Using multiverse meta-analyses to investigate the robustness of mental health research on psychological treatments for depression and digital interventions for anxiety**
+*November 12, 2022*
+
+**Background:** At several stages in any meta-analysis, researchers must decide between multiple equally defensible choices (e.g., different study inclusion criteria, different ways of dealing with low-quality studies, different choices of methods, etc.). These different analytical decisions frequently result in various meta-analyses with overlapping research questions reaching different conclusions---resulting in ambiguous recommendations for clinicians, researchers, and funding agencies.
+
+**Methods:** In a multiverse meta-analysis, researchers identify all these possible stages for analytical decisions, determine alternative analysis steps at each stage, and implement them simultaneously. As a result, a multiverse meta-analysis reports the outcomes of all possible meta-analyses resulting from all of these possible combinations. Therefore, this method is a promising tool to help answer why some of these meta-analyses diverged, whether the meta-analytical method and exclusion criteria were decisive for these differences, or whether we would reach similar results with most analytical strategies.
+
+**Results:** We present the preliminary results of multiverse meta-analyses to evaluate the influence different analytical decisions might have had on two research questions, namely 1) the efficacy of psychological treatments for depression and 2) the efficacy of digital interventions for anxiety disorders.
+
+**Conclusion:** We could identify several analytical decisions that consistently lead to inflated effect size estimates (e.g., the comparison with wait-list control groups, the inclusion of high risk of bias studies, and sometimes ignoring effect size dependency). However, we also identified many decisions that did not disproportionately influence the resulting summary effect size estimates, suggesting the overall robustness of meta-analytical findings on psychological treatments for depression and digital mental health research for anxiety.
+
+[{{< fa link >}} Conference Program](http://english.swps.pl/we-the-university/our-news-and-events/conferences-and-seminars/eaclipt-conference-clinical-psychology-now/1002-panelists/33271-yves-plessen)
+
+---
+
+### SIPS 2022
+**Workshop: Multiverse Analyses - Introduction and Applications**
+*June 23, 2022*
+
+This session will tackle the multiverse approach to psychological science and data analysis: In each research project, researchers need to make a multitude of decisions, including decisions about which measurements to choose, how to pre-process data, or which analysis to run. Each of these decisions is potentially impactful and may create a unique universe out of a multiverse of possible outcomes. After a general introduction to the concept of a multiverse, we will host several guest speakers highlighting different facets and implementations of multiverse analysis. Two talks will hereby discuss fundamentals of multiverse analysis, focusing on visualization (Matthew Kay) and available software. Four talks will discuss various implementations of multiverse analysis: Jessica Dafflon will discuss multiverse analysis in developmental neuroscience, Constantin Yves Plessen will talk about multiverse meta-analyses and Justin Landy will talk about his project on crowdsourcing hypothesis tests (fourth speaker is tbd).
+
+[{{< fa link >}} Workshop Program](https://docs.google.com/document/d/1Rka3f0ZY9BBZVIlZoVINrpyaJYeitpq1yKXBLukeMng/edit)
+
+---
+
+### ESMR 2022
+**What if…? A very short primer on conducting multiverse meta-analyses in R**
+*April 23, 2022*
+
+Even though conventional meta-analyses provide an overview of the published literature on a given research question, they do not consider different paths that could have been taken in selecting or analyzing the data. Most importantly, multiple meta-analyses with overlapping research questions can reach different conclusions due to differences in inclusion and exclusion criteria, or data analytical decisions. It is therefore crucial to evaluate the influence such choices might have on the result of each meta-analysis. Was the meta-analytical method and exclusion criteria decisive, or is the same result reached via multiple analytical strategies? What if a meta-analysts would have decided to go a different path—would the same outcome occur? Ensuring that the conclusions of a meta-analysis are not disproportionately influenced by data analytical decisions, a multiverse meta-analysis can provide the entire picture and underpin the robustness of the findings—or lack thereof—by conducting multiple, namely all possible and reasonable meta-analyses at once.
+
+Hereby, multiverse meta-analyses provide a research integration like umbrella reviews yet additionally investigate the influence flexibility in data analysis could have on the resulting summary effect size. Importantly, in contrast to umbrella reviews, a multiverse analysis also quantitatively summarizes the results and includes not yet conducted meta-analyses. During the talk I will give a more detailed insight into this potent method, and run through the multiverse of meta-analyses on the efficacy of psychological treatments for depression as an empirical example.
+
+[{{< fa brands youtube >}} Watch Presentation](https://www.youtube.com/watch?v=qYUwIyRNOHU)
+
+---
+
+### ISOQOL 2022
+**Modeling general populations' reference data for PROMIS item banks (Physical Functioning, Upper Extremities, and Pain interference) in multiple countries using quantile regression**
+*January 1, 2022*
+
+**Aims**: The use of PROs in research and clinical practice requires availability of appropriate and relevant comparison data. We aim to model age, and sex-specific reference values for the PROMIS Physical Function (PF), Upper Extremity (UE), and Pain Interference (PI) scales in populations age 50 and older in Germany, the UK, and the US.
+
+**Methods**: We collected PROMIS PF, UE, and PI data via telephone interviews from the general population in Germany (N = 921), the UK (N = 905), and the US (N = 900). We investigated differential item functioning (DIF) between countries using iterative hybrid ordinal logistic regression. To account for the measurement error of latent estimates and to obtain a continuous distribution of the latent variable, we imputed 25 data sets with plausible values. Each latent estimate was replaced by a random value drawn from the individual latent variable posterior distribution approximated by a normal distribution. We then utilized quantile regressions to model the 1st, 5th, 10th--90th, 95th, and 99th percentiles and their respective standard errors in each dataset based on different combinations of predictors (age, sex, country). According to Rubin's rules, the estimated percentiles and corresponding standard errors were pooled across the imputed datasets to provide the respective reference values.
+
+**Results**: Three items from the PROMIS PF scale showed negligible DIF by country, indicating that all scales are valid for inter-country comparisons. Median regressions revealed significant effects of age (PF: b𝜏=.50= -0.33; PI: b𝜏=50= 0.08), sex (PF: b𝜏=50= -3.22; PI: b𝜏=50= 1.62) and country, indicating that stratification of reference data is warranted. The PF and UE scales showed considerable ceiling effects in all countries aged 50-69. For PI, this applied to all ages.
+
+**Conclusions**: This paper illustrates a novel approach to model reference values for PROMIS measures based on individual patients' characteristics. Substantial differences in the PROMIS scores between sex, age, and countries highlight the importance of such patient-specific reference values, enabling clinicians to utilize personalized reference values. Due to the use of plausible value imputation, the obtained population reference values can be compared to data collected with other PROMIS short forms or computer-adaptive tests.
+
+[{{< fa link >}} Conference Program](https://www.isoqol.org/events/29th-annual-conference/program/)
+
+---
+
+## 2021
+
+### PHO 2021
+**Differential item functioning of PROMIS physical functioning ceiling items across Argentina, Germany and the US**
+*November 23, 2021*
+
+**Objective:** We investigate the validity of comparisons across general populations from Argentina, Germany, and the US by evaluating differential item functioning (DIF) for the PROMIS physical function (PROMIS-PF 2.0) ceiling items that were implemented to measure high physical ability. DIF is investigated as it could introduce biases to inter-country comparisons by potentially leading to systematically different physical function scores. If DIF is detected, individuals with the same 'true' underlying physical ability would score systematically different due specific cultural contexts or language differences.
+
+**Methods:** General population samples completed the 35 ceiling items of the PROMIS PF 2.0. DIF was assessed with hybrid logistic ordinal regression models and Nagelkerkes' pseudo R2-change of > 0.02 as the critical cutoff value indicating the presence of DIF. The impact of DIF on item scores and the T-scores was additionally examined by inspecting both the item characteristic curves (ICCs) and test characteristic curves (TCCs).
+
+**Results:** Overall, 3601 persons participated---1001 from Argentina (mean age of 35.6 years, ranging from 18 to 69 years; 51% were female), 1000 from Germany (mean age of 44.9 years, ranging from 18 to 69; 52% were female), and 1600 from the US (mean age of 44.3 years, ranging from 18 to 88; 58% were female). For the comparison between Germany and the USA, 2 out of 35 items were flagged for DIF. For the comparison between Argentina and the US, 4 items were flagged and for the comparison between German and Argentinian items, 5 out of 35 items were flagged. Most DIF items had R2 values just above the critical value of 0.02 and all showed uniform DIF. The ICCs and TCCs showed that the magnitude and impact of DIF on the item and T-scores were negligible.
+
+**Conclusions:** Our study supports the universal applicability of PROMIS across general populations from Argentina, Germany, and the US. Comparisons across persons from the general population are valid, when applying the PROMIS-PF 2.0 ceiling items.
+
+[{{< fa link >}} Conference Abstracts](https://jpro.springeropen.com/articles/10.1186/s41687-021-00349-3)

@@ -2,7 +2,7 @@
 title: "PhDone - No Updates for Now️"
 categories: [phdone]
 date: June 30, 2024
-image: "../images/phd_defense.png" 
+image: "pics/phd_defense.png" 
 ---
 
 

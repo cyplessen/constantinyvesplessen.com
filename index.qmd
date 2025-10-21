@@ -16,7 +16,7 @@ page-layout: full
 
 # I'm a psychologist studying how we construct, interpret, and apply evidence in psychological and medical research.
 
-I am a researcher at [Charité Center for Patient-Centered Outcomes Research](https://cpcor.charite.de/en/) & completed my PhD at [VU Amsterdam](https://research.vu.nl/en/persons/constantin-yves-plessen).
+I am a postdoctoral researcher at [University of Graz](https://psychologie.uni-graz.at/en/) & completed my PhD at [VU Amsterdam](https://research.vu.nl/en/publications/research-synthesis-of-psychological-interventions-for-mental-heal).
 
 </div>
 
@@ -38,4 +38,4 @@ In so-called multiverse meta-analyses, I run thousands of analytical variations 
 
 ## Contact
 
-[{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=_MGIK9oAAAAJ) · [{{< ai orcid >}} ORCID](https://orcid.org/0000-0002-4907-3505) · [{{< fa brands github >}} GitHub](https://github.com/cyplessen) · [{{< fa envelope >}} Email](mailto:yves.plessen@gmail.com)
+[{{< fa file-pdf >}} CV](cv.pdf) · [{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=_MGIK9oAAAAJ) · [{{< ai orcid >}} ORCID](https://orcid.org/0000-0002-4907-3505) · [{{< fa brands github >}} GitHub](https://github.com/cyplessen)

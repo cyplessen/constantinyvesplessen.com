@@ -139,9 +139,26 @@ main p strong,
   color: #2c3e50;
 }
 
-/* Fix code blocks with dark backgrounds - ensure text is readable */
-pre code {
+/* Code output blocks - modern dark theme for readability */
+.cell-output pre,
+.cell-output-stdout pre,
+pre.sourceCode.cell-code {
+  background-color: #2b2b2b;
+  color: #f8f8f2;
+  border: 1px solid #444;
+  padding: 1rem;
+}
+
+.cell-output pre code,
+.cell-output-stdout pre code {
   color: #f8f8f2 !important;
+  background-color: transparent;
+}
+
+/* Keep syntax highlighting visible on dark background */
+.cell-output pre code span,
+.cell-output-stdout pre code span {
+  color: inherit;
 }
 
 /* Make sure headings in code blocks are visible */

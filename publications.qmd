@@ -3,6 +3,12 @@ title: "Publications"
 editor: visual
 ---
 
+<div style="background: #f8f8f8; border-left: 3px solid #FF6B6B; padding: 1.5rem; margin-bottom: 3rem; border-radius: 4px;">
+<p style="margin: 0; font-size: 1rem; color: #555;">
+**Publication Metrics:** 7 first-author publications · 12 co-authored publications · [View Google Scholar Profile](https://scholar.google.com/citations?user=_MGIK9oAAAAJ) for citation metrics
+</p>
+</div>
+
 ## First Author Publications
 
 Plessen, C. Y. (2024). *Research Synthesis of Psychological Interventions for Mental Health* (Doctoral dissertation). Vrije Universiteit Amsterdam. [📄](https://research.vu.nl/files/318077080/phd-plessen-final%20-%20663a29fa8339c.pdf)

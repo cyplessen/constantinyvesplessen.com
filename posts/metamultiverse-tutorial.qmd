@@ -24,11 +24,11 @@ Basic R knowledge is helpful, but I'll explain each step. You'll need:
 
 ## Step 1: Install the Package
 
+<img src="pics/logo.svg" align="right" height="139" alt="metaMultiverse hex logo" />
+
 First, we need to install `metaMultiverse` for running the multiverse analysis. We'll get the data directly from the Metapsy API (no package installation needed for that!).
 
 ### Download `metaMultiverse`
-
-<img src="pics/logo.svg" align="right" height="139" alt="metaMultiverse hex logo" />
 
 ```{r}
 #| eval: false

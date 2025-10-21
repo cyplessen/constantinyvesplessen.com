@@ -13,7 +13,15 @@ Through [my publications](https://constantinyvesplessen.com/publications.html), 
 
 <br>
 
-## Researcher at Charité Center for Patient-Centered Outcomes Research
+## Postdoctoral Researcher at University of Graz
+
+At the [University of Graz](https://psychologie.uni-graz.at/en/), I'm focusing on personalization of psychotherapy and gender-sensitive psychotherapy approaches. This work extends my research synthesis methods to questions of individual differences: Do treatments work differently for different people? How do gender and other characteristics moderate treatment effects? Can we identify patterns that help match patients to interventions?
+
+This naturally combines multiverse meta-analysis approaches with questions about heterogeneity of treatment effects—both are fundamentally about understanding when and for whom our conclusions hold.
+
+<br>
+
+## Research at Charité Center for Patient-Centered Outcomes Research
 
 Our healthcare system often falls short of being both evidence-based and patient-centered, which drives my motivation to advocate for change. At the [Charité Center for Patient-Centered Outcomes Research](https://cpcor.charite.de/en/), my work centered on the development and refinement of patient-reported outcomes, tools that capture health-related quality of life to ensure treatments are aligned with patients' needs and well-being. These tools are crucial for transforming medicine from an eminence-based practice, guided by expert opinion, to an evidence-based approach that truly prioritizes patients.
 
@@ -23,7 +31,7 @@ I also enjoyed developing practical data science tools, like a [Shiny web applic
 
 <br>
 
-## PhD Researcher at VU Amsterdam
+## PhD Research at VU Amsterdam
 
 During my time at VU Amsterdam, my research was driven by a fascination with the robustness of evidence in psychological interventions for mental health. Meta-analyses are often viewed as the gold standard in evidence-based practices, yet their outcomes can vary widely depending on analytical choices. To explore this, I conducted over 10,000 meta-analyses on psychotherapy and digital interventions for depression and anxiety, uncovering how researcher degrees of freedom can influence results. This work underscored the importance of transparent methodologies to mitigate biases and strengthen scientific reliability.
 

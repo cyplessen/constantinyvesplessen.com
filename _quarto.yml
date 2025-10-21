@@ -4,42 +4,38 @@ project:
 
 website:
   title: Constantin Yves Plessen, PhD.
-  site-url: "constantinyvesplessen.com"
+  site-url: "https://constantinyvesplessen.com"
+  favicon: favicon.png
+  description: "Psychologist and methodologist studying evidence construction, multiverse meta-analysis, and patient-reported outcomes. Postdoctoral researcher at University of Graz."
+  open-graph:
+    locale: en_US
+    site-name: "Constantin Yves Plessen, PhD"
+    description: "Psychologist studying evidence construction, multiverse meta-analysis, and patient-reported outcomes research"
+    image: plessen_portrait.jpg
+  twitter-card:
+    creator: "@CYPlessen"
+    site: "@CYPlessen"
+    card-style: summary_large_image
+    image: plessen_portrait.jpg
   navbar:
     left:
       - text: Home
-        href: index.qmd
+        href: index.html
       - text: Publications
-        href: publications.qmd
+        href: publications.html
       - text: Code
-        href: code.qmd
+        href: code.html
       - text: Blog
-        href: blog.qmd
-      #- icon: twitter
-      #  href: https://twitter.com/CYPlessen
-      #  aria-label: twitter
-      #- text: "{{< iconify logos:bluesky >}}" 
-      #  href: https://bsky.app/profile/cyplessen.bsky.social
-      #  aria-label: bluesky
-      #- icon: mailbox
-      #  href: mailto:yves.plessen@gmail.com
-      #  aria-label: email
-      #- text: "{{< iconify academicons:orcid-square >}}"
-      #  href: https://orcid.org/my-orcid?orcid=0000-0002-4907-3505
-      #  aria-label: orcid
+        href: blog.html
   page-footer:
-    center: 
+    center:
       - text: "© 2025 Constantin Yves Plessen"
 
-  google-analytics: G-RBDBPYKMKX 
+  google-analytics: G-RBDBPYKMKX
   cookie-consent:
     type: express
     style: interstitial
     palette: light
-  #twitter-card: 
-  # image: thumbnail_blog.png
-  # card-style: summary_large_image
-  # creator: "@CYPlessen"
 format:
   html:
     theme: [lux, custom.scss]
