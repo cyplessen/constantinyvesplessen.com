@@ -1,0 +1,422 @@
+---
+title: "Running Your First Multiverse Meta-Analysis"
+subtitle: "A step-by-step guide to exploring analytical robustness with the metaMultiverse package"
+categories: [tutorial, meta-analysis, R, multiverse]
+date: October 13, 2025
+image: pics/logo.svg
+---
+
+# Why Multiverse Meta-Analysis? <img src="pics/logo.svg" align="right" height="139" alt="metaMultiverse hex logo" />
+
+When conducting a meta-analysis, researchers face dozens of decisions: Which studies to include? How to handle outliers? Which statistical model to use? Each choice seems reasonable, but different choices can lead to different conclusions.
+
+Rather than making one set of arbitrary decisions, **multiverse meta-analysis** systematically explores how different reasonable analytical choices affect your conclusions. This approach transforms researcher degrees of freedom from a source of concern into a tool for understanding robustness.
+
+This tutorial walks you through running your first multiverse meta-analysis using real data from the Metapsy database.
+
+## What You'll Need
+
+Basic R knowledge is helpful, but I'll explain each step. You'll need:
+
+- R (version 4.0 or higher)
+- RStudio (recommended but not required)
+- About 30 minutes
+
+## Step 1: Install the Package
+
+First, we need to install `metaMultiverse` for running the multiverse analysis. We'll get the data directly from the Metapsy API (no package installation needed for that!).
+
+### Download `metaMultiverse`
+```{r}
+#| eval: false
+#| echo: true
+
+# Install devtools if you don't have it
+if (!require("devtools")) install.packages("devtools")
+
+# Install metaMultiverse from GitHub
+devtools::install_github("cyplessen/metaMultiverse", 
+                         force = TRUE, 
+                         upgrade = "never")
+```
+
+
+### Download `metapsyTools`
+```{r}
+#| eval: false
+#| echo: true
+
+# You could also use remotes instead of devtools:
+if (!require("remotes"))
+  install.packages("remotes")
+
+remotes::install_github(
+  "metapsy-project/metapsyTools")
+```
+
+Now load the packages we'll need:
+
+```{r}
+#| eval: true
+#| echo: true
+#| message: false
+#| warning: false
+
+library(metaMultiverse)
+library(metapsyTools)
+
+library(dplyr)     # for data manipulation
+library(jsonlite)  # for reading API data
+```
+
+## Step 2: Get the Data from Metapsy
+
+[Metapsy](https://www.metapsy.org/) maintains databases of psychotherapy trials across different mental health conditions. For this guide, you can either use their API to download data on psychotherapy for depression, I have already installed it so I do not abuse their service too much :)
+
+You could also download their data as a .csv file and load it into R as below:
+
+```{r}
+#| eval: true
+#| echo: true
+#| cache: true
+
+data <- read.csv2("data-guide.csv") 
+
+# You can get the depression psychotherapy database via API like this:
+# The API requires 'shorthand' parameter and optional 'version' (defaults to 'latest')
+# api_url <- "http://api.metapsy.org/v1/get_data?shorthand=depression-psyctr&version=latest"
+# api_response <- fromJSON(api_url)
+# 
+# # Extract the data
+# data <- as.data.frame(api_response$data)
+# 
+# # Take a look at what we have
+glimpse(data)
+```
+
+This dataset contains information from randomized controlled trials comparing psychotherapy to control conditions for depression. Each row is a comparison from a study.
+
+**Note**: The API has a rate limit, so please don't make rapid repeated requests. For this tutorial, you only need to run this once - the data will be stored in your R session.
+
+
+## Validate Data Set
+
+Validate your data set with the `metapsyTools::checkDataFormat()` function, as this ensures that the metaMultiverse package runs smoothly. See the documentation for the metaPsy data standard and how your data needs to be structured [here.](https://docs.metapsy.org/data-preparation/format/)
+
+### Validate Data Format
+```{r}
+#| eval: true
+#| echo: true
+
+data <- data %>% 
+  # Validate data structure for internal functions metaMultiverse
+  metaMultiverse::check_data_multiverse()  %>% 
+  metapsyTools::checkDataFormat(
+    must.contain = c(
+      "study", 
+      "condition_arm1",
+      "condition_arm2",
+      "yi",
+      "vi"),
+    variable.class = list(
+      vi = "numeric",
+      vi = "numeric"))
+```
+
+
+You could also use the online tool to validate the data [here](https://tools.metapsy.org/data-validator).
+
+## Step 3: Understand the Data Structure
+
+The dataset includes:
+
+- **Effect sizes** (`g`, `g_se`): How effective was the treatment?
+- **Study characteristics**: Sample size, year, country
+- **Treatment details**: Type of therapy, format, number of sessions
+- **Population info**: Age group, recruitment setting, comorbidity
+- **Risk of bias**: Quality ratings for each study
+
+Let's look at a few key variables:
+
+```{r}
+#| eval: true
+#| echo: true
+
+# See what types of psychotherapy are included
+table(data$condition_arm1)
+
+# See what types of control conditions are included
+table(data$condition_arm2)
+```
+
+## Step 4: Define Your Multiverse
+
+Now comes the interesting part: defining which analytical decisions to vary. We'll use the **E/U/N framework** (Del Giudice & Gangestad, 2021):
+
+### The E/U/N Decision Framework
+
+Not all analytical decisions are created equal. The framework distinguishes three types:
+
+**Type E (Equivalent)**: Options are theoretically interchangeable for your research question.
+- *Example*: Age groups (adults vs. mixed) when studying a universal phenomenon
+- *In multiverse*: Creates variations within a single multiverse
+- *Interpretation*: All options are included; adds "total" option combining all levels
+
+**Type U (Uncertain)**: Unclear which option is methodologically "correct."
+- *Example*: Risk of bias thresholds—exclude only high-risk studies, or also "some concerns"?
+- *In multiverse*: Creates variations within a single multiverse
+- *Interpretation*: Exploring sensitivity to debated methodological choices
+
+**Type N (Non-equivalent)**: Options address fundamentally different research questions.
+- *Example*: Post-treatment vs. follow-up outcomes represent different constructs
+- *In multiverse*: Creates **separate multiverses** analyzed independently
+- *Interpretation*: These shouldn't be combined; report separately
+
+### Defining Analytical Choices
+
+Let's define some decisions for our depression intervention data:
+
+
+```{r}
+#| eval: true
+#| echo: true
+
+multiverse_specs_example_1 <- data %>% 
+  define_factors(
+    Age = "age_group|U",
+    Risk_of_Bias = list(
+      "rob",
+      decision = "U",
+      groups = list(
+        low_only = "4",
+        low_moderate = c("4", "3"),
+        all_studies = c("4", "3", "2", "1", "0")
+      )
+    )
+  )
+print(multiverse_specs_example_1$factors)
+```
+
+The `|E` or `|U` tells the package whether this variable contains equivalent or uncertain studies.
+
+## Step 5: Create Analysis Specifications
+
+Now we tell the package to create all possible combinations of our decisions, paired with different meta-analytic methods:
+
+```{r}
+#| eval: true
+#| echo: true
+
+# Create all combinations
+multiverse_full_example_1 <- multiverse_specs_example_1 %>%
+  create_multiverse_specifications(
+    
+    # Try different statistical models
+    ma_methods = c("reml", "p-uniform", "waap", "rve"),
+    
+    # How to handle multiple comparisons from same study
+    dependencies = c("select_max", "aggregate", "modeled")
+  )
+
+# How many analyses will we run?
+print(paste("Total analyses:", nrow(multiverse_full_example_1$specifications)))
+```
+
+This creates dozens or hundreds of unique meta-analyses, each with different combinations of inclusion criteria and statistical methods.
+
+## Step 6: Run the Multiverse Analysis
+
+Now we run all these analyses. This might take a few minutes:
+
+```{r}
+#| eval: true
+#| echo: true
+#| cache: true
+#| output: false
+
+# Run all analyses
+results_example_1 <- run_multiverse_analysis(multiverse_full_example_1)
+```
+
+
+```{r}
+# Quick summary
+summary(results_example_1)
+```
+
+The package runs each meta-analysis and stores the results: effect size, confidence interval, p-value, and heterogeneity statistics.
+
+## Step 7: Visualize the Results
+
+The real power comes from visualization. A **specification curve** shows how effect sizes vary across all your analytical choices:
+
+```{r}
+#| eval: true
+#| echo: true
+#| fig-width: 10
+#| fig-height: 8
+
+# Plot specification curve
+plot_spec_curve(results_example_1)
+```
+
+This plot shows:
+- **Top panel**: Effect size for each analysis (sorted by magnitude)
+- **Bottom panels**: Which analytical choices were used for each analysis
+
+You can immediately see:
+- How much do results vary?
+- Are some choices driving the results?
+- Is the effect robust across specifications?
+
+Another useful visualization is the **Vibration of Effects (VoE)** plot:
+
+```{r}
+#| eval: true
+#| echo: true
+#| fig-width: 8
+#| fig-height: 6
+
+# Explore relationship between effect size and significance
+plot_voe(results_example_1)
+```
+
+This shows the relationship between effect sizes and p-values across your multiverse.
+
+
+### Example 2: Type N Decisions - Separate Multiverses by Study Quality
+
+In this example, we'll use Type N decisions to create **separate multiverses** based on study quality. This is appropriate when different quality standards represent fundamentally different research questions.
+
+**Research question**: How does the effectiveness of digital interventions vary when we apply different study quality criteria?
+
+Since these represent different questions about evidence quality (not just sensitivity analyses), we use `decision = "N"`:
+
+```{r}
+#| eval: true
+#| echo: true
+#| cache: true
+#| output: false
+
+multiverse_specs_example_2 <- data %>%
+  define_factors(
+    Age = "age_group|U",
+
+    # Type N: Each quality threshold is a separate research question
+    Risk_of_Bias = list(
+      "rob",
+      decision = "N",  # Non-equivalent: creates separate multiverses
+      groups = list(
+        low_only = "4",                          # Only highest quality
+        low_moderate = c("4", "3"),              # High + moderate quality
+        all_studies = c("4", "3", "2", "1", "0") # All studies
+      )
+    )
+  ) %>%
+  create_multiverse_specifications(
+    ma_methods = c("reml", "p-uniform", "waap", "rve"),
+    dependencies = c("select_max", "aggregate", "modeled")
+  ) %>%
+  run_multiverse_analysis()
+```
+
+**What's different with Type N?**
+
+- Creates **3 separate multiverses** (one per quality threshold)
+- No "total_" option added (they shouldn't be combined)
+- Each multiverse is analyzed independently
+- Results should be reported separately, not pooled
+
+```{r}
+# Check multiverse structure
+table(multiverse_specs_example_2$results$multiverse_id)
+```
+
+This shows we have three independent multiverses, each answering a distinct question about intervention effectiveness under different quality standards.
+
+#### Visualize Quality-Stratified Results
+
+```{r}
+#| eval: true
+#| echo: true
+#| fig-width: 10
+#| fig-height: 8
+
+# Plot specification curve showing all three multiverses
+plot_spec_curve(multiverse_specs_example_2)
+```
+
+**Interpreting N-type multiverses:**
+
+The specification curve now shows results colored by `multiverse_id`. You can see:
+- Whether effect sizes are consistent across quality thresholds
+- If stricter quality criteria lead to larger/smaller effects
+- The range of uncertainty within each quality tier
+
+```{r}
+#| eval: true
+#| echo: true
+#| fig-width: 8
+#| fig-height: 6
+
+# VoE plot across multiverses
+plot_voe(multiverse_specs_example_2)
+```
+
+## Step 8: Interpret Your Results
+
+Ask yourself:
+
+1. **How much do results vary?** If all analyses point in the same direction with similar magnitudes, your conclusion is robust. If effect sizes range from positive to negative, your conclusion depends heavily on analytical choices.
+
+2. **Which choices matter most?** Look at the bottom panels of the specification curve. Do certain inclusion criteria consistently produce larger or smaller effects?
+
+3. **Statistical significance**: Do most analyses show significant effects, or does significance depend on which models you choose?
+
+## What This Tells Us
+
+Multiverse meta-analysis doesn't give you "the answer"—it gives you transparency about how confident you should be in your answer. If your conclusion holds across most reasonable analytical choices, you can be more confident. If it's sensitive to specific decisions, that's important to report.
+
+This approach moves us from "the effect size is X" to "across plausible specifications, effect sizes range from Y to Z, with most falling around X."
+
+## Going Further
+
+This tutorial covered the practical workflow for multiverse meta-analysis. The `metaMultiverse` package can do much more:
+
+- Include bias-adjustment methods (PET-PEESE, selection models)
+- Explore moderator effects across specifications
+- Export results for custom visualizations
+- Use the interactive Shiny app for exploration
+- Advanced custom factor groupings
+- Bayesian meta-analytic methods
+
+### Package Documentation
+
+**For quick start:**
+See `vignette("getting-started", package = "metaMultiverse")` for a streamlined introduction focusing on essential workflow steps.
+
+**For comprehensive theoretical background:**
+See `vignette("multiverse-theory-practice", package = "metaMultiverse")` for in-depth coverage of:
+- The E/U/N decision framework (Del Giudice & Gangestad, 2021)
+- Advanced interpretation and reporting guidelines
+- Troubleshooting and edge cases
+- Complete methodological reference
+
+## Resources
+
+**Package:**
+- [metaMultiverse GitHub](https://github.com/cyplessen/metaMultiverse)
+- [Package Documentation](https://github.com/cyplessen/metaMultiverse#readme)
+
+**Data Source:**
+- [Metapsy Database](https://www.metapsy.org/)
+- [Metapsy Documentation](https://docs.metapsy.org/)
+
+**Key References:**
+- Del Giudice, M., & Gangestad, S. W. (2021). A traveler's guide to the multiverse. *Advances in Methods and Practices in Psychological Science, 4*(1), 1-15. [DOI](https://doi.org/10.1177/2515245920954925)
+- Steegen, S., et al. (2016). Increasing transparency through a multiverse analysis. *Perspectives on Psychological Science, 11*(5), 702-712. [DOI](https://doi.org/10.1177/1745691616658637)
+- Voracek, M., Kossmeier, M., & Tran, U. S. (2019). Which data to meta-analyze, and how? *Zeitschrift für Psychologie, 227*(1), 64-82. [DOI](https://doi.org/10.1027/2151-2604/a000357)
+
+---
+
+*Have questions or run into issues? Open an issue on [GitHub](https://github.com/cyplessen/metaMultiverse/issues) or reach out.*
