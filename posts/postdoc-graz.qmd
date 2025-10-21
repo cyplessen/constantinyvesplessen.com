@@ -1,0 +1,19 @@
+---
+title: "Starting a Postdoc at University of Graz"
+subtitle: "New position focusing on personalization and gender-sensitive approaches in psychotherapy research"
+categories: [career, research synthesis, psychotherapy]
+date: October 13, 2025
+image: pics/graz-image.jpg
+---
+
+I'm starting a new position as a postdoctoral researcher at the [University of Graz](https://psychologie.uni-graz.at/en/) in Austria.
+
+After researching psychometric methods and patient-reported outcomes at Charité and research synthesis methods and multiverse meta-analyses at VU Amsterdam, I'll now be diving deeper into personalization of psychotherapy and gender-sensitive psychotherapy at Graz.
+
+## Research Focus
+
+The work continues examining how analytical choices shape conclusions about treatment effectiveness, but with a stronger focus on individual differences. Questions like: Do treatments work differently for different people? Can we identify patterns that help match patients to interventions? How do gender and other characteristics moderate treatment effects?
+
+This fits naturally with multiverse meta-analysis approaches—both are about understanding when and for whom our conclusions actually hold. My previous work examined analytical variability at the study level ([psychotherapy effectiveness](https://doi.org/10.1136/bmjment-2022-300626), [digital interventions](https://doi.org/10.1016/j.jad.2024.10.018)). Now extending this to variability at the individual level.
+
+I'll keep sharing code and tools on [GitHub](https://github.com/cyplessen) and posting updates here. If you're working on personalization, gender-sensitive interventions, or meta-science questions, let's talk.

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>News – Constantin Yves Plessen, PhD.</title>
+<title>Talks &amp; Presentations – Constantin Yves Plessen, PhD.</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -44,6 +42,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RBDBPYKMKX"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -128,43 +99,15 @@ cookieconsent.run({
 </script> 
   
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="News – Constantin Yves Plessen, PhD.">
+<meta property="og:title" content="Talks &amp; Presentations – Constantin Yves Plessen, PhD.">
 <meta property="og:description" content="Psychologist studying evidence construction, multiverse meta-analysis, and patient-reported outcomes research">
 <meta property="og:image" content="https://constantinyvesplessen.com/plessen_portrait.jpg">
 <meta property="og:site_name" content="Constantin Yves Plessen, PhD">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:title" content="News – Constantin Yves Plessen, PhD.">
+<meta name="twitter:title" content="Talks &amp; Presentations – Constantin Yves Plessen, PhD.">
+<meta name="twitter:description" content="Psychologist and methodologist studying evidence construction, multiverse meta-analysis, and patient-reported outcomes. Postdoctoral researcher at University of Graz.">
 <meta name="twitter:image" content="https://constantinyvesplessen.com/plessen_portrait.jpg">
 <meta name="twitter:creator" content="@CYPlessen">
 <meta name="twitter:site" content="@CYPlessen">
@@ -201,7 +144,7 @@ window.Quarto = {
 <span class="menu-text">Code</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -215,20 +158,37 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">2022</a>
+  <ul class="collapse">
+  <li><a href="#dgppn-2022" id="toc-dgppn-2022" class="nav-link" data-scroll-target="#dgppn-2022">DGPPN 2022</a></li>
+  <li><a href="#eaclipt-2022" id="toc-eaclipt-2022" class="nav-link" data-scroll-target="#eaclipt-2022">EACLIPT 2022</a></li>
+  <li><a href="#sips-2022" id="toc-sips-2022" class="nav-link" data-scroll-target="#sips-2022">SIPS 2022</a></li>
+  <li><a href="#esmr-2022" id="toc-esmr-2022" class="nav-link" data-scroll-target="#esmr-2022">ESMR 2022</a></li>
+  <li><a href="#isoqol-2022" id="toc-isoqol-2022" class="nav-link" data-scroll-target="#isoqol-2022">ISOQOL 2022</a></li>
+  </ul></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2021</a>
+  <ul class="collapse">
+  <li><a href="#pho-2021" id="toc-pho-2021" class="nav-link" data-scroll-target="#pho-2021">PHO 2021</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">News</h1>
+<h1 class="title">Talks &amp; Presentations</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -240,237 +200,72 @@ window.Quarto = {
 </header>
 
 
+<p>Selected conference presentations, workshops, and invited talks.</p>
+<hr>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2022</h2>
+<section id="dgppn-2022" class="level3">
+<h3 class="anchored" data-anchor-id="dgppn-2022">DGPPN 2022</h3>
+<p><strong>The robustness of the efficacy of digital interventions for anxiety: an umbrella review and multiverse meta-analysis</strong> <em>November 23, 2022</em></p>
+<p>Background: Over the last decade, several meta-analyses and meta-reviews synthesized the evidence on the efficacy of digital mental health interventions for anxiety disorders—unfortunately with diverging conclusions. This leaves clinicians, researchers, and funding agencies with inconsistent recommendations.</p>
+<p>Methods: To provide a birds-eye-perspective of the entire field we conducted an umbrella review and a multiverse meta-analysis. We investigated whether the meta-analytical method or the inclusion criteria were responsible for these differences, or whether most potential meta-analyses would reach similar conclusions.</p>
+<p>Results: Our umbrella review included six meta-analyses with 84 primary studies. The included meta-analyses differed substantially in their AMSTAR-2 ratings, indicating heterogeneous quality. Our multiverse meta-analysis produced 1193 meta-analyses resulting from all possible analytical decisions. We identified several analytical decisions that consistently led to inflated effect size estimates. Larger effect sizes were found for the comparisons with wait-list control groups than for the comparisons with active control groups (mean Hedges g = 0.58 95% CI [0.40, 0.76] vs g = 0.26 95% CI [0.20, 0.42]). Larger effect sizes were found for digital interventions combining smartphone with internet interventions compared to standalone smartphone or internet applications. Meta-analyses that focused exclusively on guided interventions produced twice the effect sizes than meta-analyses on unguided interventions (g = 0.71, 95% CI [0.51, 0.90] vs g = 0.30, 95% CI [0.13, 0.47]).</p>
+<p>Conclusion: We identified several analytical decisions that consistently led to inflated effect size estimates. However, we also found that most decisions did not disproportionately influence the resulting summary effect size estimates, which suggests that meta-analytical findings on digital interventions for anxiety are robust.</p>
+<p><a href="https://events.mcon-mannheim.de/frontend/index.php#"><i class="fa-solid fa-link" aria-label="link"></i> Conference Program</a></p>
+<hr>
+</section>
+<section id="eaclipt-2022" class="level3">
+<h3 class="anchored" data-anchor-id="eaclipt-2022">EACLIPT 2022</h3>
+<p><strong>Using multiverse meta-analyses to investigate the robustness of mental health research on psychological treatments for depression and digital interventions for anxiety</strong> <em>November 12, 2022</em></p>
+<p><strong>Background:</strong> At several stages in any meta-analysis, researchers must decide between multiple equally defensible choices (e.g., different study inclusion criteria, different ways of dealing with low-quality studies, different choices of methods, etc.). These different analytical decisions frequently result in various meta-analyses with overlapping research questions reaching different conclusions—resulting in ambiguous recommendations for clinicians, researchers, and funding agencies.</p>
+<p><strong>Methods:</strong> In a multiverse meta-analysis, researchers identify all these possible stages for analytical decisions, determine alternative analysis steps at each stage, and implement them simultaneously. As a result, a multiverse meta-analysis reports the outcomes of all possible meta-analyses resulting from all of these possible combinations. Therefore, this method is a promising tool to help answer why some of these meta-analyses diverged, whether the meta-analytical method and exclusion criteria were decisive for these differences, or whether we would reach similar results with most analytical strategies.</p>
+<p><strong>Results:</strong> We present the preliminary results of multiverse meta-analyses to evaluate the influence different analytical decisions might have had on two research questions, namely 1) the efficacy of psychological treatments for depression and 2) the efficacy of digital interventions for anxiety disorders.</p>
+<p><strong>Conclusion:</strong> We could identify several analytical decisions that consistently lead to inflated effect size estimates (e.g., the comparison with wait-list control groups, the inclusion of high risk of bias studies, and sometimes ignoring effect size dependency). However, we also identified many decisions that did not disproportionately influence the resulting summary effect size estimates, suggesting the overall robustness of meta-analytical findings on psychological treatments for depression and digital mental health research for anxiety.</p>
+<p><a href="http://english.swps.pl/we-the-university/our-news-and-events/conferences-and-seminars/eaclipt-conference-clinical-psychology-now/1002-panelists/33271-yves-plessen"><i class="fa-solid fa-link" aria-label="link"></i> Conference Program</a></p>
+<hr>
+</section>
+<section id="sips-2022" class="level3">
+<h3 class="anchored" data-anchor-id="sips-2022">SIPS 2022</h3>
+<p><strong>Workshop: Multiverse Analyses - Introduction and Applications</strong> <em>June 23, 2022</em></p>
+<p>This session will tackle the multiverse approach to psychological science and data analysis: In each research project, researchers need to make a multitude of decisions, including decisions about which measurements to choose, how to pre-process data, or which analysis to run. Each of these decisions is potentially impactful and may create a unique universe out of a multiverse of possible outcomes. After a general introduction to the concept of a multiverse, we will host several guest speakers highlighting different facets and implementations of multiverse analysis. Two talks will hereby discuss fundamentals of multiverse analysis, focusing on visualization (Matthew Kay) and available software. Four talks will discuss various implementations of multiverse analysis: Jessica Dafflon will discuss multiverse analysis in developmental neuroscience, Constantin Yves Plessen will talk about multiverse meta-analyses and Justin Landy will talk about his project on crowdsourcing hypothesis tests (fourth speaker is tbd).</p>
+<p><a href="https://docs.google.com/document/d/1Rka3f0ZY9BBZVIlZoVINrpyaJYeitpq1yKXBLukeMng/edit"><i class="fa-solid fa-link" aria-label="link"></i> Workshop Program</a></p>
+<hr>
+</section>
+<section id="esmr-2022" class="level3">
+<h3 class="anchored" data-anchor-id="esmr-2022">ESMR 2022</h3>
+<p><strong>What if…? A very short primer on conducting multiverse meta-analyses in R</strong> <em>April 23, 2022</em></p>
+<p>Even though conventional meta-analyses provide an overview of the published literature on a given research question, they do not consider different paths that could have been taken in selecting or analyzing the data. Most importantly, multiple meta-analyses with overlapping research questions can reach different conclusions due to differences in inclusion and exclusion criteria, or data analytical decisions. It is therefore crucial to evaluate the influence such choices might have on the result of each meta-analysis. Was the meta-analytical method and exclusion criteria decisive, or is the same result reached via multiple analytical strategies? What if a meta-analysts would have decided to go a different path—would the same outcome occur? Ensuring that the conclusions of a meta-analysis are not disproportionately influenced by data analytical decisions, a multiverse meta-analysis can provide the entire picture and underpin the robustness of the findings—or lack thereof—by conducting multiple, namely all possible and reasonable meta-analyses at once.</p>
+<p>Hereby, multiverse meta-analyses provide a research integration like umbrella reviews yet additionally investigate the influence flexibility in data analysis could have on the resulting summary effect size. Importantly, in contrast to umbrella reviews, a multiverse analysis also quantitatively summarizes the results and includes not yet conducted meta-analyses. During the talk I will give a more detailed insight into this potent method, and run through the multiverse of meta-analyses on the efficacy of psychological treatments for depression as an empirical example.</p>
+<p><a href="https://www.youtube.com/watch?v=qYUwIyRNOHU"><i class="fa-brands fa-youtube" aria-label="youtube"></i> Watch Presentation</a></p>
+<hr>
+</section>
+<section id="isoqol-2022" class="level3">
+<h3 class="anchored" data-anchor-id="isoqol-2022">ISOQOL 2022</h3>
+<p><strong>Modeling general populations’ reference data for PROMIS item banks (Physical Functioning, Upper Extremities, and Pain interference) in multiple countries using quantile regression</strong> <em>January 1, 2022</em></p>
+<p><strong>Aims</strong>: The use of PROs in research and clinical practice requires availability of appropriate and relevant comparison data. We aim to model age, and sex-specific reference values for the PROMIS Physical Function (PF), Upper Extremity (UE), and Pain Interference (PI) scales in populations age 50 and older in Germany, the UK, and the US.</p>
+<p><strong>Methods</strong>: We collected PROMIS PF, UE, and PI data via telephone interviews from the general population in Germany (N = 921), the UK (N = 905), and the US (N = 900). We investigated differential item functioning (DIF) between countries using iterative hybrid ordinal logistic regression. To account for the measurement error of latent estimates and to obtain a continuous distribution of the latent variable, we imputed 25 data sets with plausible values. Each latent estimate was replaced by a random value drawn from the individual latent variable posterior distribution approximated by a normal distribution. We then utilized quantile regressions to model the 1st, 5th, 10th–90th, 95th, and 99th percentiles and their respective standard errors in each dataset based on different combinations of predictors (age, sex, country). According to Rubin’s rules, the estimated percentiles and corresponding standard errors were pooled across the imputed datasets to provide the respective reference values.</p>
+<p><strong>Results</strong>: Three items from the PROMIS PF scale showed negligible DIF by country, indicating that all scales are valid for inter-country comparisons. Median regressions revealed significant effects of age (PF: b𝜏=.50= -0.33; PI: b𝜏=50= 0.08), sex (PF: b𝜏=50= -3.22; PI: b𝜏=50= 1.62) and country, indicating that stratification of reference data is warranted. The PF and UE scales showed considerable ceiling effects in all countries aged 50-69. For PI, this applied to all ages.</p>
+<p><strong>Conclusions</strong>: This paper illustrates a novel approach to model reference values for PROMIS measures based on individual patients’ characteristics. Substantial differences in the PROMIS scores between sex, age, and countries highlight the importance of such patient-specific reference values, enabling clinicians to utilize personalized reference values. Due to the use of plausible value imputation, the obtained population reference values can be compared to data collected with other PROMIS short forms or computer-adaptive tests.</p>
+<p><a href="https://www.isoqol.org/events/29th-annual-conference/program/"><i class="fa-solid fa-link" aria-label="link"></i> Conference Program</a></p>
+<hr>
+</section>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2021</h2>
+<section id="pho-2021" class="level3">
+<h3 class="anchored" data-anchor-id="pho-2021">PHO 2021</h3>
+<p><strong>Differential item functioning of PROMIS physical functioning ceiling items across Argentina, Germany and the US</strong> <em>November 23, 2021</em></p>
+<p><strong>Objective:</strong> We investigate the validity of comparisons across general populations from Argentina, Germany, and the US by evaluating differential item functioning (DIF) for the PROMIS physical function (PROMIS-PF 2.0) ceiling items that were implemented to measure high physical ability. DIF is investigated as it could introduce biases to inter-country comparisons by potentially leading to systematically different physical function scores. If DIF is detected, individuals with the same ‘true’ underlying physical ability would score systematically different due specific cultural contexts or language differences.</p>
+<p><strong>Methods:</strong> General population samples completed the 35 ceiling items of the PROMIS PF 2.0. DIF was assessed with hybrid logistic ordinal regression models and Nagelkerkes’ pseudo R2-change of &gt; 0.02 as the critical cutoff value indicating the presence of DIF. The impact of DIF on item scores and the T-scores was additionally examined by inspecting both the item characteristic curves (ICCs) and test characteristic curves (TCCs).</p>
+<p><strong>Results:</strong> Overall, 3601 persons participated—1001 from Argentina (mean age of 35.6 years, ranging from 18 to 69 years; 51% were female), 1000 from Germany (mean age of 44.9 years, ranging from 18 to 69; 52% were female), and 1600 from the US (mean age of 44.3 years, ranging from 18 to 88; 58% were female). For the comparison between Germany and the USA, 2 out of 35 items were flagged for DIF. For the comparison between Argentina and the US, 4 items were flagged and for the comparison between German and Argentinian items, 5 out of 35 items were flagged. Most DIF items had R2 values just above the critical value of 0.02 and all showed uniform DIF. The ICCs and TCCs showed that the magnitude and impact of DIF on the item and T-scores were negligible.</p>
+<p><strong>Conclusions:</strong> Our study supports the universal applicability of PROMIS across general populations from Argentina, Germany, and the US. Comparisons across persons from the general population are valid, when applying the PROMIS-PF 2.0 ceiling items.</p>
+<p><a href="https://jpro.springeropen.com/articles/10.1186/s41687-021-00349-3"><i class="fa-solid fa-link" aria-label="link"></i> Conference Abstracts</a></p>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="tutorial,meta-analysis,R,multiverse" data-listing-date-sort="1760997600000" data-listing-file-modified-sort="1761058908508" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2169">
-<div class="thumbnail">
-<p><a href="./posts/metamultiverse-tutorial.html" class="no-external"></a></p><a href="./posts/metamultiverse-tutorial.html" class="no-external">
-<p><img loading="lazy" src="./posts/pics/logo.svg" class="thumbnail-image"></p>
-</a><p><a href="./posts/metamultiverse-tutorial.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/metamultiverse-tutorial.html" class="no-external">Running Your First Multiverse Meta-Analysis</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/metamultiverse-tutorial.html" class="no-external">A step-by-step guide to exploring analytical robustness with the metaMultiverse package</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/metamultiverse-tutorial.html" class="no-external">
-<div class="listing-date">
-Oct 21, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="career,research synthesis,psychotherapy" data-listing-date-sort="1760306400000" data-listing-file-modified-sort="1760356999582" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="158">
-<div class="thumbnail">
-<p><a href="./posts/postdoc-graz.html" class="no-external"></a></p><a href="./posts/postdoc-graz.html" class="no-external">
-<p><img loading="lazy" src="./posts/pics/graz-image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/postdoc-graz.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/postdoc-graz.html" class="no-external">Starting a Postdoc at University of Graz</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/postdoc-graz.html" class="no-external">New position focusing on personalization and gender-sensitive approaches in psychotherapy research</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/postdoc-graz.html" class="no-external">
-<div class="listing-date">
-Oct 13, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="phdone" data-listing-date-sort="1719698400000" data-listing-file-modified-sort="1761030411153" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
-<div class="thumbnail">
-<p><a href="./posts/talk-7.html" class="no-external"></a></p><a href="./posts/talk-7.html" class="no-external">
-<p><img loading="lazy" src="./posts/pics/phd_defense.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/talk-7.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-7.html" class="no-external">PhDone - No Updates for Now️</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-7.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-7.html" class="no-external">
-<div class="listing-date">
-Jun 30, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="conference,multiverse" data-listing-date-sort="1669158000000" data-listing-file-modified-sort="1666989843683" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="259">
-<div class="thumbnail">
-<p><a href="./posts/talk-6.html" class="no-external"></a></p><a href="./posts/talk-6.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/talk-6.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-6.html" class="no-external">Upcoming talk at DGPPN 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-6.html" class="no-external">The robustness of the efficacy of digital interventions for anxiety: an umbrella review and multiverse meta-analysis </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-6.html" class="no-external">
-<div class="listing-date">
-Nov 23, 2022
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="conference,multiverse" data-listing-date-sort="1668207600000" data-listing-file-modified-sort="1666989693938" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
-<div class="thumbnail">
-<p><a href="./posts/talk-5.html" class="no-external"></a></p><a href="./posts/talk-5.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/talk-5.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-5.html" class="no-external">Upcoming talk at EACLIPT 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-5.html" class="no-external">Using multiverse meta-analyses to investigate the robustness of mental health research on psychological treatments for depression and digital interventions for anxiety</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-5.html" class="no-external">
-<div class="listing-date">
-Nov 12, 2022
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="conference,multiverse" data-listing-date-sort="1655935200000" data-listing-file-modified-sort="1745332857309" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
-<div class="thumbnail">
-<p><a href="./posts/talk-4.html" class="no-external"></a></p><a href="./posts/talk-4.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/talk-4.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-4.html" class="no-external">SIPS 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-4.html" class="no-external">Workshop: Multiverse Analyses - Introduction and Applications</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-4.html" class="no-external">
-<div class="listing-date">
-Jun 23, 2022
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="conference,multiverse" data-listing-date-sort="1650664800000" data-listing-file-modified-sort="1745332846799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
-<div class="thumbnail">
-<p><a href="./posts/talk-3.html" class="no-external"></a></p><a href="./posts/talk-3.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/talk-3.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-3.html" class="no-external">ESMR 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-3.html" class="no-external">What if…? A very short primer on conducting multiverse meta-analyses in R</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-3.html" class="no-external">
-<div class="listing-date">
-Apr 23, 2022
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="conference,reference data,psychometrics" data-listing-date-sort="1640991600000" data-listing-file-modified-sort="1745332800275" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="348">
-<div class="thumbnail">
-<p><a href="./posts/talk-1.html" class="no-external"></a></p><a href="./posts/talk-1.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/talk-1.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-1.html" class="no-external">ISOQOL 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-1.html" class="no-external">Modeling general populations’ reference data for PROMIS item banks (Physical Functioning, Upper Extremities, and Pain interference) in multiple countries using quantile regression.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-1.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2022
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="publication,multiverse" data-listing-date-sort="1640732400000" data-listing-file-modified-sort="1745332973090" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
-<div class="thumbnail">
-<p><a href="./posts/publicatation-1.html" class="no-external"></a></p><a href="./posts/publicatation-1.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/publicatation-1.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/publicatation-1.html" class="no-external">Exploring the efficacy of psychological treatments for depression: a multiverse meta-analysis protocol</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/publicatation-1.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/publicatation-1.html" class="no-external">
-<div class="listing-date">
-Dec 29, 2021
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="conference,differential item functioning,psychometrics" data-listing-date-sort="1637622000000" data-listing-file-modified-sort="1745332834628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
-<div class="thumbnail">
-<p><a href="./posts/talk-2.html" class="no-external"></a></p><a href="./posts/talk-2.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/talk-2.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/talk-2.html" class="no-external">PHO 2021</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/talk-2.html" class="no-external">Differential item functioning of PROMIS physical functioning ceiling items across Argentina, Germany and the US.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/talk-2.html" class="no-external">
-<div class="listing-date">
-Nov 23, 2021
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script>
 // Plain Language Summary Toggle Functionality
 document.addEventListener('DOMContentLoaded', function() {

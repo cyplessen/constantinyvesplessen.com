@@ -2,7 +2,7 @@
 title: "Running Your First Multiverse Meta-Analysis"
 subtitle: "A step-by-step guide to exploring analytical robustness with the metaMultiverse package"
 categories: [tutorial, meta-analysis, R, multiverse]
-date: October 13, 2025
+date: October 21, 2025
 image: pics/logo.svg
 ---
 
@@ -95,7 +95,7 @@ data <- read.csv2("data-guide.csv")
 # data <- as.data.frame(api_response$data)
 # 
 # # Take a look at what we have
-glimpse(data)
+skimr::skim(data)
 ```
 
 This dataset contains information from randomized controlled trials comparing psychotherapy to control conditions for depression. Each row is a comparison from a study.
@@ -167,20 +167,20 @@ Now comes the interesting part: defining which analytical decisions to vary. We'
 
 Not all analytical decisions are created equal. The framework distinguishes three types:
 
-**Type E (Equivalent)**: Options are theoretically interchangeable for your research question.
-- *Example*: Age groups (adults vs. mixed) when studying a universal phenomenon
-- *In multiverse*: Creates variations within a single multiverse
-- *Interpretation*: All options are included; adds "total" option combining all levels
+**Type E (Equivalent)**: Options are theoretically interchangeable for your research question.    
+- *Example*: Age groups (adults vs. mixed) when studying a universal phenomenon  
+- *In multiverse*: Creates variations within a single multiverse  
+- *Interpretation*: All options are included; adds "total" option combining all levels  
 
-**Type U (Uncertain)**: Unclear which option is methodologically "correct."
-- *Example*: Risk of bias thresholds—exclude only high-risk studies, or also "some concerns"?
-- *In multiverse*: Creates variations within a single multiverse
-- *Interpretation*: Exploring sensitivity to debated methodological choices
+**Type U (Uncertain)**: Unclear which option is methodologically "correct."  
+- *Example*: Risk of bias thresholds—exclude only high-risk studies, or also "some concerns"?  
+- *In multiverse*: Creates variations within a single multiverse  
+- *Interpretation*: Exploring sensitivity to debated methodological choices  
 
-**Type N (Non-equivalent)**: Options address fundamentally different research questions.
-- *Example*: Post-treatment vs. follow-up outcomes represent different constructs
-- *In multiverse*: Creates **separate multiverses** analyzed independently
-- *Interpretation*: These shouldn't be combined; report separately
+**Type N (Non-equivalent)**: Options address fundamentally different research questions.  
+- *Example*: Post-treatment vs. follow-up outcomes represent different constructs  
+- *In multiverse*: Creates **separate multiverses** analyzed independently  
+- *Interpretation*: These shouldn't be combined; report separately  
 
 ### Defining Analytical Choices
 
