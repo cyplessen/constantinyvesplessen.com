@@ -38,4 +38,4 @@ In so-called multiverse meta-analyses, I run thousands of analytical variations 
 
 ## Contact
 
-[{{< fa file-pdf >}} CV](cv.pdf) · [{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=_MGIK9oAAAAJ) · [{{< ai orcid >}} ORCID](https://orcid.org/0000-0002-4907-3505) · [{{< fa brands github >}} GitHub](https://github.com/cyplessen)
+[{{< fa envelope >}} Email](mailto:constantin.plessen@uni-graz.at) · [{{< fa file-pdf >}} CV](cv.pdf) · [{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=_MGIK9oAAAAJ) · [{{< ai orcid >}} ORCID](https://orcid.org/0000-0002-4907-3505) · [{{< fa brands github >}} GitHub](https://github.com/cyplessen)
